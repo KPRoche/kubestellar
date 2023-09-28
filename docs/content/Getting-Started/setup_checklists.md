@@ -93,10 +93,12 @@ It should return something like
 **All these steps take place on the system hosting Kubestellar core!**
   - Follow the procedure described in the Extended Example 
   - For safety's sake, note and save the path to your standard (not Kubestellar server) kubeconfig file
-  - export KUBECONFIG=(_path to external_kubeconfig file)
+  - export KUBECONFIG=(_path to external_kubeconfig file_ )
+(easy way to do that is to change to the folder holding it and `export KUBECONFIG=$(pwd)/config_filename`)
   - execute commands to create location and SyncTarget objects in ks-core for each WEC:
     - `kubectl ws root:imw-1` [specifies the definition space used for next commands]
     - `kubectl kubestellar ensure location florin  loc-name=florin  env=prod` This creates the objects for a simple 1 workload WEC
+    - `kubectl kubestellar ensure location guilder loc-name=guilder env=prod extended=si` This creates the objects for a WEC that will receive more than one workload (guilder in the example was configured for two)
     - `kubectl describe location.edge.kubestellar.io florin` will fetch the object description for the location "florin"
     - `kubectl describe location.edge.kubestellar.io guilder` will do the same for guilder
     - or, all together:
@@ -109,7 +111,7 @@ It should return something like
       kubectl describe location.edge.kubestellar.io guilder
       ```
 
-    - `kubectl kubestellar ensure location guilder loc-name=guilder env=prod extended=si` This creates the objects for a WEC that will receive more than one workload (guilder in the example was configured for two)
+  
 `
   
  
