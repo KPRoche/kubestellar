@@ -20,23 +20,30 @@ A Kubestellar system consists of two principal components, Kubestellar Core, whi
   - accepts updates/reconfigurations/redeployments of workload from core
   - **does not** handle the data flow of the workload application itself, that is done by the application
 
-## Installation
+## Order of setup
+  - Install or gain access to the kubestellar core system
+  - Create or get access information for the WEC(s)
+  - Create objects on the core to represent the WECs
+  - 
+
+## Install or gain access to the kubestellar core system
 
 To use Kubestellar, you need a system running the kubestellar core and a system on which to run the cluster with the syncer.
 
 _**Note: These can be the same physical system**_
-
-### On system hosting kubestellar core
-- install prerequisites as listed in quickstart page
-- install release 0.11 of kcp for your language/architecture and add to $PATH 
+### Installation
+If you need to deploy the kubestellar core components
+#### On system hosting kubestellar core
+1. install prerequisites as listed in quickstart page
+2. install release 0.11 of kcp for your language/architecture and add to $PATH 
     - download from https://github.com/kcp-dev/kcp/releases/tag/v0.11.0
     - expand files -- use tar CLI not GUI to ensure symlinks are created
     - add directories to $PATH
-- install stable release of kubestellar
+3. install stable release of kubestellar
     - download from https://github.com/kubestellar/kubestellar/releases
     - expand file
     - add directory to path
-- now you can follow instructions for running bare or using kubectl kubestellar deploy into a cluster
+4. now you can follow instructions for running bare or using kubectl kubestellar deploy into a cluster
     - Running Bare
       - **NOTE:** if running bare, starting kcp will create the .kcp folder holding admin.kubeconfig as a subfolder of whatever folder you are in when you issue the command
     - Running in a cluster
@@ -44,3 +51,32 @@ _**Note: These can be the same physical system**_
        - use **kubectl kubestellar deploy** command (with necessary flags and options) will deploy all the core components to either a kind cluster or (if flag is set) an openshift cluster.
        - fetch the external kubeconfig and internal kubeconfig files for the kubestellar server
        - if creating WEC on a different host, modify port control for the server
+5. Create the inventory management workspace on your kubestellar core
+    - **use the correct kubeconfig file**
+       - if running in a cluster, that will be the file fetched via the _kubectl kubestellar get-external-kubeconfig_ command
+       - if running bare, make sure the context is set correctly
+    - issue the commands 
+      ```
+      kubectl ws root
+      kubectl ws create imw-1
+      ```
+    - you can check whether it worked with the command `kubectl ws tree` . It should return
+      ```
+      └── root
+         ├── compute
+         ├── espw
+         └── imw-1
+      ```
+### Access
+1. Install (WHAT COMPONENTS DO WE NEED ON THE USERS SYSTEM?)
+2. obtain the external kubeconfig file for the KubeStellar core system, eg _core_external.kubeconfig_
+3. Test the connection with you can check whether it worked with the command `kubectl ws tree --kubeconfig=core_external.kubeconfig`. 
+It should return something like
+      ```
+      └── root
+         ├── compute
+         ├── espw
+         └── imw-1
+      ```
+
+ 
