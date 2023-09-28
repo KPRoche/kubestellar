@@ -129,8 +129,17 @@ It should return something like
 
 ## Copy the -syncer.yaml file(s) and use them to create syncers on the WEC(s)
   - Copy each _xxx-syncer.yaml_ (where _xxx_ is the cluster name) file to the host machine on which that WEC is running
-  - in the same kubeconfig context in which the WEC is running, run the command
-   _kubectl apply -f xxx-syncer.yaml_ to create the KubeStellar syncer in the cluster _xxx_
+  - in the same kubeconfig context in which the WEC is running, apply the yaml file
+  
+     _kubectl --context [_xxx_] apply -f xxx-syncer.yaml_
+
+     to create the KubeStellar syncer in the cluster _xxx_
+  - for the example clusters, it looks like
+   
+      **kubectl --context kind-guilder apply -f guilder-syncer.yaml**   and    
+      **kubectl --context kind-florin apply -f florin-syncer.yaml**
+
+
    
 
  
