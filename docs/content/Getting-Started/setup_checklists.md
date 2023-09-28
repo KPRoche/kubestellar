@@ -26,6 +26,7 @@ A Kubestellar system consists of two principal components, Kubestellar Core, whi
   - Create or get access information for the WEC(s)
   - Create objects on the core to represent the WECs
   - Prep the mailbox controller for and Create the yaml files to build syncers for the WECs
+  - Run the syncer creation files on the WEC hosts
 
 ## Install or gain access to the kubestellar core system
 
@@ -117,10 +118,12 @@ It should return something like
 **still on the kubestellar core hosting system, with $KUBECONFIG pointing at the correct configuration**
   - For each WEC, this command will create the id and authorization in its mailbox workspace and output a 
    **cluster-syncer.yaml** file to run **ON THE WEC host**:
+
     _kubectl kubestellar prep-for-syncer --imw root:imw-1 cluster_
+
   - for example, for my example 1 clusters guilder:
-    'kubectl kubestellar prep-for-syncer --imw root:imw-1 guilder'
-    will set up the identity and authorization in its mailbox space and write the file guilder-syncer.yaml
+    `kubectl kubestellar prep-for-syncer --imw root:imw-1 guilder`
+    will set up the identity and authorization in its mailbox space and write the file _guilder-syncer.yaml_ in the current directory.
    
 
  
