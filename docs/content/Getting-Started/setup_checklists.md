@@ -68,9 +68,10 @@ If you need to deploy the kubestellar core components
          └── imw-1
       ```
 ### Access
-1. Install (WHAT COMPONENTS DO WE NEED ON THE USERS SYSTEM?)
-2. obtain the external kubeconfig file for the KubeStellar core system, eg _core_external.kubeconfig_
-3. Test the connection with you can check whether it worked with the command `kubectl ws tree --kubeconfig=core_external.kubeconfig`. 
+1. Install (WHAT COMPONENTS DO WE NEED ON THE USERS SYSTEM?) 
+For now let us say do steps 1-3 in the Installation checklist
+3. obtain the external kubeconfig file for the KubeStellar core system, eg _core_external.kubeconfig_
+4. Test the connection with you can check whether it worked with the command `kubectl ws tree --kubeconfig=core_external.kubeconfig`. 
 It should return something like
       ```
       └── root
