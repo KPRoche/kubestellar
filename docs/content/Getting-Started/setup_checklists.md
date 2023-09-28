@@ -25,7 +25,7 @@ A Kubestellar system consists of two principal components, Kubestellar Core, whi
   - Install tools on the WEC system
   - Create or get access information for the WEC(s)
   - Create objects on the core to represent the WECs
-  - 
+  - Prep the mailbox controller for and Create the yaml files to build syncers for the WECs
 
 ## Install or gain access to the kubestellar core system
 
@@ -91,6 +91,8 @@ It should return something like
 
 ## Set up the objects on the core to correspond to the WECs
 **All these steps take place on the system hosting Kubestellar core!**
+
+**_From this point on notes are for a kubestellar core running in a kubernetes cluster_** 
   - Follow the procedure described in the Extended Example 
   - For safety's sake, note and save the path to your standard (not Kubestellar server) kubeconfig file
   - export KUBECONFIG=(_path to external_kubeconfig file_ )
@@ -111,14 +113,14 @@ It should return something like
       kubectl describe location.edge.kubestellar.io florin
       kubectl describe location.edge.kubestellar.io guilder
       ```
-### Start the mailbox controller
-  - Again, from the extended example. This will start it looping; for the simple example you can ctrl-C out of it after a couple of cycles
-      ```
-      kubectl ws root:espw
-      mailbox-controller -v=2 &
-      sleep 60
-      ```
-  
-`
-  
+## Prep the mailbox controller for and Create the yaml files to build syncers for the WECs
+**still on the kubestellar core hosting system, with $KUBECONFIG pointing at the correct configuration**
+  - For each WEC, this command will create the id and authorization in its mailbox workspace and output a 
+   **cluster-syncer.yaml** file to run **ON THE WEC host**:
+    _kubectl kubestellar prep-for-syncer --imw root:imw-1 cluster_
+  - for example, for my example 1 clusters guilder:
+    'kubectl kubestellar prep-for-syncer --imw root:imw-1 guilder'
+    will set up the identity and authorization in its mailbox space and write the file guilder-syncer.yaml
+   
+
  
