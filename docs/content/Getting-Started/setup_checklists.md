@@ -90,9 +90,26 @@ It should return something like
   - The WECs will need TCP access to the kubestellar core host, and to public container images on the registry at quay.io
 
 ## Set up the objects on the core to correspond to the WECs
+**All these steps take place on the system hosting Kubestellar core!**
   - Follow the procedure described in the Extended Example 
   - For safety's sake, note and save the path to your standard (not Kubestellar server) kubeconfig file
   - export KUBECONFIG=(_path to external_kubeconfig file)
-  - execute commands 
+  - execute commands to create location and SyncTarget objects in ks-core for each WEC:
+    - `kubectl ws root:imw-1` [specifies the definition space used for next commands]
+    - `kubectl kubestellar ensure location florin  loc-name=florin  env=prod` This creates the objects for a simple 1 workload WEC
+    - `kubectl describe location.edge.kubestellar.io florin` will fetch the object description for the location "florin"
+    - `kubectl describe location.edge.kubestellar.io guilder` will do the same for guilder
+    - or, all together:
+      ```
+      kubectl ws root:imw-1
+      kubectl kubestellar ensure location florin  loc-name=florin  env=prod
+      kubectl kubestellar ensure location guilder loc-name=guilder env=prod extended=si
+      echo "describe the location objects created"
+      kubectl describe location.edge.kubestellar.io florin
+      kubectl describe location.edge.kubestellar.io guilder
+      ```
+
+    - `kubectl kubestellar ensure location guilder loc-name=guilder env=prod extended=si` This creates the objects for a WEC that will receive more than one workload (guilder in the example was configured for two)
+`
   
  
