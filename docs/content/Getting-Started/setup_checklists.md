@@ -80,5 +80,15 @@ It should return something like
          ├── espw
          └── imw-1
       ```
+## Create or get access info for the WEC(s)
+  - In my experiment, I created the florin and guilder clusters with Kind as described in the extended example
+  - You will need to copy the _core_external.kubeconfig_ file created from the Kubestellar core system over to the WEC host
+  - The WECs will need TCP access to the kubestellar core host, and to public container images on the registry at quay.io
 
+## Set up the objects on the core to correspond to the WECs
+  - Follow the procedure described in the Extended Example 
+  - For safety's sake, note and save the path to your standard (not Kubestellar server) kubeconfig file
+  - export KUBECONFIG=(_path to external_kubeconfig file)
+  - execute commands 
+  
  
