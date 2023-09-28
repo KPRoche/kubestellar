@@ -81,8 +81,8 @@ It should return something like
          └── imw-1
       ```
 ## Install tools on the WEC system
-  -- The WEC systems must support creation of Kubernetes clusters
-  -- The WECs will need TCP access to the kubestellar core host, and to public container images on the registry at quay.io
+  - The WEC systems must support creation of Kubernetes clusters
+  - The WECs will need TCP access to the kubestellar core host, and to public container images on the registry at quay.io
   
 ## Create or get access info for the WEC(s)
   - In my experiment, I created the florin and guilder clusters with Kind as described in the extended example
