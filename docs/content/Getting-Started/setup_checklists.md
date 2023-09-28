@@ -128,9 +128,9 @@ It should return something like
     will set up the identity and authorization in its mailbox space and write the file _guilder-syncer.yaml_ in the current directory.
 
 ## Copy the -syncer.yaml file(s) and use them to create syncers on the WEC(s)
-  - Copy each _cluster-syncer.yaml_ file to the host machine on which that WEC is running
+  - Copy each _xxx-syncer.yaml_ (where _xxx_ is the cluster name) file to the host machine on which that WEC is running
   - in the same kubeconfig context in which the WEC is running, run the command
-   _kubectl apply -f cluster-syncer.yaml_ to create the KubeStellar syncer in the cluster
+   _kubectl apply -f xxx-syncer.yaml_ to create the KubeStellar syncer in the cluster _xxx_
    
 
  
