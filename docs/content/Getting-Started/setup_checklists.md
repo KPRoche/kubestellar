@@ -22,6 +22,7 @@ A Kubestellar system consists of two principal components, Kubestellar Core, whi
 
 ## Order of setup
   - Install or gain access to the kubestellar core system
+  - Install tools on the WEC system
   - Create or get access information for the WEC(s)
   - Create objects on the core to represent the WECs
   - 
