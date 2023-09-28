@@ -95,6 +95,7 @@ It should return something like
   - For safety's sake, note and save the path to your standard (not Kubestellar server) kubeconfig file
   - export KUBECONFIG=(_path to external_kubeconfig file_ )
 (easy way to do that is to change to the folder holding it and `export KUBECONFIG=$(pwd)/config_filename`)
+### Create the location and SyncTarget objects
   - execute commands to create location and SyncTarget objects in ks-core for each WEC:
     - `kubectl ws root:imw-1` [specifies the definition space used for next commands]
     - `kubectl kubestellar ensure location florin  loc-name=florin  env=prod` This creates the objects for a simple 1 workload WEC
@@ -110,7 +111,13 @@ It should return something like
       kubectl describe location.edge.kubestellar.io florin
       kubectl describe location.edge.kubestellar.io guilder
       ```
-
+### Start the mailbox controller
+  - Again, from the extended example. This will start it looping; for the simple example you can ctrl-C out of it after a couple of cycles
+      ```
+      kubectl ws root:espw
+      mailbox-controller -v=2 &
+      sleep 60
+      ```
   
 `
   
