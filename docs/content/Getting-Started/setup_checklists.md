@@ -27,8 +27,8 @@ A Kubestellar system consists of two principal components, Kubestellar Core, whi
   - Create objects on the core to represent the WECs
   - Prep the mailbox controller for and create the yaml files to build syncers for the WECs
   - Run the -syncer.yaml files on the WEC host(s) to create the syncer for each WEC
-  -
-  -  
+  - Set up the workload description on the core
+  - Set up the  
 
 ## Install or gain access to the kubestellar core system
 
@@ -139,7 +139,25 @@ It should return something like
       **kubectl --context kind-guilder apply -f guilder-syncer.yaml**   and    
       **kubectl --context kind-florin apply -f florin-syncer.yaml**
 
+## Set up the workload descriptions in the core
+**Working on the _core_ host, using the external_kubeconfig file**
+  - make sure you are working in the workload management space
+    ```
+    kubectl ws root
+    kubectl kubestellar ensure wmw wmw-c
+    ```
+  - use the files* common.yaml and edgeplacement.yaml to create the entries for the first workload
+    ```
+    kubectl apply -f common.yaml
+    kubectl apply -f edgeplacement.yaml
+    ```
+  - use the files* special.yaml and edgeplacement-s.yaml to create entries for the special second workload
+    ```
+    kubectl apply -f special.yaml
+    kubectl apply -f edgeplacement-s.yaml
+    ```
 
-   
+    * files created from the command texts on the extended example page
+
 
  
