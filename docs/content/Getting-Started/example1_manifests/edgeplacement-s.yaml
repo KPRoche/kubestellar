@@ -1,0 +1,30 @@
+apiVersion: edge.kubestellar.io/v1alpha1
+kind: EdgePlacement
+metadata:
+  name: edge-placement-s
+spec:
+  locationSelectors:
+  - matchLabels: {"env":"prod","extended":"si"}
+  downsync:
+  - apiGroup: ""
+    resources: [ configmaps ]
+    namespaceSelectors:
+    - matchLabels: {"special":"si"}
+    objectNames: [ "*" ]
+  - apiGroup: apps
+    resources: [ deployments ]
+    namespaceSelectors:
+    - matchLabels: {"special":"si"}
+    objectNames: [ speciald ]
+  - apiGroup: apis.kcp.io
+    resources: [ apibindings ]
+    namespaceSelectors: []
+    objectNames: [ "bind-kubernetes", "bind-apps" ]
+  upsync:
+  - apiGroup: "group1.test"
+    resources: ["sprockets", "flanges"]
+    namespaces: ["orbital"]
+    names: ["george", "cosmo"]
+  - apiGroup: "group3.test"
+    resources: ["widgets"]
+    names: ["*"]
