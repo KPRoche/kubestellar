@@ -47,18 +47,14 @@ If you need to deploy the kubestellar core components
     - download from https://github.com/kubestellar/kubestellar/releases
     - expand file
     - add directory to path
-4. now you can follow instructions for running bare or using kubectl kubestellar deploy into a cluster
-    - Running Bare
-      - **NOTE:** if running bare, starting kcp will create the .kcp folder holding admin.kubeconfig as a subfolder of whatever folder you are in when you issue the command
-    - Running in a cluster
-      - You need to create a cluster with appropriate ingress (link to add)
-       - use **kubectl kubestellar deploy** command (with necessary flags and options) will deploy all the core components to either a kind cluster or (if flag is set) an openshift cluster.
-       - fetch the external kubeconfig and internal kubeconfig files for the kubestellar server
-       - if creating WEC on a different host, modify port control for the server
+4. Deploy kubestellar core into a kubernetes cluster
+    - Create a cluster with appropriate ingress (link to add)
+    - use **kubectl kubestellar deploy** command (with necessary flags and options) will deploy all the core components to either a kind cluster or (if flag is set) an openshift cluster.
+    - fetch the external kubeconfig and internal kubeconfig files for the kubestellar server
+    - if creating WEC on a different host, modify port control for the server as needed
 5. Create the inventory management workspace on your kubestellar core
     - **use the correct kubeconfig file**
-       - if running in a cluster, that will be the file fetched via the _kubectl kubestellar get-external-kubeconfig_ command
-       - if running bare, make sure the context is set correctly
+       - that will be the file fetched via the _kubectl kubestellar get-external-kubeconfig_ command
     - issue the commands 
       ```
       kubectl ws root
