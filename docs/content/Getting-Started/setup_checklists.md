@@ -137,7 +137,7 @@ It should return something like
 
 ## Set up the workload descriptions in the core
 **Working on the _core_ host, using the external_kubeconfig file**
-  - make sure you are working in the workload management space
+  - make sure you are working in the workload management space and create the wm space for the common placement
     ```
     kubectl ws root
     kubectl kubestellar ensure wmw wmw-c
@@ -147,6 +147,12 @@ It should return something like
     kubectl apply -f common.yaml
     kubectl apply -f edgeplacement.yaml
     ```
+  - make the workload management space for the special placement
+    ```
+    kubectl ws root
+    kubectl kubestellar ensure wmw wmw-s
+    ```
+
   - use the files* special.yaml and edgeplacement-s.yaml to create entries for the special second workload
     ```
     kubectl apply -f special.yaml
