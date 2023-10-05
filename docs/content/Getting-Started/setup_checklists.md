@@ -50,6 +50,8 @@ If you need to deploy the kubestellar core components
 4. Deploy kubestellar core into a kubernetes cluster
     - Create a cluster with appropriate ingress (link to add)
     - one guide is here: https://github.com/kubestellar/kubestellar/tree/release-0.7/user/yaml
+      -   or use `kind create cluster --name ks-host --config kind-ks.yaml` with ./example1_manifests/kind-ks.yaml file
+      -   followed by `kubectl apply -f kind-ingress.yaml`
     - use **kubectl kubestellar deploy** command (with necessary flags and options) will deploy all the core components to either a kind cluster or (if flag is set) an openshift cluster.
     - fetch the external kubeconfig and internal kubeconfig files for the kubestellar server
     - if creating WEC on a different host, modify port control for the server as needed
