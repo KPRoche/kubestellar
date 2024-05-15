@@ -64,11 +64,11 @@ nav:
               - Deploying KubeStellar on K3D: direct/deploy-on-k3d.md
 #              - KubeStellar on OCP: direct/ks-on-ocp.md
   - Contributing: 
-      - Overview of contributing: direct/contribute.md
+      - How to join in: direct/contribute.md
 #      - Packaging: direct/packaging.md
 #      - Release Process: direct/release.md
 #      - Guidelines: Contribution guidelines/CONTRIBUTING.md
-#      - Code of Conduct: Contribution guidelines/coc.md
+      - Code of Conduct: Contribution guidelines/coc.md
 #      - License: Contribution guidelines/LICENSE.md
 #      - Governance: Contribution guidelines/governance.md
 #      - Onboarding: Contribution guidelines/onboarding.md
