@@ -54,15 +54,16 @@ nav:
               - Set up Workload Execution Clusters (WECs): common-subs/placeholder.md
               - Register WECS with core: common-subs/placeholder.md
               - Create Workload Deployments: common-subs/placeholder.md
-          - Best practices: direct/best-practices.md
-          - API reference: common-subs/placeholder.md
-          - User Guide: direct/user-guide.md
           - Usage & Installation Examples:
               - Sample scenarios: direct/examples.md
+              - Deploy KubeStellar via Helm chart: direct/hub-chart.md
 #              - Using existing hosting cluster: direct/hosting-cluster.md
 #              - KubeStellar on KIND: direct/ks-on-kind.md
               - Deploying KubeStellar on K3D: direct/deploy-on-k3d.md
 #              - KubeStellar on OCP: direct/ks-on-ocp.md
+          - Best practices: direct/best-practices.md
+          - API reference: common-subs/placeholder.md
+          - User Guide: direct/user-guide.md
   - Contributing: 
       - How to join in: direct/contribute.md
 #      - Packaging: direct/packaging.md
