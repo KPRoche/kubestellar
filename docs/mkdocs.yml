@@ -34,10 +34,13 @@ site_dir: 'generated'
 nav:
   - Welcome:
       - Landing: index.md 
-  - Overview:
-      - Basics: readme.md
+  - What is KubeStellar?:
+      - Overview: readme.md
 #      - User guide: direct/user-guide.md
       - Architecture: direct/architecture.md
+      - Related:
+        - KubeFlex: direct/kubeflex-intro.md
+        - KubeStellar Galaxy: common-subs/placeholder.md
       - Release-notes: direct/release-notes.md
   - Using Kubestellar:
           - Overview: direct/setup-overview.md
@@ -113,7 +116,7 @@ theme:
     # Enable navigation section index pages, so we don't see Concepts > Concepts
     - navigation.indexes
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs.sticky
     # - navigation.expand
     - navigation.path
     - navigation.footer
