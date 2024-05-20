@@ -40,7 +40,7 @@ nav:
       - Architecture: direct/architecture.md
       - Related:
         - KubeFlex: direct/kubeflex-intro.md
-        - KubeStellar Galaxy: common-subs/placeholder.md
+        - KubeStellar Galaxy: direct/galaxy-intro.md
       - Release-notes: direct/release-notes.md
   - Using Kubestellar:
           - Overview: direct/setup-overview.md
