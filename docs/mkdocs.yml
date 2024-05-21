@@ -49,6 +49,7 @@ nav:
               - Pre-reqs (SW): direct/pre-reqs.md
           - Setting up KubeStellar:
               - Set Up Kubestellar Core Components: # common-subs/placeholder.md
+                - Try the "Common-setup": direct/common-setup-intro.md
                 - Prepare the environment: common-subs/placeholder.md
                 - Initialize Kubeflex: common-subs/placeholder.md
                 - Install Kubestellar Core components: common-subs/placeholder.md
