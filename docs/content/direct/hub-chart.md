@@ -17,8 +17,7 @@ to join Workload Execution Clusters (WEKs) (_e.g._, clusteradm),
 and to interact with Control Planes (_e.g._, kubectl), _etc_.
 For such purpose, a full list of executable that may be required can be fund [here](./pre-reqs.md).
 
-The setup of KubStellar via the Hub chart requires the existance of at least one cluster
-to be used for the deployment of the chart.
+The setup of KubStellar via the Hub chart requires the existence of a KubeFlex hosting cluster.
 
 This can be:
 
@@ -26,7 +25,8 @@ This can be:
 
 This option is particularly useful for first time users or users that would like to have a local deployment.
 
-It is important to note that, if a Kind cluster name different from `kubeflex` is used, then its Control Plane name must be also be referenced during the Helm chart installation by setting `--set "kubeflex-controller.hostContainer=<control-plane-name>"`. The Control Plane name can be obtained by using `docker ps` to find the name of the container running the Kind cluster used for deploying KubeStellar Hub chart, _e.g._ `kubeflex-control-plane`.
+It is important to note that, when the hosting cluster was created by kind or k3d and its Ingress domain name is left to default to localtest.me, then its Control Plane name must be also be referenced during the Helm chart installation by setting `--set "kubeflex-controller.hostContainer=<control-plane-container-name>"`.
+The `<control-plane-container-name>` is the name of the container in which kind or k3d is running the relevant control plane. One may use `docker ps` to find the `<control-plane-container-name>`.
 
 If a host port number different from the expected 9443 is used for the Kind cluster, then the same port number must be specified during the chart installation by adding the following argument `--set "kubeflex-controller.externalPort=<port>"`.
 
@@ -61,15 +61,15 @@ kubeflex-operator:
   installPostgreSQL: true # enable/disable the installation of the appropriate version of PostgreSQL required by KubeFlex (default: true)
   isOpenShift: false # set this variable to true when installing the chart in an OpenShift cluster (default: false)
   # Kind cluster specific settings:
-  domain: localtest.me # used to set the Control Planes DNS in a Kind cluster installation (default: localtest.me)
+  domain: localtest.me # used to define the DNS domain name used from outside the KubeFlex hosting cluster to reach that cluster's Ingress endpoint (default: localtest.me)
   externalPort: 9443 # used to set the port to access the Control Planes API (default: 9443)
-  hostContainer: kubeflex-control-plane # used to set the name of cluster control plane (default: kubeflex-control-plane, which corresponds to a Kind cluster with name kubeflex)
+  hostContainer: kubeflex-control-plane # used to set the name of the container that runs the KubeFlex hosting cluster (default: kubeflex-control-plane, which corresponds to a Kind cluster with name kubeflex)
 
 # Determine if the Post Create Hooks should be installed by the chart
 InstallPCHs: true
 
 # List the Inventory and Transport Spaces (ITSes) to be created by the chart
-# Each ITS consists of a mandatory unique name and an optional type, which could be either host|vcluster (default to vcluster, if not specified)
+# Each ITS consists of a mandatory unique name and an optional type, which could be either host or vcluster (default to vcluster, if not specified)
 ITSes: # ==> installs ocm + ocm-status-addon
 
 # List the Workload Description Spaces (WDSes) to be created by the chart
@@ -101,7 +101,7 @@ ITSes: # all the CPs in this list will execute the its.yaml PCH
   ...
 ```
 
-where `name` must specify a unique name of the control plane and the optional `type` can be either vlcuster (default) or host, see [here](https://github.com/kubestellar/kubeflex/blob/main/docs/users.md) for more information.
+where `name` must specify a name unique among all the control planes in that KubeFlex deployment and the optional `type` can be either vlcuster (default) or host, see [here](https://github.com/kubestellar/kubeflex/blob/main/docs/users.md) for more information.
 
 The fourth section of the `values.yaml` file allows one to create a list of Workload Description Spaces (WDSes). By default, this list is empty and no WDS will be created by the chart. A list of WDSes can be specified using the following format:
 
@@ -118,7 +118,7 @@ WDSes: # all the CPs in this list will execute the wds.yaml PCH
   ...
 ```
 
-where `name` must specify a unique name of the control plane (not that this must be unique among both ITSes and WDSes), the optional `type` can be either k8s (default) or host, see [here](https://github.com/kubestellar/kubeflex/blob/main/docs/users.md) for more information, the optional `APIGroups` provides a list of APIGroups, see [here](https://docs.kubestellar.io/release-0.22.0/direct/examples/#scenario-2-using-the-hosting-cluster-as-wds-to-deploy-a-custom-resource) for more information, and `ITSName` specify the ITS connected to the new WDS being created (this parameter MUST specified only if more that one ITS exists in the cluster, if no value is specified and only one ITS exists in the cluster, then it will automatically selected).
+where `name` must specify a name unique among all the control planes in that KubeFlex deployment (note that this must be unique among both ITSes and WDSes), the optional `type` can be either k8s (default) or host, see [here](https://github.com/kubestellar/kubeflex/blob/main/docs/users.md) for more information, the optional `APIGroups` provides a list of APIGroups, see [here](https://docs.kubestellar.io/release-0.22.0/direct/examples/#scenario-2-using-the-hosting-cluster-as-wds-to-deploy-a-custom-resource) for more information, and `ITSName` specify the ITS connected to the new WDS being created (this parameter MUST be specified if more that one ITS exists in the cluster, if no value is specified and only one ITS exists in the cluster, then it will be automatically selected).
 
 ## KubeStellar Hub Chart usage
 
@@ -135,7 +135,7 @@ User defined control planes can be added using additional value files of `--set`
 
 - add a single ITS named its1 of default vcluster type: `--set-json='ITSes=[{"name":"its1"}]'`
 - add two ITSes named its1 and its2 of of type vlcuster and host, respectevely: `--set-json='ITSes=[{"name":"its1"},{"name":"its2","type":"host"}]'`
-- add a single WDS named wds1 of default k8s type: `--set-json='WDSes=[{"name":"wds1"}]'`
+- add a single WDS named wds1 of default k8s type connected to the one and only ITS: `--set-json='WDSes=[{"name":"wds1"}]'`
 
 A KubeStellar Hub installation compatible with the common setup suitable for Common Setup described in the [examples](./examples.md) could be achieved with the following command:
 
@@ -165,7 +165,7 @@ helm upgrade --install add-wds2 oci://ghcr.io/kubestellar/kubestellar/hub-chart 
 
 ## Obtaining the Control Planes kubeconfigs
 
-The following code can be used to wait for the Ready state of all the KubeFlex Control Planes in the hub cluster:
+The following code can be used to wait for the Ready state of all the KubeFlex Control Planes in the hosting cluster:
 
 ```shell
 echo "Waiting for all Control Planes to be ready..."
@@ -179,13 +179,45 @@ for cpname in `kubectl get controlplane -o name`; do
 done
 ```
 
-The following code can be used to obtain the kubeconfig of all the KubeFlex Control Planes in the hub cluster:
+The kubeconfig of the KubeFlex control planes can be obtained both with and without the use of `kflex` CLI.
+
+1. using `kflex` CLI
+
+The kubeconfig of a `$cpname` Control Plane can be added as a context of the existing kubeconfig by using the command:
+
+```shell
+kflex ctx $cpname
+```
+
+Note that the command above will also switch the current context to `$cpname`, use `kflex ctx` to switch back to the initial context.
+
+To automatically add all Control Planes as contexts of the current kubeconfig, one can use the convenience script below:
 
 ```shell
 echo "Getting the kubeconfig of all Control Planes..."
 for cpname in `kubectl get controlplane -o name`; do
   cpname=${cpname##*/}
-  echo "Getting the kubeconfig of Control Planes $cpname ==> /tmp/kubeconfig-$cpname..."
+  echo "Getting the kubeconfig of Control Planes \"$cpname\"..."
+  kflex ctx $cpname
+done
+kflex ctx # switch back to the initial context
+```
+
+Afterwards the content of a Control Plane `$cpname` can be accessed by specifing its context:
+
+```shell
+kubectl --context "$cpname" ...
+```
+
+2. using plain `kubectl` commands
+
+The following code can be used to obtain the kubeconfig of all the KubeFlex Control Planes in the hosting cluster:
+
+```shell
+echo "Getting the kubeconfig of all Control Planes..."
+for cpname in `kubectl get controlplane -o name`; do
+  cpname=${cpname##*/}
+  echo "Getting the kubeconfig of Control Planes $cpname ==> kubeconfig-$cpname..."
   if [[ "$(kubectl get controlplane $cpname -o=jsonpath='{.spec.type}')" == "host" ]] ; then
     kubectl config view --minify --flatten > "kubeconfig-$cpname"
   else
@@ -199,6 +231,7 @@ done
 ```
 
 The code above will saves the kubeconfig of a control plane `$cpname` to a corresponding file `kubeconfig-$cpname` in the local folder.
+The current context will be renamed to `$cpname`.
 The content of a Control Plane `$cpname` can be accessed by specifing its kubeconfig:
 
 ```shell
@@ -208,8 +241,9 @@ kubectl --kubeconfig "kubeconfig-$cpname" ...
 The individual kubeconfigs can also be merged as contexts of the current `~/.kube/config` with the following command:
 
 ```shell
-KUBECONFIG=~/.kube/config:$(find . -maxdepth 1 -type f -name 'kubeconfig-*' | tr '\n' ':') kubectl config view --flatten > /temp/kubeconfig-merged
-cp /temp/kubeconfig-merged ~/.kube/config
+cp ~/.kube/config ~/.kube/config.bak
+KUBECONFIG=~/.kube/config:$(find . -maxdepth 1 -type f -name 'kubeconfig-*' | tr '\n' ':') kubectl config view --flatten > ~/.kube/kubeconfig-merged
+mv ~/.kube/kubeconfig-merged ~/.kube/config
 ```
 
 Afterwards the content of a Control Plane `$cpname` can be accessed by specifing its context:
