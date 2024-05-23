@@ -2,7 +2,7 @@
 
 The KubeStellar **galaxy** is a secondary repository of _as-is_ KubeStellar-related tools and packages that are not part of the regular KubeStellar releases.
 These integrations are beyond the scope of the core kubestellar repo, so are located here in a separate repository.
-It's name is **galaxy** to keep with our _space_ theme and to indicate a broader constellation of projects for establishing integrations/collaborations.
+It's name is **galaxy** in line with our space theme and to indicate a broader constellation of projects for establishing integrations/collaborations.
 
 It includes additional modules, tools and documentation to facilitate KubeStellar integration with other community projects, as well as some more experimental code we may be tinkering with for possible inclusion at some point.
 

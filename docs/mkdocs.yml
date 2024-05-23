@@ -44,21 +44,24 @@ nav:
       - Release-notes: direct/release-notes.md
   - Using Kubestellar:
           - Overview: direct/setup-overview.md
-          - Prerequisites:
-              - Cluster Preparation: direct/hosting-cluster.md
-              - Pre-reqs (SW): direct/pre-reqs.md
+          - Prerequisites: direct/pre-reqs.md
+#              - Pre-reqs: direct/pre-reqs.md
           - Setting up KubeStellar:
               - Set Up Kubestellar Core Components: # common-subs/placeholder.md
                 - Try the "Common-setup": direct/common-setup-intro.md
-                - Prepare the environment: common-subs/placeholder.md
-                - Initialize Kubeflex: common-subs/placeholder.md
-                - Install Kubestellar Core components: common-subs/placeholder.md
-                - Create the Inventory & Transport Space: common-subs/placeholder.md
-                - Create the Workload Description Space: common-subs/placeholder.md
+                - Via Helm Chart: direct/common-setup-hub-chart.md
+                - Step by Step: direct/common-setup-step-by-step.md
+#                - Prepare the environment: common-subs/placeholder.md
+#                - Initialize Kubeflex: common-subs/placeholder.md
+#                - Install Kubestellar Core components: common-subs/placeholder.md
+#                - Create the Inventory & Transport Space: common-subs/placeholder.md
+#                - Create the Workload Description Space: common-subs/placeholder.md
               - Set up Workload Execution Clusters (WECs): common-subs/placeholder.md
               - Register WECS with core: common-subs/placeholder.md
               - Create Workload Deployments: common-subs/placeholder.md
+          - Modifying Workloads: common-subs/placeholder.md
           - Usage & Installation Examples:
+              - Example Cluster Preparation: direct/hosting-cluster.md
               - Sample scenarios: direct/examples.md
               - Deploy KubeStellar via Helm chart: direct/hub-chart.md
 #              - Using existing hosting cluster: direct/hosting-cluster.md

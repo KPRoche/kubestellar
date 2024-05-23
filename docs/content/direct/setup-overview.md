@@ -1,21 +1,29 @@
-# General overview of KubeStellar implemenation
+# A General overview of KubeStellar Usage
 
-KubeStellar operates with a multiple-cluster [architecture](readme.md):
+KubeStellar operates with a multiple-cluster [architecture](/readme/):
 
-* The KubeStellar core components (referred to as a "hub" in some of the example documents)
-* One or more Workload Execution Clusters (WECs) to which the hub deploys workloads
-_(there is support for the special case in which the workload deploys to the same cluster as the hub)_
+* One for the KubeStellar core components
+* One or more Workload Execution Clusters (WECs) to which the core deploys workloads
 
 
+## General Flow of Initial Setup
 The general flow for setting up and using KubeStellar is in 3 steps:
 
-1. Set Up the KubeStellar Hub
+1. Set Up the KubeStellar core components
 2. Set Up and Register the Workload Execution Clusters
-3. Define and Deploy workloads to the WECs
+3. Define workloads and the bindings between workloads and the WECs
+ _This will deploy the workloads to the WECs_
 
-Given the multitude of infrastructure configurations possible, the details of a particular installation will vary.
+## After Deployment of Workloads
+Once workload(s) are deployed, KubeStellar lets you
 
-We have developed a [common setup](direct/common-setup-intro.md) for our examples as a useful starting point. You can use a [helm chart](direct/common-setup-hub-chart.md) to automate the process of setting up the core components (hub), or you may [work through the steps individually](direct/common-setup-step-by-step.md) to more completely customize the installation.
+* Confirm/monitor status of workload(s)
+* Modify workloads as necessary (update, delete, or redeploy workloads) on WECs by redefining the workloads and/or bindings.
+
+## "Common Setup"
+Given the multitude of infrastructure configurations possible, the details of any particular installation can obviously vary.
+
+We have developed a [common setup](common-setup-intro.md) for our examples which you may find a useful starting point. You can use a [helm chart](common-setup-hub-chart.md) to automate the process of setting up the core components, or you may [work through the steps individually](common-setup-step-by-step.md) to more completely customize the installation.
 
 <!--
 * Set up infrastructure to host the hub and workload clusters
