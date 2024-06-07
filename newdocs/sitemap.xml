@@ -309,6 +309,13 @@
          
     </url>
     <url>
+         <loc>https://docs.kubestellar.io/newdocs/direct/misc-files/</loc>
+         <lastmod>2024-06-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/newdocs/en/direct/misc-files/"/>
+         
+    </url>
+    <url>
          <loc>https://docs.kubestellar.io/newdocs/direct/packaging/</loc>
          <lastmod>2024-06-07</lastmod>
          <changefreq>daily</changefreq>
