@@ -8,8 +8,9 @@
   <div class="md-grid conteiner-row pt-1 pt-lg-5 my-4">
     <div class="px-3 ctx-header-text conteiner">
       <span class="shortcut-bar Space-Bd-BT">
+        <a class="shortcut-bar-text" href="direct/common-setup-intro/">START</a>&nbsp;&nbsp;&nbsp;
+	<a class="shortcut-bar-text" href="direct/usage/basics/">USE</a>&nbsp;&nbsp;&nbsp;
 	<a class="shortcut-bar-text" href="readme/">ABOUT</a>&nbsp;&nbsp;&nbsp;
-        <a class="shortcut-bar-text" href="direct/usage-basics/">USE</a>&nbsp;&nbsp;&nbsp;&nbsp;
         <a class="shortcut-bar-text" href="direct/contribute/">CONTRIBUTE</a>&nbsp;&nbsp;&nbsp;&nbsp;
         <a class="shortcut-bar-text" href="https://kubestellar.io/blog">BLOG</a>&nbsp;&nbsp;&nbsp;&nbsp;
         <a class="shortcut-bar-text" href="https://kubestellar.io/tv">YOUTUBE</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -60,7 +61,7 @@
         <button
           type="button"
           title="{{ page.next_page.title | e }}"
-          onclick="location.href='readme'"
+          onclick="location.href='direct/usage-basics/'"
           class="btn-dark btn-xl-large btn-lg-large mx-3  mt-3 my-md-5 my-lg-5 my-xl-5 box-shadow"
         >
             Documentation
@@ -118,8 +119,6 @@
             </br>          
               <li>- Use <b>standard Kubernetes-native deployment tools</b> (kubectl, Helm, Kustomize, ArgoCD, Flux); no resource bundling required</li>
             </br>
-              <li>- <b>Discover</b> dynamically created objects created on remote clusters</li>
-            </br>
               <li>- Make <b>disconnected</b> cluster operation possible</li>
             </br>
               <li>- <b>Scale</b> with 1:many and many:1 scenarios</li>
@@ -135,8 +134,6 @@
             <li>- <b>Centrally</b> apply Kubernetes resources for selective deployment across multiple clusters</li>
           </br>          
             <li>- Use <b>standard Kubernetes-native deployment tools</b> (kubectl, Helm, Kustomize, ArgoCD, Flux); no resource bundling required</li>
-          </br>
-            <li>- <b>Discover</b> dynamically created objects created on remote clusters</li>
           </br>
             <li>- Make <b>disconnected</b> cluster operation possible</li>
           </br>
