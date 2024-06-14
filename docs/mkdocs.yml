@@ -34,14 +34,11 @@ site_dir: 'generated'
 nav:
   - Welcome:
       - Landing: index.md 
-  - Get Started: direct/common-setup-intro.md
+  - Get Started: direct/get-started.md
   - Using Kubestellar:
           - Basics: direct/usage-basics.md
           - Prerequisites: direct/pre-reqs.md
-          - Getting Started:
-                - Prepare your clusters: direct/common-setup-intro.md
-                - Use Helm Chart to install KubeStellar Core: direct/core-chart.md
-                - Commission A simple Workload: direct/example-wecs.md
+          - Quick Start: direct/get-started.md
           - Setting up KubeStellar:
               - Set Up Kubestellar Core Components: 
                 - Try the "Common-setup": direct/common-setup-intro.md
