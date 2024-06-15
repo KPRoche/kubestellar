@@ -1,7 +1,7 @@
 # KubeStellar Quickstart Setup
 
 This Quick Start is based on Scenario 1 of our [examples](examples.md).
-In a nutshell, it will help you:
+In a nutshell, you will:
 
     1. Before you begin, prepare your system (prerequisites)
     2. Create the Kubestellar core components on a cluster
