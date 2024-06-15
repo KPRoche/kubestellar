@@ -13,7 +13,7 @@ In a nutshell, you will:
 
 {%
     include-markdown "pre-reqs.md"
-    end="plus"
+    end="For Running"
     heading-offset=2
 %}
 

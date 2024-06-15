@@ -6,7 +6,12 @@ You can use the [check-pre-req](#automated-check-of-pre-requisites-for-kubestell
 
 ## Infrastructure (clusters)
 
-Because of its multicluster architecture, KubeStellar requires that you have the necessary privileges and infrastructure access to create and/or configure the necessary clusters. Our current examples use kind or openshift to do this.
+Because of its multicluster architecture, KubeStellar requires that you have the necessary privileges and infrastructure access to create and/or configure the necessary clusters. 
+To create/administer the required few small kubernetes clusters, our current examples can use:
+
+- **kind** OR
+- **k3s** OR
+- **openshift** 
 
 ## For Using KubeStellar
 
@@ -37,13 +42,7 @@ follow [these instructions](https://github.com/kubestellar/kubeflex/blob/main/do
 - **docker** (or compatible docker engine that works with kind)
 
 ## For Running the Examples
-To create/administer the required few small kubernetes clusters:
 
-- **kind** OR
-- **k3s** OR
-- **openshift** 
-
-plus
 - **argocd** - for the examples that use it
 
 ## For Building KubeStellar from Source
