@@ -37,8 +37,13 @@ follow [these instructions](https://github.com/kubestellar/kubeflex/blob/main/do
 - **docker** (or compatible docker engine that works with kind)
 
 ## For Running the Examples
+To create/administer the required few small kubernetes clusters:
 
-- **kind** - to create a few small kubernetes clusters
+- **kind** OR
+- **k3s** OR
+- **openshift** 
+
+plus
 - **argocd** - for the examples that use it
 
 ## For Building KubeStellar from Source

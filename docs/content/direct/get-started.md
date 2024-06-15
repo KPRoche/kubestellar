@@ -3,9 +3,9 @@
 This Quick Start is based on Scenario 1 of our [examples](examples.md).
 In a nutshell, you will:
 
-    1. Before you begin, prepare your system (prerequisites)
-    2. Create the Kubestellar core components on a cluster
-    3. Commission a workload to a WEC
+  1. Before you begin, prepare your system (get the prerequisites)
+  2. Create the Kubestellar core components on a cluster
+  3. Commission a workload to a WEC
 
 ---
 ## Before You Begin
@@ -13,7 +13,7 @@ In a nutshell, you will:
 
 {%
     include-markdown "pre-reqs.md"
-    end="## For Building"
+    end="plus"
     heading-offset=2
 %}
 
