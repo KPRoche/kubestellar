@@ -2087,13 +2087,14 @@
 <h1 id="kubestellar-quickstart-setup">KubeStellar Quickstart Setup<a class="headerlink" href="#kubestellar-quickstart-setup" title="Permanent link">#</a></h1>
 <p>This Quick Start is based on Scenario 1 of our <a href="../examples/">examples</a>.
 In a nutshell, you will:</p>
-<div class="language-text highlight"><pre><span></span><code>1. Before you begin, prepare your system (prerequisites)
-2. Create the Kubestellar core components on a cluster
-3. Commission a workload to a WEC
-</code></pre></div>
+<ol>
+<li>Before you begin, prepare your system (get the prerequisites)</li>
+<li>Create the Kubestellar core components on a cluster</li>
+<li>Commission a workload to a WEC</li>
+</ol>
 <hr />
 <h2 id="before-you-begin">Before You Begin<a class="headerlink" href="#before-you-begin" title="Permanent link">#</a></h2>
-<!-- BEGIN INCLUDE pre-reqs.md '' '## For Building' -->
+<!-- BEGIN INCLUDE pre-reqs.md '' 'plus' -->
 <h3 id="kubestellar-prerequisites">KubeStellar prerequisites<a class="headerlink" href="#kubestellar-prerequisites" title="Permanent link">#</a></h3>
 <p>The following prerequisites are required.
 You can use the <a href=".#automated-check-of-pre-requisites-for-kubestellar">check-pre-req</a> script, to validate if all needed pre-requisites are installed.</p>
@@ -2126,9 +2127,11 @@ follow <a href="https://github.com/kubestellar/kubeflex/blob/main/docs/users.md#
 <li><strong>docker</strong> (or compatible docker engine that works with kind)</li>
 </ul>
 <h4 id="for-running-the-examples">For Running the Examples<a class="headerlink" href="#for-running-the-examples" title="Permanent link">#</a></h4>
+<p>To create/administer the required few small kubernetes clusters:</p>
 <ul>
-<li><strong>kind</strong> - to create a few small kubernetes clusters</li>
-<li><strong>argocd</strong> - for the examples that use it</li>
+<li><strong>kind</strong> OR</li>
+<li><strong>k3s</strong> OR</li>
+<li><strong>openshift</strong> </li>
 </ul>
 <!-- END INCLUDE -->
 
