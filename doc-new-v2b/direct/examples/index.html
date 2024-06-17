@@ -2171,6 +2171,8 @@
 <p>Follow the steps to <a href="../example-wecs/">create and register two clusters with OCM</a>.</p>
 <h2 id="scenario-1-multi-cluster-workload-deployment-with-kubectl">Scenario 1 - multi-cluster workload deployment with kubectl<a class="headerlink" href="#scenario-1-multi-cluster-workload-deployment-with-kubectl" title="Permanent link">#</a></h2>
 <p>This scenario proceeds from the state established by the <a href="#common-setup">common setup</a>.</p>
+<!-- Start for app commissioning in quickstart -->
+
 <p>Check for available clusters with label <code>location-group=edge</code></p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>managedclusters<span class="w"> </span>-l<span class="w"> </span>location-group<span class="o">=</span>edge
 </code></pre></div>
@@ -2248,6 +2250,7 @@ triggering the start of the reconciliation loop.</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>wds1<span class="w"> </span>delete<span class="w"> </span>ns<span class="w"> </span>nginx
 <a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>wds1<span class="w"> </span>delete<span class="w"> </span>bindingpolicies<span class="w"> </span>nginx-bpolicy
 </code></pre></div>
+<!-- End for app commissioning in quickstart -->
 <h2 id="scenario-2-using-the-hosting-cluster-as-wds-to-deploy-a-custom-resource">Scenario 2 - using the hosting cluster as WDS to deploy a custom resource<a class="headerlink" href="#scenario-2-using-the-hosting-cluster-as-wds-to-deploy-a-custom-resource" title="Permanent link">#</a></h2>
 <p>This scenario follows on from the state established by scenario 1.</p>
 <p>The hosting cluster can act as a Workload Description Space (WDS) to
