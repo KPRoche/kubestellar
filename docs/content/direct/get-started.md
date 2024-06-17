@@ -13,8 +13,17 @@ In a nutshell, you will:
 
 {%
     include-markdown "pre-reqs.md"
-    end="For Running"
+    rewrite-relative-urls=true
+    end="Additional Software For Running"
     heading-offset=2
+%}
+---
+{%
+    include-markdown "pre-reqs.md"
+    rewrite-relative-urls=true
+    heading-offset=2
+    start="<!-- start tag for check script  include -->"
+    end="<!-- end tag for check-prereq script -->"
 %}
 
 ---
