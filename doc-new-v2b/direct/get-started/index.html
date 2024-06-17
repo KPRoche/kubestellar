@@ -680,9 +680,43 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#additional-software" class="md-nav__link">
-    Additional Software
+  <a href="#_1" class="md-nav__link">
+    
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#automated-check-of-pre-requisites-for-kubestellar" class="md-nav__link">
+    Automated Check of Pre-Requisites for KubeStellar
+  </a>
+  
+    <nav class="md-nav" aria-label="Automated Check of Pre-Requisites for KubeStellar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#supported-flags" class="md-nav__link">
+    Supported flags:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supported-arguments" class="md-nav__link">
+    Supported arguments:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    Examples
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -907,9 +941,43 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#additional-software" class="md-nav__link">
-    Additional Software
+  <a href="#_1" class="md-nav__link">
+    
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#automated-check-of-pre-requisites-for-kubestellar" class="md-nav__link">
+    Automated Check of Pre-Requisites for KubeStellar
+  </a>
+  
+    <nav class="md-nav" aria-label="Automated Check of Pre-Requisites for KubeStellar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#supported-flags" class="md-nav__link">
+    Supported flags:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supported-arguments" class="md-nav__link">
+    Supported arguments:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    Examples
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -2102,9 +2170,43 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#additional-software" class="md-nav__link">
-    Additional Software
+  <a href="#_1" class="md-nav__link">
+    
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#automated-check-of-pre-requisites-for-kubestellar" class="md-nav__link">
+    Automated Check of Pre-Requisites for KubeStellar
+  </a>
+  
+    <nav class="md-nav" aria-label="Automated Check of Pre-Requisites for KubeStellar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#supported-flags" class="md-nav__link">
+    Supported flags:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supported-arguments" class="md-nav__link">
+    Supported arguments:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    Examples
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -2213,7 +2315,7 @@ In a nutshell, you will:</p>
 </ol>
 <hr />
 <h2 id="before-you-begin">Before You Begin<a class="headerlink" href="#before-you-begin" title="Permanent link">#</a></h2>
-<!-- BEGIN INCLUDE pre-reqs.md '' 'For Running' -->
+<!-- BEGIN INCLUDE pre-reqs.md '' 'Additional Software For Running' -->
 <h3 id="kubestellar-prerequisites">KubeStellar prerequisites<a class="headerlink" href="#kubestellar-prerequisites" title="Permanent link">#</a></h3>
 <p>The following prerequisites are required.
 You can use the <a href=".#automated-check-of-pre-requisites-for-kubestellar">check-pre-req</a> script, to validate if all needed pre-requisites are installed.</p>
@@ -2251,14 +2353,52 @@ follow <a href="https://github.com/kubestellar/kubeflex/blob/main/docs/users.md#
 <li><strong>kubectl</strong> - to access the kubernetes clusters</li>
 <li><strong>docker</strong> (or compatible docker engine that works with kind)</li>
 </ul>
-<h4 id="additional-software">Additional Software<a class="headerlink" href="#additional-software" title="Permanent link">#</a></h4>
+<h4 id="_1"><a class="headerlink" href="#_1" title="Permanent link">#</a></h4>
+<!-- END INCLUDE -->
+<hr />
+<!-- BEGIN INCLUDE pre-reqs.md '&lt;!-- start tag for check script  include --&gt;' '&lt;!-- end tag for check-prereq script --&gt;' -->
+
+<h4 id="automated-check-of-pre-requisites-for-kubestellar">Automated Check of Pre-Requisites for KubeStellar<a class="headerlink" href="#automated-check-of-pre-requisites-for-kubestellar" title="Permanent link">#</a></h4>
+<p>The <a href="https://github.com/kubestellar/kubestellar/blob/main/hack/check_pre_req.sh">check_pre_req</a> script offers a convenient way to check for the pre-requisites eeded for <a href="../pre-reqs/">KubeStellar</a> deployment and <a href="../examples/">use case scenarios</a>.</p>
+<p>The script checks for a pre-requisite presence in the path, by using the <code>which</code> command, and it can optionally provide version and path information for pre-requisites that are present, or installation information for missing pre-requisites.</p>
+<p>We envision that this script could be useful for user-side debugging as well as for asserting the presence of pre-requisites in higher-level automation scripts.</p>
+<p>The script accepts a list of optional flags and arguments.</p>
+<h5 id="supported-flags"><strong>Supported flags:</strong><a class="headerlink" href="#supported-flags" title="Permanent link">#</a></h5>
+<ul>
+<li><code>-A|--assert</code>: exits with error code 2 upon finding the fist missing pre-requisite</li>
+<li><code>-L|--list</code>: prints a list of supported pre-requisites</li>
+<li><code>-V|--verbose</code>: displays version and path information for installed pre-requisites or installation information for missing pre-requisites</li>
+<li><code>-X</code>: enable <code>set -x</code> for debugging the script</li>
+</ul>
+<h5 id="supported-arguments"><strong>Supported arguments:</strong><a class="headerlink" href="#supported-arguments" title="Permanent link">#</a></h5>
+<p>The script accepts a list of specific pre-requisites to check, among the list of available ones:</p>
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>$<span class="w"> </span>check_pre_req.sh<span class="w"> </span>--list
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>argo<span class="w"> </span>brew<span class="w"> </span>docker<span class="w"> </span>go<span class="w"> </span>helm<span class="w"> </span>jq<span class="w"> </span>kflex<span class="w"> </span>kind<span class="w"> </span>ko<span class="w"> </span>kubectl<span class="w"> </span>make<span class="w"> </span>ocm<span class="w"> </span>yq
+</code></pre></div>
+<h5 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">#</a></h5>
+<p>For example, list of pre-requisites required by KubeStellar can be checked with the command below (add the <code>-V</code> flag to get the version of each program and a suggestions on how to install missing pre-requisites):</p>
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>$<span class="w"> </span>hack/check_pre_req.sh
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>Checking<span class="w"> </span>pre-requisites<span class="w"> </span><span class="k">for</span><span class="w"> </span>using<span class="w"> </span>KubeStellar:
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>✔<span class="w"> </span>Docker
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>✔<span class="w"> </span>kubectl
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>✔<span class="w"> </span>KubeFlex
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>✔<span class="w"> </span>OCM<span class="w"> </span>CLI
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>✔<span class="w"> </span>Helm
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>Checking<span class="w"> </span>additional<span class="w"> </span>pre-requisites<span class="w"> </span><span class="k">for</span><span class="w"> </span>running<span class="w"> </span>the<span class="w"> </span>examples:
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>✔<span class="w"> </span>Kind
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>X<span class="w"> </span>ArgoCD<span class="w"> </span>CLI
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>Checking<span class="w"> </span>pre-requisites<span class="w"> </span><span class="k">for</span><span class="w"> </span>building<span class="w"> </span>KubeStellar:
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>✔<span class="w"> </span>GNU<span class="w"> </span>Make
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>✔<span class="w"> </span>Go
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>✔<span class="w"> </span>KO
+</code></pre></div>
 <!-- END INCLUDE -->
 
 <hr />
 <h2 id="create-the-kubestellar-core-components">Create the KubeStellar Core components<a class="headerlink" href="#create-the-kubestellar-core-components" title="Permanent link">#</a></h2>
 <p>Use our helm chart to set up the main core and establish its initial state using our helm chart:</p>
 <h3 id="set-the-version-appropriately-as-an-environment-variable">Set the Version appropriately as an environment variable<a class="headerlink" href="#set-the-version-appropriately-as-an-environment-variable" title="Permanent link">#</a></h3>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">export</span><span class="w"> </span><span class="nv">KUBESTELLAR_VERSION</span><span class="o">=</span><span class="m">0</span>.23.0-alpha.4
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nb">export</span><span class="w"> </span><span class="nv">KUBESTELLAR_VERSION</span><span class="o">=</span><span class="m">0</span>.23.0-alpha.4
 </code></pre></div>
 <h3 id="use-the-helm-chart-to-deploy-the-kubestellar-core-to-a-kind-k3s-or-openshift-cluster">Use the Helm chart  to deploy the KubeStellar Core to a Kind, K3s, or OpenShift cluster:<a class="headerlink" href="#use-the-helm-chart-to-deploy-the-kubestellar-core-to-a-kind-k3s-or-openshift-cluster" title="Permanent link">#</a></h3>
 <div class="admonition tip">
@@ -2267,17 +2407,7 @@ follow <a href="https://github.com/kubestellar/kubeflex/blob/main/docs/users.md#
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>For convenience, a new local <strong>Kind</strong> cluster that satisfies the requirements for KubeStellar setup and that can be used to commission the quickstart workload can be created with the following command:</p>
-<p><div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.23.0-alpha.4/scripts/create-kind-cluster-with-SSL-passthrough.sh<span class="o">)</span><span class="w"> </span>--name<span class="w">   </span>kubeflex<span class="w"> </span>--port<span class="w"> </span><span class="m">9443</span>
-</code></pre></div>
-After the cluster is created, deploy the Kubestellar Core installation on it with the helm chart command</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>helm<span class="w"> </span>upgrade<span class="w"> </span>--install<span class="w"> </span>ks-core<span class="w"> </span>oci://ghcr.io/kubestellar/kubestellar/core-chart<span class="w"> </span>--version<span class="w"> </span><span class="nv">$KUBESTELLAR_VERSION</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>--set-json<span class="o">=</span><span class="s1">&#39;ITSes=[{&quot;name&quot;:&quot;its1&quot;}]&#39;</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>--set-json<span class="o">=</span><span class="s1">&#39;WDSes=[{&quot;name&quot;:&quot;wds1&quot;}]&#39;</span>
-</code></pre></div>
-</div>
-<div class="tabbed-block">
-<p>A new local <strong>k3s</strong> cluster that satisfies the requirements for KubeStellar setup and that can be used to commission the quickstart workload can be created with the following command:</p>
-<p><div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.23.0-alpha.4/scripts/create-k3s-cluster-with-SSL-passthrough.sh<span class="o">)</span><span class="w"> </span>--port<span class="w"> </span><span class="m">9443</span>
+<p><div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.23.0-alpha.4/scripts/create-kind-cluster-with-SSL-passthrough.sh<span class="o">)</span><span class="w"> </span>--name<span class="w">   </span>kubeflex<span class="w"> </span>--port<span class="w"> </span><span class="m">9443</span>
 </code></pre></div>
 After the cluster is created, deploy the Kubestellar Core installation on it with the helm chart command</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>helm<span class="w"> </span>upgrade<span class="w"> </span>--install<span class="w"> </span>ks-core<span class="w"> </span>oci://ghcr.io/kubestellar/kubestellar/core-chart<span class="w"> </span>--version<span class="w"> </span><span class="nv">$KUBESTELLAR_VERSION</span><span class="w"> </span><span class="se">\</span>
@@ -2286,12 +2416,22 @@ After the cluster is created, deploy the Kubestellar Core installation on it wit
 </code></pre></div>
 </div>
 <div class="tabbed-block">
+<p>A new local <strong>k3s</strong> cluster that satisfies the requirements for KubeStellar setup and that can be used to commission the quickstart workload can be created with the following command:</p>
+<p><div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.23.0-alpha.4/scripts/create-k3s-cluster-with-SSL-passthrough.sh<span class="o">)</span><span class="w"> </span>--port<span class="w"> </span><span class="m">9443</span>
+</code></pre></div>
+After the cluster is created, deploy the Kubestellar Core installation on it with the helm chart command</p>
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>helm<span class="w"> </span>upgrade<span class="w"> </span>--install<span class="w"> </span>ks-core<span class="w"> </span>oci://ghcr.io/kubestellar/kubestellar/core-chart<span class="w"> </span>--version<span class="w"> </span><span class="nv">$KUBESTELLAR_VERSION</span><span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>--set-json<span class="o">=</span><span class="s1">&#39;ITSes=[{&quot;name&quot;:&quot;its1&quot;}]&#39;</span><span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>--set-json<span class="o">=</span><span class="s1">&#39;WDSes=[{&quot;name&quot;:&quot;wds1&quot;}]&#39;</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
 <p>When using this option, one is required to explicitly set the <code>isOpenShift</code> variable to <code>true</code> by including <code>--set "kubeflex-operator.isOpenShift=true"</code> in the Helm chart installation command.</p>
 <p>After the cluster is created, deploy the Kubestellar Core installation on it with the helm chart command</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>helm<span class="w"> </span>upgrade<span class="w"> </span>--install<span class="w"> </span>ks-core<span class="w"> </span>oci://ghcr.io/kubestellar/kubestellar/core-chart<span class="w"> </span>--version<span class="w"> </span><span class="nv">$KUBESTELLAR_VERSION</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">  </span>--set<span class="w"> </span><span class="s2">&quot;kubeflex-operator.isOpenShift=true&quot;</span><span class="w"> </span><span class="se">\ </span>
-<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">  </span>--set-json<span class="o">=</span><span class="s1">&#39;ITSes=[{&quot;name&quot;:&quot;its1&quot;}]&#39;</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">  </span>--set-json<span class="o">=</span><span class="s1">&#39;WDSes=[{&quot;name&quot;:&quot;wds1&quot;}]&#39;</span>
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>helm<span class="w"> </span>upgrade<span class="w"> </span>--install<span class="w"> </span>ks-core<span class="w"> </span>oci://ghcr.io/kubestellar/kubestellar/core-chart<span class="w"> </span>--version<span class="w"> </span><span class="nv">$KUBESTELLAR_VERSION</span><span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">  </span>--set<span class="w"> </span><span class="s2">&quot;kubeflex-operator.isOpenShift=true&quot;</span><span class="w"> </span><span class="se">\ </span>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="w">  </span>--set-json<span class="o">=</span><span class="s1">&#39;ITSes=[{&quot;name&quot;:&quot;its1&quot;}]&#39;</span><span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="w">  </span>--set-json<span class="o">=</span><span class="s1">&#39;WDSes=[{&quot;name&quot;:&quot;wds1&quot;}]&#39;</span>
 </code></pre></div>
 </div>
 </div>
@@ -2310,36 +2450,36 @@ After the cluster is created, deploy the Kubestellar Core installation on it wit
 <ol>
 <li>
 <p>Execute the following commands to create two kind clusters, named <code>cluster1</code> and <code>cluster2</code>, and register them with the OCM hub. These clusters will serve as workload clusters. If you have previously executed these commands, you might already have contexts named <code>cluster1</code> and <code>cluster2</code>. If so, you can remove these contexts using the commands <code>kubectl config delete-context cluster1</code> and <code>kubectl config delete-context cluster2</code>.</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>:<span class="w"> </span><span class="nb">set</span><span class="w"> </span>flags<span class="w"> </span>to<span class="w"> </span><span class="s2">&quot;&quot;</span><span class="w"> </span><span class="k">if</span><span class="w"> </span>you<span class="w"> </span>have<span class="w"> </span>installed<span class="w"> </span>KubeStellar<span class="w"> </span>on<span class="w"> </span>an<span class="w"> </span>OpenShift<span class="w"> </span>cluster
-<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="nv">flags</span><span class="o">=</span><span class="s2">&quot;--force-internal-endpoint-lookup&quot;</span>
-<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="nv">clusters</span><span class="o">=(</span>cluster1<span class="w"> </span>cluster2<span class="o">)</span><span class="p">;</span>
-<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="k">for</span><span class="w"> </span>cluster<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">clusters</span><span class="p">[@]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="w">   </span>kind<span class="w"> </span>create<span class="w"> </span>cluster<span class="w"> </span>--name<span class="w"> </span><span class="si">${</span><span class="nv">cluster</span><span class="si">}</span>
-<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="w">   </span>kubectl<span class="w"> </span>config<span class="w"> </span>rename-context<span class="w"> </span>kind-<span class="si">${</span><span class="nv">cluster</span><span class="si">}</span><span class="w"> </span><span class="si">${</span><span class="nv">cluster</span><span class="si">}</span>
-<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a><span class="w">   </span>clusteradm<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>token<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">&#39;^clusteradm join&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s2">&quot;s/&lt;cluster_name&gt;/</span><span class="si">${</span><span class="nv">cluster</span><span class="si">}</span><span class="s2">/&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>awk<span class="w"> </span><span class="s1">&#39;{print $0 &quot; --context &#39;</span><span class="si">${</span><span class="nv">cluster</span><span class="si">}</span><span class="s1">&#39; --singleton &#39;</span><span class="si">${</span><span class="nv">flags</span><span class="si">}</span><span class="s1">&#39;&quot;}&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
-<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a><span class="k">done</span>
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>:<span class="w"> </span><span class="nb">set</span><span class="w"> </span>flags<span class="w"> </span>to<span class="w"> </span><span class="s2">&quot;&quot;</span><span class="w"> </span><span class="k">if</span><span class="w"> </span>you<span class="w"> </span>have<span class="w"> </span>installed<span class="w"> </span>KubeStellar<span class="w"> </span>on<span class="w"> </span>an<span class="w"> </span>OpenShift<span class="w"> </span>cluster
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="nv">flags</span><span class="o">=</span><span class="s2">&quot;--force-internal-endpoint-lookup&quot;</span>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="nv">clusters</span><span class="o">=(</span>cluster1<span class="w"> </span>cluster2<span class="o">)</span><span class="p">;</span>
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="k">for</span><span class="w"> </span>cluster<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">clusters</span><span class="p">[@]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="w">   </span>kind<span class="w"> </span>create<span class="w"> </span>cluster<span class="w"> </span>--name<span class="w"> </span><span class="si">${</span><span class="nv">cluster</span><span class="si">}</span>
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a><span class="w">   </span>kubectl<span class="w"> </span>config<span class="w"> </span>rename-context<span class="w"> </span>kind-<span class="si">${</span><span class="nv">cluster</span><span class="si">}</span><span class="w"> </span><span class="si">${</span><span class="nv">cluster</span><span class="si">}</span>
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a><span class="w">   </span>clusteradm<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>token<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s1">&#39;^clusteradm join&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s2">&quot;s/&lt;cluster_name&gt;/</span><span class="si">${</span><span class="nv">cluster</span><span class="si">}</span><span class="s2">/&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>awk<span class="w"> </span><span class="s1">&#39;{print $0 &quot; --context &#39;</span><span class="si">${</span><span class="nv">cluster</span><span class="si">}</span><span class="s1">&#39; --singleton &#39;</span><span class="si">${</span><span class="nv">flags</span><span class="si">}</span><span class="s1">&#39;&quot;}&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a><span class="k">done</span>
 </code></pre></div>
 <p>The <code>clusteradm</code> command grabs a token from the hub (<code>its1</code> context), and constructs the command to apply the new cluster
  to be registered as a managed cluster on the OCM hub.</p>
 </li>
 <li>
 <p>Repeatedly issue the command:</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>csr
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>csr
 </code></pre></div>
 <p>until you see that the certificate signing requests (CSR) for both cluster1 and cluster2 exist.
  Note that the CSRs condition is supposed to be <code>Pending</code> until you approve them in step 4.</p>
 </li>
 <li>
 <p>Once the CSRs are created approve the csrs to complete the cluster registration with the command:</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>clusteradm<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>accept<span class="w"> </span>--clusters<span class="w"> </span>cluster1
-<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>clusteradm<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>accept<span class="w"> </span>--clusters<span class="w"> </span>cluster2
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>clusteradm<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>accept<span class="w"> </span>--clusters<span class="w"> </span>cluster1
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>clusteradm<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>accept<span class="w"> </span>--clusters<span class="w"> </span>cluster2
 </code></pre></div>
 </li>
 <li>
 <p>Check the new clusters are in the OCM inventory and label them:</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>managedclusters
-<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>label<span class="w"> </span>managedcluster<span class="w"> </span>cluster1<span class="w"> </span>location-group<span class="o">=</span>edge<span class="w"> </span><span class="nv">name</span><span class="o">=</span>cluster1
-<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>label<span class="w"> </span>managedcluster<span class="w"> </span>cluster2<span class="w"> </span>location-group<span class="o">=</span>edge<span class="w"> </span><span class="nv">name</span><span class="o">=</span>cluster2
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>managedclusters
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>label<span class="w"> </span>managedcluster<span class="w"> </span>cluster1<span class="w"> </span>location-group<span class="o">=</span>edge<span class="w"> </span><span class="nv">name</span><span class="o">=</span>cluster1
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>label<span class="w"> </span>managedcluster<span class="w"> </span>cluster2<span class="w"> </span>location-group<span class="o">=</span>edge<span class="w"> </span><span class="nv">name</span><span class="o">=</span>cluster2
 </code></pre></div>
 </li>
 </ol>
@@ -2349,21 +2489,21 @@ After the cluster is created, deploy the Kubestellar Core installation on it wit
 <!-- BEGIN INCLUDE examples.md '&lt;!-- Start for app commissioning in quickstart --&gt;' '&lt;!-- End for app commissioning in quickstart --&gt;' -->
 
 <p>Check for available clusters with label <code>location-group=edge</code></p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>managedclusters<span class="w"> </span>-l<span class="w"> </span>location-group<span class="o">=</span>edge
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>managedclusters<span class="w"> </span>-l<span class="w"> </span>location-group<span class="o">=</span>edge
 </code></pre></div>
 <p>Create a BindingPolicy to deliver an app to all clusters in wds1:</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>wds1<span class="w"> </span>apply<span class="w"> </span>-f<span class="w"> </span>-<span class="w"> </span><span class="s">&lt;&lt;EOF</span>
-<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="s">apiVersion: control.kubestellar.io/v1alpha1</span>
-<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="s">kind: BindingPolicy</span>
-<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="s">metadata:</span>
-<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="s">  name: nginx-bpolicy</span>
-<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="s">spec:</span>
-<a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a><span class="s">  clusterSelectors:</span>
-<a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="s">  - matchLabels: {&quot;location-group&quot;:&quot;edge&quot;}</span>
-<a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="s">  downsync:</span>
-<a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a><span class="s">  - objectSelectors:</span>
-<a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a><span class="s">    - matchLabels: {&quot;app.kubernetes.io/name&quot;:&quot;nginx&quot;}</span>
-<a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a><span class="s">EOF</span>
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>wds1<span class="w"> </span>apply<span class="w"> </span>-f<span class="w"> </span>-<span class="w"> </span><span class="s">&lt;&lt;EOF</span>
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="s">apiVersion: control.kubestellar.io/v1alpha1</span>
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="s">kind: BindingPolicy</span>
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="s">metadata:</span>
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="s">  name: nginx-bpolicy</span>
+<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a><span class="s">spec:</span>
+<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="s">  clusterSelectors:</span>
+<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="s">  - matchLabels: {&quot;location-group&quot;:&quot;edge&quot;}</span>
+<a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a><span class="s">  downsync:</span>
+<a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a><span class="s">  - objectSelectors:</span>
+<a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a><span class="s">    - matchLabels: {&quot;app.kubernetes.io/name&quot;:&quot;nginx&quot;}</span>
+<a id="__codelineno-15-12" name="__codelineno-15-12" href="#__codelineno-15-12"></a><span class="s">EOF</span>
 </code></pre></div>
 <p>This BindingPolicy configuration determines <strong>where</strong> to deploy the workload by using
  the label selector expressions found in <em>clusterSelectors</em>. It also specifies <strong>what</strong>
@@ -2375,46 +2515,46 @@ After the cluster is created, deploy the Kubestellar Core installation on it wit
  only if it matches all the labels in the matchLabels expression.
  If there are multiple objectSelectors, an object is selected if it matches any of them.</p>
 <p>Now deploy the app:</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>wds1<span class="w"> </span>apply<span class="w"> </span>-f<span class="w"> </span>-<span class="w"> </span><span class="s">&lt;&lt;EOF</span>
-<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="s">apiVersion: v1</span>
-<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="s">kind: Namespace</span>
-<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="s">metadata:</span>
-<a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="s">  labels:</span>
-<a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a><span class="s">    app.kubernetes.io/name: nginx</span>
-<a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a><span class="s">  name: nginx</span>
-<a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="s">---</span>
-<a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a><span class="s">apiVersion: apps/v1</span>
-<a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a><span class="s">kind: Deployment</span>
-<a id="__codelineno-14-11" name="__codelineno-14-11" href="#__codelineno-14-11"></a><span class="s">metadata:</span>
-<a id="__codelineno-14-12" name="__codelineno-14-12" href="#__codelineno-14-12"></a><span class="s">  name: nginx-deployment</span>
-<a id="__codelineno-14-13" name="__codelineno-14-13" href="#__codelineno-14-13"></a><span class="s">  namespace: nginx</span>
-<a id="__codelineno-14-14" name="__codelineno-14-14" href="#__codelineno-14-14"></a><span class="s">  labels:</span>
-<a id="__codelineno-14-15" name="__codelineno-14-15" href="#__codelineno-14-15"></a><span class="s">    app.kubernetes.io/name: nginx</span>
-<a id="__codelineno-14-16" name="__codelineno-14-16" href="#__codelineno-14-16"></a><span class="s">spec:</span>
-<a id="__codelineno-14-17" name="__codelineno-14-17" href="#__codelineno-14-17"></a><span class="s">  replicas: 1</span>
-<a id="__codelineno-14-18" name="__codelineno-14-18" href="#__codelineno-14-18"></a><span class="s">  selector:</span>
-<a id="__codelineno-14-19" name="__codelineno-14-19" href="#__codelineno-14-19"></a><span class="s">    matchLabels:</span>
-<a id="__codelineno-14-20" name="__codelineno-14-20" href="#__codelineno-14-20"></a><span class="s">      app: nginx</span>
-<a id="__codelineno-14-21" name="__codelineno-14-21" href="#__codelineno-14-21"></a><span class="s">  template:</span>
-<a id="__codelineno-14-22" name="__codelineno-14-22" href="#__codelineno-14-22"></a><span class="s">    metadata:</span>
-<a id="__codelineno-14-23" name="__codelineno-14-23" href="#__codelineno-14-23"></a><span class="s">      labels:</span>
-<a id="__codelineno-14-24" name="__codelineno-14-24" href="#__codelineno-14-24"></a><span class="s">        app: nginx</span>
-<a id="__codelineno-14-25" name="__codelineno-14-25" href="#__codelineno-14-25"></a><span class="s">    spec:</span>
-<a id="__codelineno-14-26" name="__codelineno-14-26" href="#__codelineno-14-26"></a><span class="s">      containers:</span>
-<a id="__codelineno-14-27" name="__codelineno-14-27" href="#__codelineno-14-27"></a><span class="s">      - name: nginx</span>
-<a id="__codelineno-14-28" name="__codelineno-14-28" href="#__codelineno-14-28"></a><span class="s">        image: public.ecr.aws/nginx/nginx:latest</span>
-<a id="__codelineno-14-29" name="__codelineno-14-29" href="#__codelineno-14-29"></a><span class="s">        ports:</span>
-<a id="__codelineno-14-30" name="__codelineno-14-30" href="#__codelineno-14-30"></a><span class="s">        - containerPort: 80</span>
-<a id="__codelineno-14-31" name="__codelineno-14-31" href="#__codelineno-14-31"></a><span class="s">EOF</span>
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>wds1<span class="w"> </span>apply<span class="w"> </span>-f<span class="w"> </span>-<span class="w"> </span><span class="s">&lt;&lt;EOF</span>
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="s">apiVersion: v1</span>
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="s">kind: Namespace</span>
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a><span class="s">metadata:</span>
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a><span class="s">  labels:</span>
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="s">    app.kubernetes.io/name: nginx</span>
+<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a><span class="s">  name: nginx</span>
+<a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a><span class="s">---</span>
+<a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a><span class="s">apiVersion: apps/v1</span>
+<a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a><span class="s">kind: Deployment</span>
+<a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a><span class="s">metadata:</span>
+<a id="__codelineno-16-12" name="__codelineno-16-12" href="#__codelineno-16-12"></a><span class="s">  name: nginx-deployment</span>
+<a id="__codelineno-16-13" name="__codelineno-16-13" href="#__codelineno-16-13"></a><span class="s">  namespace: nginx</span>
+<a id="__codelineno-16-14" name="__codelineno-16-14" href="#__codelineno-16-14"></a><span class="s">  labels:</span>
+<a id="__codelineno-16-15" name="__codelineno-16-15" href="#__codelineno-16-15"></a><span class="s">    app.kubernetes.io/name: nginx</span>
+<a id="__codelineno-16-16" name="__codelineno-16-16" href="#__codelineno-16-16"></a><span class="s">spec:</span>
+<a id="__codelineno-16-17" name="__codelineno-16-17" href="#__codelineno-16-17"></a><span class="s">  replicas: 1</span>
+<a id="__codelineno-16-18" name="__codelineno-16-18" href="#__codelineno-16-18"></a><span class="s">  selector:</span>
+<a id="__codelineno-16-19" name="__codelineno-16-19" href="#__codelineno-16-19"></a><span class="s">    matchLabels:</span>
+<a id="__codelineno-16-20" name="__codelineno-16-20" href="#__codelineno-16-20"></a><span class="s">      app: nginx</span>
+<a id="__codelineno-16-21" name="__codelineno-16-21" href="#__codelineno-16-21"></a><span class="s">  template:</span>
+<a id="__codelineno-16-22" name="__codelineno-16-22" href="#__codelineno-16-22"></a><span class="s">    metadata:</span>
+<a id="__codelineno-16-23" name="__codelineno-16-23" href="#__codelineno-16-23"></a><span class="s">      labels:</span>
+<a id="__codelineno-16-24" name="__codelineno-16-24" href="#__codelineno-16-24"></a><span class="s">        app: nginx</span>
+<a id="__codelineno-16-25" name="__codelineno-16-25" href="#__codelineno-16-25"></a><span class="s">    spec:</span>
+<a id="__codelineno-16-26" name="__codelineno-16-26" href="#__codelineno-16-26"></a><span class="s">      containers:</span>
+<a id="__codelineno-16-27" name="__codelineno-16-27" href="#__codelineno-16-27"></a><span class="s">      - name: nginx</span>
+<a id="__codelineno-16-28" name="__codelineno-16-28" href="#__codelineno-16-28"></a><span class="s">        image: public.ecr.aws/nginx/nginx:latest</span>
+<a id="__codelineno-16-29" name="__codelineno-16-29" href="#__codelineno-16-29"></a><span class="s">        ports:</span>
+<a id="__codelineno-16-30" name="__codelineno-16-30" href="#__codelineno-16-30"></a><span class="s">        - containerPort: 80</span>
+<a id="__codelineno-16-31" name="__codelineno-16-31" href="#__codelineno-16-31"></a><span class="s">EOF</span>
 </code></pre></div>
 <p>Verify that <em>manifestworks</em> wrapping the objects have been created in the mailbox
  namespaces:</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>manifestworks<span class="w"> </span>-n<span class="w"> </span>cluster1
-<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>manifestworks<span class="w"> </span>-n<span class="w"> </span>cluster2
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>manifestworks<span class="w"> </span>-n<span class="w"> </span>cluster1
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>its1<span class="w"> </span>get<span class="w"> </span>manifestworks<span class="w"> </span>-n<span class="w"> </span>cluster2
 </code></pre></div>
 <p>Verify that the deployment has been created in both clusters</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>cluster1<span class="w"> </span>get<span class="w"> </span>deployments<span class="w"> </span>-n<span class="w"> </span>nginx
-<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>cluster2<span class="w"> </span>get<span class="w"> </span>deployments<span class="w"> </span>-n<span class="w"> </span>nginx
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>cluster1<span class="w"> </span>get<span class="w"> </span>deployments<span class="w"> </span>-n<span class="w"> </span>nginx
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>cluster2<span class="w"> </span>get<span class="w"> </span>deployments<span class="w"> </span>-n<span class="w"> </span>nginx
 </code></pre></div>
 <p>Please note, in line with Kubernetes’ best practices, the order in which you apply
  a BindingPolicy and the objects doesn’t affect the outcome. You can apply the BindingPolicy
@@ -2422,8 +2562,8 @@ After the cluster is created, deploy the Kubestellar Core installation on it wit
  the binding controller identifies any changes in either the BindingPolicy or the objects,
  triggering the start of the reconciliation loop.</p>
 <p>### [Optional] Teardown Scenario 1</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>wds1<span class="w"> </span>delete<span class="w"> </span>ns<span class="w"> </span>nginx
-<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>wds1<span class="w"> </span>delete<span class="w"> </span>bindingpolicies<span class="w"> </span>nginx-bpolicy
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>wds1<span class="w"> </span>delete<span class="w"> </span>ns<span class="w"> </span>nginx
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>kubectl<span class="w"> </span>--context<span class="w"> </span>wds1<span class="w"> </span>delete<span class="w"> </span>bindingpolicies<span class="w"> </span>nginx-bpolicy
 </code></pre></div>
 <!-- END INCLUDE -->
 

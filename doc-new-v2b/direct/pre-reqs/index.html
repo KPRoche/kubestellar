@@ -2044,6 +2044,8 @@ follow <a href="https://github.com/kubestellar/kubeflex/blob/main/docs/users.md#
 <li><strong>kind</strong></li>
 <li><strong>OCP</strong></li>
 </ul>
+<!-- start tag for check script  include -->
+
 <h2 id="automated-check-of-pre-requisites-for-kubestellar">Automated Check of Pre-Requisites for KubeStellar<a class="headerlink" href="#automated-check-of-pre-requisites-for-kubestellar" title="Permanent link">#</a></h2>
 <p>The <a href="https://github.com/kubestellar/kubestellar/blob/main/hack/check_pre_req.sh">check_pre_req</a> script offers a convenient way to check for the pre-requisites eeded for <a href="./">KubeStellar</a> deployment and <a href="../examples/">use case scenarios</a>.</p>
 <p>The script checks for a pre-requisite presence in the path, by using the <code>which</code> command, and it can optionally provide version and path information for pre-requisites that are present, or installation information for missing pre-requisites.</p>
@@ -2078,6 +2080,8 @@ follow <a href="https://github.com/kubestellar/kubeflex/blob/main/docs/users.md#
 <a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>✔<span class="w"> </span>Go
 <a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>✔<span class="w"> </span>KO
 </code></pre></div>
+<!-- end tag for check-prereq script -->
+
 <p>In another example, a specific list of pre-requisites could be asserted by an higher-level script, while providing some installation information, with the command below (note that the script will terminate upon finding a missing pre-requisite):</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>$<span class="w"> </span>check_pre_req.sh<span class="w"> </span>--assert<span class="w"> </span>--verbose<span class="w"> </span>helm<span class="w"> </span>argo<span class="w"> </span>docker<span class="w"> </span>kind
 <a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>Checking<span class="w"> </span>KubeStellar<span class="w"> </span>pre-requisites:
