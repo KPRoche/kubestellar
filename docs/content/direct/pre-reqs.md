@@ -13,7 +13,7 @@ To create/administer the required few small kubernetes clusters, our current exa
 - **k3s** OR
 - **openshift** 
 
-## For Using KubeStellar
+## Software Prerequisites: for Using KubeStellar
 
 - **kubeflex** version 0.6.1 or higher
     To install kubeflex go to [https://github.com/kubestellar/kubeflex/blob/main/docs/users.md#installation](https://github.com/kubestellar/kubeflex/blob/main/docs/users.md#installation). To upgrade from an existing installation,
@@ -41,11 +41,11 @@ follow [these instructions](https://github.com/kubestellar/kubeflex/blob/main/do
 - **kubectl** - to access the kubernetes clusters
 - **docker** (or compatible docker engine that works with kind)
 
-## For Running the Examples
+## Additional Software For Running the Examples
 
 - **argocd** - for the examples that use it
 
-## For Building KubeStellar from Source
+## Additional Software For Building KubeStellar from Source
 
 - **go** version 1.20 or higher - to build kubestellar
 - **make** - to build kubestellar and create the kubestellar image
