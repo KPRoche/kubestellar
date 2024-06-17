@@ -33,8 +33,15 @@ site_dir: 'generated'
 
 nav:
   - Welcome:
-      - Landing: index.md 
-  - Get Started: direct/get-started.md
+      - Landing: index.md
+  - What is KubeStellar?:
+      - Overview: readme.md
+      - Architecture: direct/architecture.md
+      - Related:
+        - KubeFlex: direct/kubeflex-intro.md
+        - KubeStellar Galaxy: direct/galaxy-intro.md
+      - Release-notes: direct/release-notes.md
+  - Quick Start: direct/get-started.md
   - Using Kubestellar:
           - Basics: direct/usage-basics.md
           - Prerequisites: direct/pre-reqs.md
@@ -65,13 +72,6 @@ nav:
             - What's in here?: direct/misc-files.md
             - KubeStellar on KIND: direct/ks-on-kind.md
             - KubeStellar on OCP: direct/ks-on-ocp.md
-  - What is KubeStellar?:
-      - Overview: readme.md
-      - Architecture: direct/architecture.md
-      - Related:
-        - KubeFlex: direct/kubeflex-intro.md
-        - KubeStellar Galaxy: direct/galaxy-intro.md
-      - Release-notes: direct/release-notes.md
   - Contributing: 
       - How to join in: direct/contribute.md
       - Code of Conduct: Contribution guidelines/coc.md
