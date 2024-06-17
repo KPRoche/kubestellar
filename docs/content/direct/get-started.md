@@ -77,10 +77,21 @@ Once you have done this, you should have the KubeStellar core components plus th
 
 ---
 
-## Define, bind and commission a workload on a WEC
+## Define, Bind and Commission a workload on a WEC
 
-  {%
+### Set up and define the workload execution cluster(s)
+
+ {%
     include-markdown "example-wecs.md"
     heading-offset=2
-  %}
+ %}
+  
+### Bind and Commission the workload
+
+ {% 
+    include-markdown "examples.md"
+    heading-offset=2
+    start="<!-- Start for app commissioning in quickstart -->"
+    end="<!-- End for app commissioning in quickstart -->"
+ %}
 
