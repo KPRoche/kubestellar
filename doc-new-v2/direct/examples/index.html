@@ -2275,7 +2275,7 @@ the raise the permissions for the kubeflex controller manager:</p>
 </code></pre></div>
 <p>where the <code>-t host</code> option specifies a control plane of type <code>host</code>.
 You can only create one control plane of type <code>host</code>.</p>
-<p>In this example, we use the helm chart method to install the kubestellat controller manager for the
+<p>In this example, we use the helm chart method to install the KubeStellar controller manager for the
 hosting cluster so that we can pass additional startup options.</p>
 <p>Label the <code>wds2</code> control plane as type <code>wds</code>:</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>kubectl<span class="w"> </span>label<span class="w"> </span>cp<span class="w"> </span>wds2<span class="w"> </span>kflex.kubestellar.io/cptype<span class="o">=</span>wds
