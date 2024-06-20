@@ -36,6 +36,7 @@ Use our helm chart to set up the main core and establish its initial state using
 
 ```shell
 export KUBESTELLAR_VERSION=0.23.0
+export OCM_TRANSPORT_PLUGIN=0.1.11
 ```
 ### Use the Helm chart  to deploy the KubeStellar Core to a Kind, K3s, or OpenShift cluster:
 !!! tip "Pick the cluster configuration which applies to your system:"
