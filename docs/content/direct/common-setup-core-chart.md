@@ -1,6 +1,6 @@
 # Common Setup - KubeStellar Core chart
 
-For more details please see [here](./core-chart.md).
+For more details please see [this more detailed documentation on the Core chart](./core-chart.md).
 
 This documents explains how to use KubeStellar Core chart to deploy a new instance of KubeStellar
 with a choice of user-defined KubeFlex Control Planes (CPs).
