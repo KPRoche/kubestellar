@@ -50,7 +50,7 @@ nav:
               - Set Up Kubestellar Core Components: 
                 - Try the "Common-setup": direct/common-setup-intro.md
                 - Step by Step: direct/common-setup-step-by-step.md
-                - (experimental) Via Helm Chart: direct/core-chart.md
+                - Via Helm Chart: direct/common-setup-core-chart.md
               - Commission Workloads: direct/commission-workloads.md
           - Installation & Usage Examples:
               - Example Cluster Preparation: direct/hosting-cluster.md
