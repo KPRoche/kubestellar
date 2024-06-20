@@ -35,7 +35,7 @@ Use our helm chart to set up the main core and establish its initial state using
 ### Set the Version appropriately as an environment variable
 
 ```shell
-export KUBESTELLAR_VERSION=0.23.0-alpha.4
+export KUBESTELLAR_VERSION=0.23.0
 ```
 ### Use the Helm chart  to deploy the KubeStellar Core to a Kind, K3s, or OpenShift cluster:
 !!! tip "Pick the cluster configuration which applies to your system:"
@@ -44,7 +44,7 @@ export KUBESTELLAR_VERSION=0.23.0-alpha.4
         For convenience, a new local **Kind** cluster that satisfies the requirements for KubeStellar setup and that can be used to commission the quickstart workload can be created with the following command:
 
         ```shell
-        bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/v0.23.0-alpha.4/scripts/create-kind-cluster-with-SSL-passthrough.sh) --name   kubeflex --port 9443
+        bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/v${KUBESTELLAR_VERSION}/scripts/create-kind-cluster-with-SSL-passthrough.sh) --name   kubeflex --port 9443
         ```
         After the cluster is created, deploy the Kubestellar Core installation on it with the helm chart command
 
