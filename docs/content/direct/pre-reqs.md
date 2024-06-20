@@ -6,9 +6,14 @@ You can use the [check-pre-req](#automated-check-of-pre-requisites-for-kubestell
 
 ## Infrastructure (clusters)
 
-Because of its multicluster architecture, KubeStellar requires that you have the necessary privileges and infrastructure access to create and/or configure the necessary clusters. Our current examples use kind or openshift to do this.
+Because of its multicluster architecture, KubeStellar requires that you have the necessary privileges and infrastructure access to create and/or configure the necessary clusters. 
+To create/administer the required few small kubernetes clusters, our current examples can use:
 
-## For Using KubeStellar
+- **kind** OR
+- **k3s** OR
+- **openshift** 
+
+## Software Prerequisites: for Using KubeStellar
 
 - **kubeflex** version 0.6.1 or higher
     To install kubeflex go to [https://github.com/kubestellar/kubeflex/blob/main/docs/users.md#installation](https://github.com/kubestellar/kubeflex/blob/main/docs/users.md#installation). To upgrade from an existing installation,
@@ -36,12 +41,11 @@ follow [these instructions](https://github.com/kubestellar/kubeflex/blob/main/do
 - **kubectl** - to access the kubernetes clusters
 - **docker** (or compatible docker engine that works with kind)
 
-## For Running the Examples
+## Additional Software For Running the Examples
 
-- **kind** - to create a few small kubernetes clusters
 - **argocd** - for the examples that use it
 
-## For Building KubeStellar from Source
+## Additional Software For Building KubeStellar from Source
 
 - **go** version 1.20 or higher - to build kubestellar
 - **make** - to build kubestellar and create the kubestellar image
@@ -51,6 +55,8 @@ To build and _**test**_ KubeStellar properly, you will also need
 
 - **kind**
 - **OCP**
+
+<!-- start tag for check script  include -->
 
 ## Automated Check of Pre-Requisites for KubeStellar
 The [check_pre_req](https://github.com/kubestellar/kubestellar/blob/main/hack/check_pre_req.sh) script offers a convenient way to check for the pre-requisites eeded for [KubeStellar](./pre-reqs.md) deployment and [use case scenarios](./examples.md).
@@ -96,6 +102,8 @@ Checking pre-requisites for building KubeStellar:
 ✔ Go
 ✔ KO
 ```
+
+<!-- end tag for check-prereq script -->
 
 In another example, a specific list of pre-requisites could be asserted by an higher-level script, while providing some installation information, with the command below (note that the script will terminate upon finding a missing pre-requisite):
 
