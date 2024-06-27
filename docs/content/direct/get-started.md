@@ -37,6 +37,8 @@ kubectl config delete-context cluster2
 
 ## Set the Version appropriately as an environment variable
 
+This environment variable is used by several of the subsequent commands in this Quickstart, to ensure that conflicting versions of the components are not inadvertently installed.
+
 ```shell
 export KUBESTELLAR_VERSION=0.23.0
 ```
