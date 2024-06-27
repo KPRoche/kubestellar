@@ -1,15 +1,26 @@
-# KubeStellar Quickstart Setup
+This Quick Start outlines step 1, shows a concrete example of steps 2--7 in the [Installation and Usage outline](usage-basics.md), and forwards you to one example of the remaining steps. In this example you will create three new `kind` clusters to serve as your KubeFlex hosting cluster and two WECs.
 
-This Quick Start outlines step 1 and shows a concrete example of steps 2--7 in the [Installation and Usage outline](usage-basics.md). In this example you will create three new `kind` clusters to serve as your KubeFlex hosting cluster and two WECs.
-
-  1. Before you begin, prepare your system (get the software prerequisites)
-  2. Create the KubeFlex hosting cluster and Kubestellar core components
-  3. Create and register two WECs.
+  1. Install software prerequisites
+  1. Cleanup from previous runs
+  1. Create the KubeFlex hosting cluster and Kubestellar core components
+  1. Create and register two WECs.
+  1. Use KubeStellar to distribute a Deployment object to the two WECs.
 
 ---
-## Before You Begin
+## Install software prerequisites
 
+The following command will check for the prerequisites that you will need for this quickstart. See [the prerequisites doc](pre-reqs.md) for more details.
 
+```shell
+bash <(curl https://raw.githubusercontent.com/kubestellar/kubestellar/v{{ config.ks_latest_regular_release }}/hack/check_pre_req.sh) kflex ocm helm kubectl docker kind
+```
+
+This quickstart uses [kind](https://kind.sigs.k8s.io/) to create three Kubernetes cluster on your machine.
+Note that `kind` does not support three or more concurrent clusters unless you raise some limits as described in this `kind` "known issue": [Pod errors due to “too many open files”](https://kind.sigs.k8s.io/docs/user/known-issues/#pod-errors-due-to-too-many-open-files).
+
+<details>
+<summary>More details on prerequisites</summary>
+  
 {%
     include-markdown "pre-reqs.md"
     rewrite-relative-urls=true
@@ -25,6 +36,24 @@ This Quick Start outlines step 1 and shows a concrete example of steps 2--7 in t
     start="<!-- start tag for check script  include -->"
     end="<!-- end tag for check-prereq script -->"
 %}
+
+</details>
+
+### Cleanup from previous runs
+
+If you have run this quickstart or any related recipe previously then
+you will first want to remove any related debris. The following
+commands tear down the state established by this quickstart.
+
+```shell
+kind delete cluster --name kubeflex
+kind delete cluster --name cluster1
+kind delete cluster --name cluster2
+kubectl config delete-context kind-kubeflex
+kubectl config delete-context cluster1
+kubectl config delete-context cluster2
+```
+
 
 ---
 
