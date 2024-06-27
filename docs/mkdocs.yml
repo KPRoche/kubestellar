@@ -35,12 +35,14 @@ nav:
       - Release-notes: direct/release-notes.md
   - Quick Start: direct/get-started.md
   - User Guide:
+      - Introduction: direct/docs-intro.md
       - Quick Start: direct/get-started.md
-      - Outline of Installation and Usage of KubeStellar: direct/usage-basics.md
-      - Prerequisites: direct/pre-reqs.md
-      - The KubeFlex Hosting cluster: direct/hosting-cluster.md
-      - ITSes and WDSes: direct/its-and-wds.md
-      - WECs: direct/wec.md
+      - Installing KubeStellar:
+        - Outline of Installation and Usage of KubeStellar: direct/usage-basics.md
+        - Prerequisites: direct/pre-reqs.md
+        - The KubeFlex Hosting cluster: direct/hosting-cluster.md
+        - ITSes and WDSes: direct/its-and-wds.md
+        - WECs: direct/wec.md
       - Control:
           - Overview: direct/control.md
           - Binding: direct/binding.md
@@ -49,7 +51,7 @@ nav:
       - Example Scenarios: direct/example-scenarios.md
       - Best practices: direct/best-practices.md
       - API reference (new tab): https://pkg.go.dev/github.com/kubestellar/kubestellar/api/control/v1alpha1
-      - Miscellaneous Documentation:
+      - Miscellaneous Documentation Artifacts:
         - What's in here?: direct/misc-files.md
         - Setting up KubeStellar:
             - Set Up Kubestellar Core Components: 
