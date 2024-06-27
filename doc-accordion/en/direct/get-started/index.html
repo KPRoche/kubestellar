@@ -2356,7 +2356,7 @@ Note that <code>kind</code> does not support three or more concurrent clusters u
 
 <!-- BEGIN INCLUDE pre-reqs.md '&lt;!-- begin software prerequisites --&gt;' 'Additional Software For Running' -->
 
-### Software Prerequisites: for Using KubeStellar
+## Software Prerequisites: for Using KubeStellar
 
 - **kubeflex** version 0.6.1 or higher
     To install kubeflex go to [https://github.com/kubestellar/kubeflex/blob/main/docs/users.md#installation](https://github.com/kubestellar/kubeflex/blob/main/docs/users.md#installation). To upgrade from an existing installation,
@@ -2382,13 +2382,13 @@ follow [these instructions](https://github.com/kubestellar/kubeflex/blob/main/do
 - **kubectl** - to access the kubernetes clusters
 - **docker** (or compatible docker engine that works with kind)
 
-### 
+## 
 <!-- END INCLUDE -->
 ---
 <!-- BEGIN INCLUDE pre-reqs.md '&lt;!-- start tag for check script  include --&gt;' '&lt;!-- end tag for check-prereq script --&gt;' -->
 
 
-#### Automated Check of Pre-Requisites for KubeStellar
+## Automated Check of Pre-Requisites for KubeStellar
 The [check_pre_req](https://github.com/kubestellar/kubestellar/blob/main/hack/check_pre_req.sh) script offers a convenient way to check for the pre-requisites eeded for [KubeStellar](pre-reqs.md) deployment and [use case scenarios](examples.md).
 
 The script checks for a pre-requisite presence in the `$PATH`, by using the `which` command, and it can optionally provide version and path information for pre-requisites that are present, or installation information for missing pre-requisites.
@@ -2397,14 +2397,14 @@ We envision that this script could be useful for user-side debugging as well as 
 
 The script accepts a list of optional flags and arguments.
 
-##### **Supported flags:**
+### **Supported flags:**
 
 - `-A|--assert`: exits with error code 2 upon finding the fist missing pre-requisite
 - `-L|--list`: prints a list of supported pre-requisites
 - `-V|--verbose`: displays version and path information for installed pre-requisites or installation information for missing pre-requisites
 - `-X`: enable `set -x` for debugging the script
 
-##### **Supported arguments:**
+### **Supported arguments:**
 
 The script accepts a list of specific pre-requisites to check, among the list of available ones:
 
@@ -2412,7 +2412,7 @@ The script accepts a list of specific pre-requisites to check, among the list of
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>argo<span class="w"> </span>brew<span class="w"> </span>docker<span class="w"> </span>go<span class="w"> </span>helm<span class="w"> </span>jq<span class="w"> </span>kflex<span class="w"> </span>kind<span class="w"> </span>ko<span class="w"> </span>kubectl<span class="w"> </span>make<span class="w"> </span>ocm<span class="w"> </span>yq
 </code></pre></div>
 
-##### Examples
+### Examples
 For example, list of pre-requisites required by KubeStellar can be checked with the command below (add the `-V` flag to get the version of each program and a suggestions on how to install missing pre-requisites):
 
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>$<span class="w"> </span>hack/check_pre_req.sh
