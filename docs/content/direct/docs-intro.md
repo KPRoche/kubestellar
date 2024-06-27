@@ -2,7 +2,7 @@
 
 ## Welcome 
 KubeStellar is an actively evolving project, and so this documentation will be updating actively with each release. 
-The "unreleased-documentation" version is the version corresponding to work done since the last regular release.
+The "unreleased-documentation" version is the version corresponding to work done since the last regular release; it corresponds to the _main_ branch in the Github repository.
 
 See the KubeStellar [overview](../readme.md) for architecture and other information.
 
