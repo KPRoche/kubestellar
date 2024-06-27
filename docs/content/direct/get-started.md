@@ -26,13 +26,11 @@ Note that `kind` does not support three or more concurrent clusters unless you r
     rewrite-relative-urls=true
     start="<!-- begin software prerequisites -->"
     end="Additional Software For Running"
-    heading-offset=1
 %}
 ---
 {%
     include-markdown "pre-reqs.md"
     rewrite-relative-urls=true
-    heading-offset=2
     start="<!-- start tag for check script  include -->"
     end="<!-- end tag for check-prereq script -->"
 %}
