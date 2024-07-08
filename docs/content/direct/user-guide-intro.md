@@ -11,7 +11,7 @@ If you want to try a simplified installation process and example, you can try ou
 
 ---
 
-The **detalled process** for installing and using KubeStellar progresses through the following stages.
+The **detalled process** for installing and using KubeStellar progresses through the following stages for setup and control.
 
 1. Install software prerequisites. See [prerequisites](pre-reqs.md).
 1. Acquire the ability to use a Kubernetes cluster to serve as the [KubeFlex](https://github.com/kubestellar/kubeflex/) hosting cluster. See [Acquire cluster for KubeFlex hosting](acquire-hosting-cluster.md).
