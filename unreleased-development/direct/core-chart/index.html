@@ -11,17 +11,17 @@
         <link rel="canonical" href="https://docs.kubestellar.io/unreleased-development/direct/core-chart/">
       
       
-        <link rel="prev" href="../thirdparties/">
+        <link rel="prev" href="../combined-status/">
       
       
-        <link rel="next" href="../deploy-on-k3d/">
+        <link rel="next" href="../get-started/">
       
       <link rel="icon" href="../../favicons/favicon.ico">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.0">
     
     
       
-        <title>Deploy KubeStellar via Helm chart - KubeStellar</title>
+        <title>Core Helm chart - KubeStellar</title>
       
     
     
@@ -78,7 +78,7 @@
 
   <!-- Open graph meta tags -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="KubeStellar - Deploy KubeStellar via Helm chart" />
+  <meta property="og:title" content="KubeStellar - Core Helm chart" />
   <meta property="og:description" content="None" />
   <meta property="og:url" content="https://docs.kubestellar.io/unreleased-development/direct/core-chart/" />
   <meta property="og:image" content="https://docs.kubestellar.io/unreleased-developmentassets/images/illustrations/banner.png" />
@@ -192,7 +192,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Deploy KubeStellar via Helm chart
+              Core Helm chart
             
           </span>
         </div>
@@ -316,7 +316,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../get-started/" class="md-tabs__link md-tabs__link--active">
+      <a href="../user-guide-intro/" class="md-tabs__link md-tabs__link--active">
         User Guide
       </a>
     </li>
@@ -666,6 +666,12 @@
         
           
         
+          
+        
+          
+        
+          
+        
       
       
         <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -686,22 +692,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../get-started/" class="md-nav__link">
-        Quick Start
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../usage-basics/" class="md-nav__link">
-        Outline of Installation and Usage of KubeStellar
+      <a href="../user-guide-intro/" class="md-nav__link">
+        Overview
       </a>
     </li>
   
@@ -728,8 +720,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../hosting-cluster/" class="md-nav__link">
-        The KubeFlex Hosting cluster
+      <a href="../acquire-hosting-cluster/" class="md-nav__link">
+        Acquire cluster for KubeFlex Hosting
       </a>
     </li>
   
@@ -742,8 +734,36 @@
   
   
     <li class="md-nav__item">
-      <a href="../its-and-wds/" class="md-nav__link">
-        ITSes and WDSes
+      <a href="../init-hosting-cluster/" class="md-nav__link">
+        Initialize KubeFlex Hosting cluster
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../its/" class="md-nav__link">
+        Inventory and Transport Spaces
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wds/" class="md-nav__link">
+        Workload Description Spaces
       </a>
     </li>
   
@@ -757,7 +777,21 @@
   
     <li class="md-nav__item">
       <a href="../wec/" class="md-nav__link">
-        WECs
+        Workload Execution Clusters
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wec-registration/" class="md-nav__link">
+        Register a Workload Execution Cluster
       </a>
     </li>
   
@@ -775,7 +809,7 @@
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_9" >
       
       
         
@@ -787,15 +821,17 @@
         
           
         
+          
+        
       
       
-        <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_4_9" id="__nav_4_9_label" tabindex="0">
           Control
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_4_7">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_9">
           <span class="md-nav__icon md-icon"></span>
           Control
         </label>
@@ -809,6 +845,20 @@
     <li class="md-nav__item">
       <a href="../control/" class="md-nav__link">
         Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://pkg.go.dev/github.com/kubestellar/kubestellar/api/control/v1alpha1" class="md-nav__link">
+        API reference (new tab)
       </a>
     </li>
   
@@ -868,360 +918,6 @@
               
   
   
-  
-    <li class="md-nav__item">
-      <a href="../example-scenarios/" class="md-nav__link">
-        Example Scenarios
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../best-practices/" class="md-nav__link">
-        Best practices
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="https://pkg.go.dev/github.com/kubestellar/kubestellar/api/control/v1alpha1" class="md-nav__link">
-        API reference (new tab)
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-      
-      
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_11" checked>
-      
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_4_11" id="__nav_4_11_label" tabindex="0">
-          Miscellaneous Documentation
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_11_label" aria-expanded="true">
-        <label class="md-nav__title" for="__nav_4_11">
-          <span class="md-nav__icon md-icon"></span>
-          Miscellaneous Documentation
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../misc-files/" class="md-nav__link">
-        What's in here?
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-      
-      
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_11_2" >
-      
-      
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_4_11_2" id="__nav_4_11_2_label" tabindex="0">
-          Setting up KubeStellar
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_11_2_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_4_11_2">
-          <span class="md-nav__icon md-icon"></span>
-          Setting up KubeStellar
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-      
-      
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_11_2_1" >
-      
-      
-        
-          
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_4_11_2_1" id="__nav_4_11_2_1_label" tabindex="0">
-          Set Up Kubestellar Core Components
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_4_11_2_1_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_4_11_2_1">
-          <span class="md-nav__icon md-icon"></span>
-          Set Up Kubestellar Core Components
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../common-setup-intro/" class="md-nav__link">
-        Try the "Common-setup"
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../common-setup-step-by-step/" class="md-nav__link">
-        Step by Step
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../common-setup-core-chart/" class="md-nav__link">
-        Via Helm Chart
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../commission-workloads/" class="md-nav__link">
-        Commission Workloads
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-      
-      
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_11_3" checked>
-      
-      
-        
-          
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_4_11_3" id="__nav_4_11_3_label" tabindex="0">
-          Installation & Usage Examples
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_11_3_label" aria-expanded="true">
-        <label class="md-nav__title" for="__nav_4_11_3">
-          <span class="md-nav__icon md-icon"></span>
-          Installation & Usage Examples
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-      
-      
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_11_3_1" >
-      
-      
-        
-          
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_4_11_3_1" id="__nav_4_11_3_1_label" tabindex="0">
-          Sample scenarios
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_4_11_3_1_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_4_11_3_1">
-          <span class="md-nav__icon md-icon"></span>
-          Sample scenarios
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../examples/" class="md-nav__link">
-        Outline and Scenarios
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../example-wecs/" class="md-nav__link">
-        Creating Example WECs
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../thirdparties/" class="md-nav__link">
-        Example Third-Party integrations
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
     
   
   
@@ -1234,12 +930,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Deploy KubeStellar via Helm chart
+          Core Helm chart
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Deploy KubeStellar via Helm chart
+        Core Helm chart
       </a>
       
         
@@ -1307,8 +1003,67 @@
   
   
     <li class="md-nav__item">
-      <a href="../deploy-on-k3d/" class="md-nav__link">
-        Deploying KubeStellar on K3D
+      <a href="../get-started/" class="md-nav__link">
+        Quick Start
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../example-scenarios/" class="md-nav__link">
+        Example Scenarios
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_13" >
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_13" id="__nav_4_13_label" tabindex="0">
+          Third-party integrations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_13_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_13">
+          <span class="md-nav__icon md-icon"></span>
+          Third-party integrations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../argo-to-wds1/" class="md-nav__link">
+        ArgoCD to WDS
       </a>
     </li>
   
@@ -1328,16 +1083,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage-notes/" class="md-nav__link">
-        Usage Notes
+      <a href="../best-practices/" class="md-nav__link">
+        Best practices
       </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -2201,18 +1949,26 @@
 
 
 <h1 id="kubestellar-core-chart-usage">KubeStellar Core chart usage<a class="headerlink" href="#kubestellar-core-chart-usage" title="Permanent link">#</a></h1>
-<p>This documents explains how to use KubeStellar Core chart to deploy a new instance of KubeStellar
-with a choice of user-defined KubeFlex Control Planes (CPs).</p>
+<p>This documents explains how to use KubeStellar Core chart to do three
+of the 11 installation and usage steps; please see <a href="../user-guide-intro/">the
+outline</a> for generalities and <a href="../get-started/">the
+quickstart</a> for an example of usage.</p>
+<p>This Helm chart can do any subset of the following things.</p>
+<ul>
+<li>Initialize a pre-existing cluster to serve as the KubeFlex hosting cluster.</li>
+<li>Create some ITSes.</li>
+<li>Create some WDSes.</li>
+</ul>
 <p>The information provided is specific for the following release:</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">export</span><span class="w"> </span><span class="nv">KUBESTELLAR_VERSION</span><span class="o">=</span><span class="m">0</span>.23.0
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">export</span><span class="w"> </span><span class="nv">KUBESTELLAR_VERSION</span><span class="o">=</span><span class="m">0</span>.23.1
 </code></pre></div>
 <h2 id="pre-requisites">Pre-requisites<a class="headerlink" href="#pre-requisites" title="Permanent link">#</a></h2>
 <p>To install the Helm chart the only requirement is <a href="https://helm.sh/">Helm</a>.
 However, additional executables may be required to create/manage the cluster(s) (<em>e.g.</em>, Kind and kubectl),
-to join Workload Execution Clusters (WEKs) (<em>e.g.</em>, clusteradm),
+to join Workload Execution Clusters (WECs) (<em>e.g.</em>, clusteradm),
 and to interact with Control Planes (<em>e.g.</em>, kubectl), <em>etc</em>.
 For such purpose, a full list of executable that may be required can be found <a href="../pre-reqs/">here</a>.</p>
-<p>The setup of KubStellar via the Core chart requires the existence of a KubeFlex hosting cluster.</p>
+<p>The setup of KubeStellar via the Core chart requires the existence of a KubeFlex hosting cluster.</p>
 <p>This can be:</p>
 <ol>
 <li>A local <strong>Kind</strong> or <strong>k3s</strong> cluster with an ingress with SSL passthrough and a mapping to host port 9443</li>
@@ -2221,19 +1977,19 @@ For such purpose, a full list of executable that may be required can be found <a
 <p>It is important to note that, when the hosting cluster was created by <strong>kind</strong> or <strong>k3s</strong> and its Ingress domain name is left to default to localtest.me, then the name of the container running hosting cluster must be also be referenced during the Helm chart installation by setting <code>--set "kubeflex-controller.hostContainer=&lt;control-plane-container-name&gt;"</code>.
 The <code>&lt;control-plane-container-name&gt;</code> is the name of the container in which kind or k3d is running the relevant control plane. One may use <code>docker ps</code> to find the <code>&lt;control-plane-container-name&gt;</code>.</p>
 <p>If a host port number different from the expected 9443 is used for the Kind cluster, then the same port number must be specified during the chart installation by adding the following argument <code>--set "kubeflex-controller.externalPort=&lt;port&gt;"</code>.</p>
-<p>By default the KubeStelalr Core chart uses a test domain <code>localtest.me</code>, which is ok for testing on a single host machine. However, scenarios that span more than one machine, it is necessary to set <code>--set "kubeflex-controller.domain=&lt;domain&gt;"</code> to a more appropriate <code>&lt;domain&gt;</code> that can be reached from Workload Execution CLusters (WECs).</p>
+<p>By default the KubeStellar Core chart uses a test domain <code>localtest.me</code>, which is OK for testing on a single host machine. However, scenarios that span more than one machine, it is necessary to set <code>--set "kubeflex-controller.domain=&lt;domain&gt;"</code> to a more appropriate <code>&lt;domain&gt;</code> that can be reached from Workload Execution CLusters (WECs).</p>
 <p>For convenience, a new local <strong>Kind</strong> cluster that satisfies the requirements for KubeStellar setup
-and that can be used to exercises the <a href="../examples/">examples</a> can be created with the following command:</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.23.0/scripts/create-kind-cluster-with-SSL-passthrough.sh<span class="o">)</span><span class="w"> </span>--name<span class="w"> </span>kubeflex<span class="w"> </span>--port<span class="w"> </span><span class="m">9443</span>
+(e.g., as in <a href="../get-started/">the quickstart</a>) can be created with the following command:</p>
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.23.1/scripts/create-kind-cluster-with-SSL-passthrough.sh<span class="o">)</span><span class="w"> </span>--name<span class="w"> </span>kubeflex<span class="w"> </span>--port<span class="w"> </span><span class="m">9443</span>
 </code></pre></div>
 <p>Alternatively, a new local <strong>k3s</strong> cluster that satisfies the requirements for KubeStellar setup
-and that can be used to exercises the <a href="../examples/">examples</a> can be created with the following command:</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.23.0/scripts/create-k3s-cluster-with-SSL-passthrough.sh<span class="o">)</span><span class="w"> </span>--port<span class="w"> </span><span class="m">9443</span>
+can be created with the following command:</p>
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.23.1/scripts/create-k3s-cluster-with-SSL-passthrough.sh<span class="o">)</span><span class="w"> </span>--port<span class="w"> </span><span class="m">9443</span>
 </code></pre></div>
 <ol>
 <li>An <strong>OpenShift</strong> cluster</li>
 </ol>
-<p>When using this option, one is required to explicitely set the <code>isOpenShift</code> variable to <code>true</code> by including <code>--set "kubeflex-operator.isOpenShift=true"</code> in the Helm chart installation command.</p>
+<p>When using this option, one is required to explicitly set the <code>isOpenShift</code> variable to <code>true</code> by including <code>--set "kubeflex-operator.isOpenShift=true"</code> in the Helm chart installation command.</p>
 <h2 id="kubestellar-core-chart-values">KubeStellar Core Chart values<a class="headerlink" href="#kubestellar-core-chart-values" title="Permanent link">#</a></h2>
 <p>The KubeStellar chart makes available to the user several values that may be used to customize its installation into an existing cluster:</p>
 <div class="language-yaml highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># KubeFlex override values</span>
@@ -2260,21 +2016,21 @@ and that can be used to exercises the <a href="../examples/">examples</a> can be
 <a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a><span class="c1"># - ITSName: the name of the ITS control plane to be used by the WDS. Note that the ITSName MUST be specified if more than one ITS exists.</span>
 <a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="nt">WDSes</span><span class="p">:</span><span class="w"> </span><span class="c1"># ==&gt; installs kubestellar + ocm-transport-plugin</span>
 </code></pre></div>
-<p>The first section of the <code>values.yaml</code> file refers to parameters that are specific to the KubeFlex instllation, see <a href="https://github.com/kubestellar/kubeflex/blob/main/docs/users.md">here</a> for more information.</p>
+<p>The first section of the <code>values.yaml</code> file refers to parameters that are specific to the KubeFlex installation, see <a href="https://github.com/kubestellar/kubeflex/blob/main/docs/users.md">here</a> for more information.</p>
 <p>In particular:
 - <code>kubeflex-operator.install</code> accepts a boolean value to enable/disable the installation of KubeFlex into the cluster by the chart
 - <code>kubeflex-operator.isOpenShift</code> must be set to true by the user when installing the chart into a OpenShift cluster</p>
 <p>By default, the chart will install the KubeFlex and its PostgreSQL dependency.</p>
-<p>The second section allows a user of the chart to determine if Post Create Hooks (PCHs) needed for creating ITSes and WDSes control planes should be instlalled by the chart. By default <code>InstallPCHs</code> is set to <code>true</code> to enable the instllation of the PCHs, however one may want to set this value to <code>false</code> when installing multiple copies of the chart to avoid conflicts. A single copy of the PCHs is required and allowed per cluster.</p>
+<p>The second section allows a user of the chart to determine if Post Create Hooks (PCHes) needed for creating ITSes and WDSes control planes should be installed by the chart. By default <code>InstallPCHs</code> is set to <code>true</code> to enable the installation of the PCHes, however one may want to set this value to <code>false</code> when installing multiple copies of the chart to avoid conflicts. A single copy of the PCHes is required and allowed per cluster.</p>
 <p>The third section of the <code>values.yaml</code> file allows one to create a list of Inventory and Transport Spaces (ITSes). By default, this list is empty and no ITS will be created by the chart. A list of ITSes can be specified using the following format:</p>
 <div class="language-yaml highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nt">ITSes</span><span class="p">:</span><span class="w"> </span><span class="c1"># all the CPs in this list will execute the its.yaml PCH</span>
 <a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;its1&gt;</span><span class="w">          </span><span class="c1"># mandatory name of the control plane</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;vlcuster|host&gt;</span><span class="w"> </span><span class="c1"># optional type of control plane host or vcluster (default to vcluster, if not specified)</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;vcluster|host&gt;</span><span class="w"> </span><span class="c1"># optional type of control plane host or vcluster (default to vcluster, if not specified)</span>
 <a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;its2&gt;</span><span class="w">          </span><span class="c1"># mandatory name of the control plane</span>
-<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;vlcuster|host&gt;</span><span class="w"> </span><span class="c1"># optional type of control plane host or vcluster (default to vcluster, if not specified)</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;vcluster|host&gt;</span><span class="w"> </span><span class="c1"># optional type of control plane host or vcluster (default to vcluster, if not specified)</span>
 <a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">  </span><span class="l l-Scalar l-Scalar-Plain">...</span>
 </code></pre></div>
-<p>where <code>name</code> must specify a name unique among all the control planes in that KubeFlex deployment and the optional <code>type</code> can be either vlcuster (default) or host, see <a href="https://github.com/kubestellar/kubeflex/blob/main/docs/users.md">here</a> for more information.</p>
+<p>where <code>name</code> must specify a name unique among all the control planes in that KubeFlex deployment and the optional <code>type</code> can be either vcluster (default) or host, see <a href="https://github.com/kubestellar/kubeflex/blob/main/docs/users.md">here</a> for more information.</p>
 <p>The fourth section of the <code>values.yaml</code> file allows one to create a list of Workload Description Spaces (WDSes). By default, this list is empty and no WDS will be created by the chart. A list of WDSes can be specified using the following format:</p>
 <div class="language-yaml highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nt">WDSes</span><span class="p">:</span><span class="w"> </span><span class="c1"># all the CPs in this list will execute the wds.yaml PCH</span>
 <a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;wds1&gt;</span><span class="w">     </span><span class="c1"># mandatory name of the control plane</span>
@@ -2287,25 +2043,25 @@ and that can be used to exercises the <a href="../examples/">examples</a> can be
 <a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">    </span><span class="nt">ITSName</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">&lt;its2&gt;</span><span class="w">  </span><span class="c1"># optional name of the ITS control plane, this MUST be specified if more than one ITS exists at the moment the WDS PCH starts</span>
 <a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="w">  </span><span class="l l-Scalar l-Scalar-Plain">...</span>
 </code></pre></div>
-<p>where <code>name</code> must specify a name unique among all the control planes in that KubeFlex deployment (note that this must be unique among both ITSes and WDSes), the optional <code>type</code> can be either k8s (default) or host, see <a href="https://github.com/kubestellar/kubeflex/blob/main/docs/users.md">here</a> for more information, the optional <code>APIGroups</code> provides a list of APIGroups, see <a href="https://docs.kubestellar.io/release-0.23.0/direct/examples/#scenario-2-using-the-hosting-cluster-as-wds-to-deploy-a-custom-resource">here</a> for more information, and <code>ITSName</code> specify the ITS connected to the new WDS being created (this parameter MUST be specified if more that one ITS exists in the cluster, if no value is specified and only one ITS exists in the cluster, then it will be automatically selected).</p>
+<p>where <code>name</code> must specify a name unique among all the control planes in that KubeFlex deployment (note that this must be unique among both ITSes and WDSes), the optional <code>type</code> can be either k8s (default) or host, see <a href="https://github.com/kubestellar/kubeflex/blob/main/docs/users.md">here</a> for more information, the optional <code>APIGroups</code> provides a list of APIGroups, see <a href="https://docs.kubestellar.io/release-0.23.1/direct/examples/#scenario-2-using-the-hosting-cluster-as-wds-to-deploy-a-custom-resource">here</a> for more information, and <code>ITSName</code> specify the ITS connected to the new WDS being created (this parameter MUST be specified if more that one ITS exists in the cluster, if no value is specified and only one ITS exists in the cluster, then it will be automatically selected).</p>
 <h2 id="kubestellar-core-chart-usage_1">KubeStellar Core Chart usage<a class="headerlink" href="#kubestellar-core-chart-usage_1" title="Permanent link">#</a></h2>
 <p>A specific version of the KubeStellar core chart can be simply installed in an existing cluster using the following command:</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>helm<span class="w"> </span>upgrade<span class="w"> </span>--install<span class="w"> </span>ks-core<span class="w"> </span>oci://ghcr.io/kubestellar/kubestellar/core-chart<span class="w"> </span>--version<span class="w"> </span><span class="nv">$KUBESTELLAR_VERSION</span>
 </code></pre></div>
 <p>The above command will install KubeFlex and the Post Create Hooks, but no Control Planes.
-Please remeber to add <code>--set "kubeflex-operator.isOpenShift=true"</code>, when installing into an OpenShift cluster.</p>
+Please remember to add <code>--set "kubeflex-operator.isOpenShift=true"</code>, when installing into an OpenShift cluster.</p>
 <p>User defined control planes can be added using additional value files of <code>--set</code> arguments, <em>e.g.</em>:</p>
 <ul>
 <li>add a single ITS named its1 of default vcluster type: <code>--set-json='ITSes=[{"name":"its1"}]'</code></li>
-<li>add two ITSes named its1 and its2 of of type vlcuster and host, respectevely: <code>--set-json='ITSes=[{"name":"its1"},{"name":"its2","type":"host"}]'</code></li>
+<li>add two ITSes named its1 and its2 of of type vcluster and host, respectively: <code>--set-json='ITSes=[{"name":"its1"},{"name":"its2","type":"host"}]'</code></li>
 <li>add a single WDS named wds1 of default k8s type connected to the one and only ITS: <code>--set-json='WDSes=[{"name":"wds1"}]'</code></li>
 </ul>
-<p>A KubeStellar Core installation compatible with the common setup suitable for Common Setup described in the <a href="../examples/">examples</a> could be achieved with the following command:</p>
+<p>A KubeStellar Core installation that is consistent with <a href="../get-started/">the quickstart</a> and and supports <a href="../example-scenarios/">the example scenarios</a> could be achieved with the following command:</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>helm<span class="w"> </span>upgrade<span class="w"> </span>--install<span class="w"> </span>ks-core<span class="w"> </span>oci://ghcr.io/kubestellar/kubestellar/core-chart<span class="w"> </span>--version<span class="w"> </span><span class="nv">$KUBESTELLAR_VERSION</span><span class="w"> </span><span class="se">\</span>
 <a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">  </span>--set-json<span class="o">=</span><span class="s1">&#39;ITSes=[{&quot;name&quot;:&quot;its1&quot;}]&#39;</span><span class="w"> </span><span class="se">\</span>
 <a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">  </span>--set-json<span class="o">=</span><span class="s1">&#39;WDSes=[{&quot;name&quot;:&quot;wds1&quot;}]&#39;</span>
 </code></pre></div>
-<p>After the initial instllation is completed, there are two main ways to install additional control planes (<em>e.g.</em>, create a second <code>wds2</code> WDS):</p>
+<p>After the initial installation is completed, there are two main ways to install additional control planes (<em>e.g.</em>, create a second <code>wds2</code> WDS):</p>
 <ol>
 <li>Upgrade the initial chart. This choice requires to relist the existing control planes, which would otherwise be deleted:</li>
 </ol>
@@ -2314,7 +2070,7 @@ Please remeber to add <code>--set "kubeflex-operator.isOpenShift=true"</code>, w
 <a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="w">  </span>--set-json<span class="o">=</span><span class="s1">&#39;WDSes=[{&quot;name&quot;:&quot;wds1&quot;},{&quot;name&quot;:&quot;wds2&quot;}]&#39;</span>
 </code></pre></div>
 <ol>
-<li>Install a new chart with a different name. This choice does not requires to relist the existing control planes, but requies to disable the reinstallation of KubeFlex and PCHs:</li>
+<li>Install a new chart with a different name. This choice does not requires to relist the existing control planes, but requires to disable the reinstallation of KubeFlex and PCHes:</li>
 </ol>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>helm<span class="w"> </span>upgrade<span class="w"> </span>--install<span class="w"> </span>add-wds2<span class="w"> </span>oci://ghcr.io/kubestellar/kubestellar/core-chart<span class="w"> </span>--version<span class="w"> </span><span class="nv">$KUBESTELLAR_VERSION</span><span class="w"> </span><span class="se">\</span>
 <a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">  </span>--set<span class="o">=</span><span class="s1">&#39;kubeflex-operator.install=false,InstallPCHs=false&#39;</span><span class="w"> </span><span class="se">\</span>
@@ -2362,8 +2118,8 @@ KubeFlex for more information.</p>
 <a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a><span class="w">  </span>kflex<span class="w"> </span>ctx<span class="w"> </span><span class="nv">$cpname</span>
 <a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a><span class="k">done</span>
 </code></pre></div>
-<p>After doing the above context switchery you may wish to use <code>kflex ctx</code> to switch back to the hosting cluster context.</p>
-<p>Afterwards the content of a Control Plane <code>$cpname</code> can be accessed by specifing its context:</p>
+<p>After doing the above context switching you may wish to use <code>kflex ctx</code> to switch back to the hosting cluster context.</p>
+<p>Afterwards the content of a Control Plane <code>$cpname</code> can be accessed by specifying its context:</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$cpname</span><span class="s2">&quot;</span><span class="w"> </span>...
 </code></pre></div>
 </li>
@@ -2399,16 +2155,16 @@ The current context will be renamed to <code>$cpname</code>, if it does not alre
 <a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="nv">KUBECONFIG</span><span class="o">=</span>~/.kube/config:<span class="k">$(</span>find<span class="w"> </span>.<span class="w"> </span>-maxdepth<span class="w"> </span><span class="m">1</span><span class="w"> </span>-type<span class="w"> </span>f<span class="w"> </span>-name<span class="w"> </span><span class="s1">&#39;kubeconfig-*&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>tr<span class="w"> </span><span class="s1">&#39;\n&#39;</span><span class="w"> </span><span class="s1">&#39;:&#39;</span><span class="k">)</span><span class="w"> </span>kubectl<span class="w"> </span>config<span class="w"> </span>view<span class="w"> </span>--flatten<span class="w"> </span>&gt;<span class="w"> </span>~/.kube/kubeconfig-merged
 <a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>mv<span class="w"> </span>~/.kube/kubeconfig-merged<span class="w"> </span>~/.kube/config
 </code></pre></div>
-<p>Afterwards the content of a Control Plane <code>$cpname</code> can be accessed by specifing its context:</p>
+<p>Afterwards the content of a Control Plane <code>$cpname</code> can be accessed by specifying its context:</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>kubectl<span class="w"> </span>--context<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$cpname</span><span class="s2">&quot;</span><span class="w"> </span>...
 </code></pre></div>
 </li>
 </ol>
 <h2 id="uninstalling-the-kubestellar-core-chart">Uninstalling the KubeStellar Core chart<a class="headerlink" href="#uninstalling-the-kubestellar-core-chart" title="Permanent link">#</a></h2>
-<p>The chart can be uninsitalled using the command:</p>
+<p>The chart can be uninstalled using the command:</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>helm<span class="w"> </span>uninstall<span class="w"> </span>ks-core
 </code></pre></div>
-<p>This will remove KubeFlex, PostgreSQL, Post Create Hooks (PCHs), and all KubeFlex Control Planes (<em>i.e.</em>, ITSes and WDSes) that were created by the chart.</p>
+<p>This will remove KubeFlex, PostgreSQL, Post Create Hooks (PCHes), and all KubeFlex Control Planes (<em>i.e.</em>, ITSes and WDSes) that were created by the chart.</p>
 <p>Additionally, if a <strong>Kind</strong> cluster was created with the provide script, it can be deleted with the command:</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>kind<span class="w"> </span>delete<span class="w"> </span>cluster<span class="w"> </span>--name<span class="w"> </span>kubeflex
 </code></pre></div>
@@ -2478,7 +2234,7 @@ The current context will be renamed to <code>$cpname</code>, if it does not alre
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../thirdparties/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Example Third-Party integrations" rel="prev">
+          <a href="../combined-status/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Combining reported state" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -2487,20 +2243,20 @@ The current context will be renamed to <code>$cpname</code>, if it does not alre
                 <span class="md-footer__direction">
                   Previous
                 </span>
-                Example Third-Party integrations
+                Combining reported state
               </div>
             </div>
           </a>
         
         
           
-          <a href="../deploy-on-k3d/" class="md-footer__link md-footer__link--next" aria-label="Next: Deploying KubeStellar on K3D" rel="next">
+          <a href="../get-started/" class="md-footer__link md-footer__link--next" aria-label="Next: Quick Start" rel="next">
             <div class="md-footer__title">
               <div class="md-ellipsis">
                 <span class="md-footer__direction">
                   Next
                 </span>
-                Deploying KubeStellar on K3D
+                Quick Start
               </div>
             </div>
             <div class="md-footer__button md-icon">
