@@ -36,13 +36,15 @@ nav:
   - Quick Start: direct/get-started.md
   - User Guide:
       - Overview: direct/user-guide-intro.md
-      - Prerequisites: direct/pre-reqs.md
-      - Acquire cluster for KubeFlex Hosting: direct/acquire-hosting-cluster.md
-      - Initialize KubeFlex Hosting cluster: direct/init-hosting-cluster.md
-      - Inventory and Transport Spaces: direct/its.md
-      - Workload Description Spaces: direct/wds.md
-      - Workload Execution Clusters: direct/wec.md
-      - Register a Workload Execution Cluster: direct/wec-registration.md
+      - Quick Start: direct/get-started.md
+      - Detailed Setup:
+        - Prerequisites: direct/pre-reqs.md
+        - Acquire cluster for KubeFlex Hosting: direct/acquire-hosting-cluster.md
+        - Initialize KubeFlex Hosting cluster: direct/init-hosting-cluster.md
+        - Inventory and Transport Spaces: direct/its.md
+        - Workload Description Spaces: direct/wds.md
+        -  Workload Execution Clusters: direct/wec.md
+        - Register a Workload Execution Cluster: direct/wec-registration.md
       - Control:
           - Overview: direct/control.md
           - API reference (new tab): https://pkg.go.dev/github.com/kubestellar/kubestellar/api/control/v1alpha1
@@ -50,7 +52,6 @@ nav:
           - Transforming desired state: direct/transforming.md
           - Combining reported state: direct/combined-status.md
       - Core Helm chart: direct/core-chart.md
-      - Quick Start: direct/get-started.md
       - Example Scenarios: direct/example-scenarios.md
       - Third-party integrations:
           - ArgoCD to WDS: direct/argo-to-wds1.md
