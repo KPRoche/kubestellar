@@ -5,9 +5,11 @@ See the KubeStellar [overview](../readme.md) for architecture and other informat
 
 This user guide is an ongoing project. If you find errors, please point them out in our [Slack channel](https://kubernetes.slack.com/archives/C058SUSL5AA/) or open an issue in our [github repository](https://github.com/kubestellar/kubestellar)!
 
-If you want to try a simplified installation process and example, you can try our **[Quick Start](get-started.md)** using Kind and a helm chart.
+---
 
-The **detalled process** for installing and using KubeStellar progresses through the following stages.
+- If you want to try a simplified installation process and example, you can try our **[Quick Start](get-started.md)** using Kind and a helm chart.
+
+- The **detalled process** for installing and using KubeStellar progresses through the following stages.
 
 1. Install software prerequisites. See [prerequisites](pre-reqs.md).
 1. Acquire the ability to use a Kubernetes cluster to serve as the [KubeFlex](https://github.com/kubestellar/kubeflex/) hosting cluster. See [Acquire cluster for KubeFlex hosting](acquire-hosting-cluster.md).
