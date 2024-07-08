@@ -1889,16 +1889,11 @@
 See the KubeStellar <a href="../../readme/">overview</a> for architecture and other information.</p>
 <p>This user guide is an ongoing project. If you find errors, please point them out in our <a href="https://kubernetes.slack.com/archives/C058SUSL5AA/">Slack channel</a> or open an issue in our <a href="https://github.com/kubestellar/kubestellar">github repository</a>!</p>
 <hr />
-<ul>
-<li>
 <p>If you want to try a simplified installation process and example, you can try our <strong><a href="../get-started/">Quick Start</a></strong> using Kind and a helm chart.</p>
-</li>
-<li>
+<hr />
 <p>The <strong>detalled process</strong> for installing and using KubeStellar progresses through the following stages.</p>
-</li>
-<li>
-<p>Install software prerequisites. See <a href="../pre-reqs/">prerequisites</a>.</p>
-</li>
+<ol>
+<li>Install software prerequisites. See <a href="../pre-reqs/">prerequisites</a>.</li>
 <li>Acquire the ability to use a Kubernetes cluster to serve as the <a href="https://github.com/kubestellar/kubeflex/">KubeFlex</a> hosting cluster. See <a href="../acquire-hosting-cluster/">Acquire cluster for KubeFlex hosting</a>.</li>
 <li><a href="../init-hosting-cluster/">Initialize that cluster as a KubeFlex hosting cluster</a>.</li>
 <li>Create an <a href="../its/">Inventory and Transport Space</a> (ITS).</li>
@@ -1914,7 +1909,7 @@ See the KubeStellar <a href="../../readme/">overview</a> for architecture and ot
 </li>
 <li>Enjoy the effects of workloads being propagated to the WEC.</li>
 <li>Consume reported state from WDS.</li>
-</ul>
+</ol>
 <p>By "maintain" we mean create, read, update, delete, list, and watch as you like, over time. KubeStellar is eventually consistent: you can change your inputs as you like over time, and KubeStellar continually strives to achieve what you are currently asking it to do.</p>
 <p>There is some flexibility in the ordering of those stage. The following flowchart shows the dependencies. </p>
 <p>
