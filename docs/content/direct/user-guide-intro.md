@@ -5,11 +5,11 @@ See the KubeStellar [overview](../readme.md) for architecture and other informat
 
 This user guide is an ongoing project. If you find errors, please point them out in our [Slack channel](https://kubernetes.slack.com/archives/C058SUSL5AA/) or open an issue in our [github repository](https://github.com/kubestellar/kubestellar)!
 
----
+## Quick Start
 
 If you want to try a simplified installation process and example, you can try our **[Quick Start](get-started.md)** using Kind and a helm chart.
 
----
+## Detailed Install
 
 The **detalled process** for installing and using KubeStellar progresses through the following stages for setup and control.
 
