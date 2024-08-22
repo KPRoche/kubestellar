@@ -123,6 +123,10 @@
         <aside class="md-banner">
           <div class="md-banner__inner md-grid md-typeset">
             
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+              </button>
+            
             
   <!-- Extra stylesing -->
   <style>
@@ -146,8 +150,9 @@
   </p>
 </a>
 
-
           </div>
+          
+            <script>var content,el=document.querySelector("[data-md-component=announce]");el&&(content=el.querySelector(".md-typeset"),__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0))</script>
           
         </aside>
       
@@ -161,7 +166,7 @@
   You are not viewing the latest regular release.
   <a href="../../..">
     <strong>Click here to go to the latest regular release.</strong>
-  </a>
+  </a> The <em>unreleased-development</em> release corresponds to the <em>main</em> branch of the repository.
 
             </div>
             <script>var el=document.querySelector("[data-md-component=outdated]"),outdated=__md_get("__outdated",sessionStorage);!0===outdated&&el&&(el.hidden=!1)</script>
@@ -170,6 +175,7 @@
       </div>
     
     
+       
       
 
 <header class="md-header" data-md-component="header">
@@ -251,6 +257,16 @@
   
 </header>
     
+       <header class='md-header' data-md-component='header' style="z-index:-10;">
+	       <div class='md-header__inner md-grid' data-md-component='container'>
+	       <p class='md_container' style="font-size:larger"> 
+	       KubeStellar has multiple documentation versions to match its multiple releases.<br />
+	       Please make sure you are viewing the docs version which matches the release version of the code you are using!
+	       </p>
+	       </div>
+       </header>
+
+
     <div class="md-container" data-md-component="container">
       
       
@@ -630,6 +646,33 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#0240-and-its-candidates-and-alphas" class="md-nav__link">
+    0.24.0 and its candidates and alphas
+  </a>
+  
+    <nav class="md-nav" aria-label="0.24.0 and its candidates and alphas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#0240-alpha2" class="md-nav__link">
+    0.24.0-alpha.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remaining-limitations-in-0240" class="md-nav__link">
+    Remaining limitations in 0.24.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#0231" class="md-nav__link">
@@ -1176,6 +1219,8 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
@@ -1381,6 +1426,20 @@
           
         </ul>
       </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        Troubleshooting
+      </a>
     </li>
   
 
@@ -1677,6 +1736,8 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_5_8" id="__nav_5_8_label" tabindex="0">
@@ -1755,6 +1816,20 @@
     <li class="md-nav__item">
       <a href="../../Contribution%20guidelines/CONTRIBUTING/" class="md-nav__link">
         Guidelines
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pr-signoff/" class="md-nav__link">
+        Sign-off on Contributions
       </a>
     </li>
   
@@ -2169,6 +2244,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#0240-and-its-candidates-and-alphas" class="md-nav__link">
+    0.24.0 and its candidates and alphas
+  </a>
+  
+    <nav class="md-nav" aria-label="0.24.0 and its candidates and alphas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#0240-alpha2" class="md-nav__link">
+    0.24.0-alpha.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remaining-limitations-in-0240" class="md-nav__link">
+    Remaining limitations in 0.24.0
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#0231" class="md-nav__link">
     0.23.1
   </a>
@@ -2316,6 +2418,16 @@
 
 <h1 id="release-notes">Release notes<a class="headerlink" href="#release-notes" title="Permanent link">#</a></h1>
 <p>The following sections list the known issues for each release. The issue list is not differential (i.e., compared to previous releases) but a full list representing the overall state of the specific release. </p>
+<h2 id="0240-and-its-candidates-and-alphas">0.24.0 and its candidates and alphas<a class="headerlink" href="#0240-and-its-candidates-and-alphas" title="Permanent link">#</a></h2>
+<p>The main change from 0.23.X is the completion of the status combination and introduction of the create-only feature. There is also further work on the organization of the website.</p>
+<h3 id="0240-alpha2">0.24.0-alpha.2<a class="headerlink" href="#0240-alpha2" title="Permanent link">#</a></h3>
+<p>The first of several releases required to get the create-only feature implemented in both the ks/ks and ks/OTP repositories. The API for this feature is present but the implementation is incomplete: the <code>Binding</code> objects are correctly derived from the <code>BindingPolicy</code> objects but the transport controller does not implement the feature.</p>
+<h3 id="remaining-limitations-in-0240">Remaining limitations in 0.24.0<a class="headerlink" href="#remaining-limitations-in-0240" title="Permanent link">#</a></h3>
+<ul>
+<li>Removing of WorkStatus objects (in the transport namespace) is not supported and may not result in recreation of that object</li>
+<li>Singleton status return: It is the user responsibility to make sure that if a BindingPolicy requesting singleton status return matches a given workload object then no other BindingPolicy matches the same object. Currently there is no enforcement of that.</li>
+<li>Objects on two different WDSes shouldn't have the exact same identifier (same group, version, kind, name and namespace). Such a conflict is currently not identified.</li>
+</ul>
 <h2 id="0231">0.23.1<a class="headerlink" href="#0231" title="Permanent link">#</a></h2>
 <p>The main change from 0.23.0 is a re-organization of the website, which is still a work in progress, and archival of all website content that is outdated.</p>
 <h3 id="remaining-limitations-in-0231">Remaining limitations in 0.23.1<a class="headerlink" href="#remaining-limitations-in-0231" title="Permanent link">#</a></h3>
@@ -2503,7 +2615,7 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit", "content.action.view", "navigation.indexes", "navigation.tabs", "navigation.path", "navigation.footer", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "navigation.indexes", "navigation.tabs", "navigation.path", "navigation.footer", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.ce72ebac.min.js"></script>
