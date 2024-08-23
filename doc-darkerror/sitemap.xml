@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/readme/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/readme/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Community/_index/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Community/_index/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Community/partners/argocd/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Community/partners/argocd/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Community/partners/fluxcd/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Community/partners/fluxcd/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Community/partners/kyverno/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Community/partners/kyverno/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Community/partners/mvi/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Community/partners/mvi/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Community/partners/openziti/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Community/partners/openziti/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Community/partners/turbonomic/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Community/partners/turbonomic/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Contribution%20guidelines/CONTRIBUTING/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Contribution%20guidelines/CONTRIBUTING/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Contribution%20guidelines/LICENSE/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Contribution%20guidelines/LICENSE/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Contribution%20guidelines/coc/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Contribution%20guidelines/coc/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Contribution%20guidelines/governance/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Contribution%20guidelines/governance/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Contribution%20guidelines/onboarding/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Contribution%20guidelines/onboarding/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Contribution%20guidelines/operations/code-management/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Contribution%20guidelines/operations/code-management/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Contribution%20guidelines/operations/document-management/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Contribution%20guidelines/operations/document-management/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Contribution%20guidelines/operations/testing-doc-prs/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Contribution%20guidelines/operations/testing-doc-prs/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Contribution%20guidelines/security/security/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Contribution%20guidelines/security/security/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/Contribution%20guidelines/security/security_contacts/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/Contribution%20guidelines/security/security_contacts/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/common-subs/coming-soon/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/common-subs/coming-soon/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/common-subs/placeholder/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/common-subs/placeholder/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/acquire-hosting-cluster/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/acquire-hosting-cluster/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/architecture/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/architecture/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/argo-to-wds1/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/argo-to-wds1/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/binding/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/binding/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/combined-status/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/combined-status/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/contribute/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/contribute/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/contributor/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/contributor/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/control/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/control/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/core-chart/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/core-chart/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/example-scenarios/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/example-scenarios/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/example-wecs/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/example-wecs/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/galaxy-intro/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/galaxy-intro/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/get-started/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/get-started/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/init-hosting-cluster/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/init-hosting-cluster/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/its/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/its/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/kubeflex-intro/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/kubeflex-intro/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/packaging/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/packaging/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/pr-signoff/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/pr-signoff/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/pre-reqs/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/pre-reqs/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/release-notes/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/release-notes/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/release-testing/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/release-testing/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/release/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/release/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/setup-limitations/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/setup-limitations/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/setup-overview/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/setup-overview/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/transforming/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/transforming/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/troubleshooting/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/troubleshooting/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/usage-limitations/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/usage-limitations/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/user-guide-intro/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/user-guide-intro/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/wds/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/wds/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/wec-registration/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/wec-registration/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/wec/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/wec/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-darkerror/direct/images/image-files-readme/</loc>
+         <lastmod>2024-08-23</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-darkerror/en/direct/images/image-files-readme/"/>
+         
+    </url>
+</urlset>
