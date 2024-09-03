@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/readme/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/readme/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Community/_index/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Community/_index/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Community/partners/argocd/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Community/partners/argocd/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Community/partners/fluxcd/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Community/partners/fluxcd/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Community/partners/kyverno/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Community/partners/kyverno/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Community/partners/mvi/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Community/partners/mvi/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Community/partners/openziti/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Community/partners/openziti/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Community/partners/turbonomic/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Community/partners/turbonomic/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Contribution%20guidelines/CONTRIBUTING/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Contribution%20guidelines/CONTRIBUTING/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Contribution%20guidelines/LICENSE/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Contribution%20guidelines/LICENSE/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Contribution%20guidelines/coc/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Contribution%20guidelines/coc/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Contribution%20guidelines/governance/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Contribution%20guidelines/governance/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Contribution%20guidelines/onboarding/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Contribution%20guidelines/onboarding/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Contribution%20guidelines/operations/code-management/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Contribution%20guidelines/operations/code-management/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Contribution%20guidelines/operations/document-management/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Contribution%20guidelines/operations/document-management/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Contribution%20guidelines/operations/testing-doc-prs/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Contribution%20guidelines/operations/testing-doc-prs/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Contribution%20guidelines/security/security/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Contribution%20guidelines/security/security/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/Contribution%20guidelines/security/security_contacts/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/Contribution%20guidelines/security/security_contacts/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/common-subs/coming-soon/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/common-subs/coming-soon/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/common-subs/placeholder/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/common-subs/placeholder/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/acquire-hosting-cluster/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/acquire-hosting-cluster/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/architecture/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/architecture/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/argo-to-wds1/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/argo-to-wds1/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/binding/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/binding/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/combined-status/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/combined-status/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/contribute/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/contribute/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/contributor/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/contributor/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/control/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/control/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/core-chart/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/core-chart/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/example-scenarios/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/example-scenarios/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/example-wecs/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/example-wecs/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/galaxy-intro/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/galaxy-intro/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/get-started/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/get-started/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/init-hosting-cluster/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/init-hosting-cluster/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/its/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/its/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/kubeflex-intro/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/kubeflex-intro/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/packaging/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/packaging/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/pr-signoff/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/pr-signoff/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/pre-reqs/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/pre-reqs/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/release-notes/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/release-notes/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/release-testing/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/release-testing/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/release/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/release/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/setup-limitations/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/setup-limitations/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/setup-overview/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/setup-overview/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/transforming/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/transforming/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/troubleshooting/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/troubleshooting/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/usage-limitations/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/usage-limitations/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/user-guide-intro/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/user-guide-intro/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/wds/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/wds/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/wec-registration/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/wec-registration/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/wec/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/wec/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-autodark/direct/images/image-files-readme/</loc>
+         <lastmod>2024-09-03</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-autodark/en/direct/images/image-files-readme/"/>
+         
+    </url>
+</urlset>
