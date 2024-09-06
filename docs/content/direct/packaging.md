@@ -5,14 +5,6 @@
 The following is a graph of the GitHub repositories in the `kubestellar` GitHub organization and the dependencies among them. The repo at the tail of an arrow depends on the repo at the head of the arrow. These are not just build-time dependencies but any reference from one repo to another.
 
 ```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'backgroundColor': '#fff',
-      }
-  }
-}%%
 flowchart LR
     kubestellar --> kubeflex
     kubestellar --> ocm-status-addon
