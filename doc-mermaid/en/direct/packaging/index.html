@@ -1492,15 +1492,7 @@
 <h1 id="packaging-and-delivery">Packaging and Delivery<a class="headerlink" href="#packaging-and-delivery" title="Permanent link">#</a></h1>
 <h2 id="outline-of-github-repositories">Outline of GitHub repositories<a class="headerlink" href="#outline-of-github-repositories" title="Permanent link">#</a></h2>
 <p>The following is a graph of the GitHub repositories in the <code>kubestellar</code> GitHub organization and the dependencies among them. The repo at the tail of an arrow depends on the repo at the head of the arrow. These are not just build-time dependencies but any reference from one repo to another.</p>
-<pre class="mermaid"><code>%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'backgroundColor': '#fff',
-      }
-  }
-}%%
-flowchart LR
+<pre class="mermaid"><code>flowchart LR
     kubestellar --&gt; kubeflex
     kubestellar --&gt; ocm-status-addon
     ocm-status-addon --&gt; kubestellar
