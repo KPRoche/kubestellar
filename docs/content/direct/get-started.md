@@ -12,11 +12,11 @@ This page shows one concrete example of steps 2--7 from the [full Installation a
 ## Setup
 
 We document two ways here to produce a very simple system, suitable for study but not production usage. For general setup information, see [the full story](user-guide-intro.md#the-full-story).
-- The first is an automated Quick Start shell script.
+- The first is an automated shell script.
 - The second goes through the same process step by step so you can more thoroughly understand the process
 _Both procedures result in identical KubeStellar configurations_
 
-### Quick Start
+### Automated Shell Script
 
 For a quick and easy setup of a KubeStellar demo environment, you can use the provided script. This script automates the process of creating a KubeStellar environment suitable for demonstration purposes. It performs the following tasks:
 
