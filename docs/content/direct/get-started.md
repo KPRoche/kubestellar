@@ -3,20 +3,20 @@
 This page shows one concrete example of steps 2--7 from the [full Installation and Usage outline](user-guide-intro.md#the-full-story). This example produces a simple single-host system suitable for kicking the tires, using [kind](https://kind.sigs.k8s.io/) to create three new clusters to serve as your KubeFlex hosting cluster and two WECs. This page concludes with forwarding you to one example of the remaining steps.
 
   1. Setup
-    1. Install software prerequisites
-    1. Cleanup from previous runs
-    1. Create the KubeFlex hosting cluster and Kubestellar core components
-    1. Create and register two WECs.
+     1. Install software prerequisites
+     2. Cleanup from previous runs
+     3. Create the KubeFlex hosting cluster and Kubestellar core components
+     4. Create and register two WECs.
   1. Exercise KubeStellar
 
-# Setup
+## Setup
 
 We document two ways here to produce a very simple system, suitable for study but not production usage. For general setup information, see [the full story](user-guide-intro.md#the-full-story).
 - The first is an automated Quick Start shell script.
 - The second goes through the same process step by step so you can more thoroughly understand the process
 _Both procedures result in identical KubeStellar configurations_
 
-## Quick Start
+### Quick Start
 
 For a quick and easy setup of a KubeStellar demo environment, you can use the provided script. This script automates the process of creating a KubeStellar environment suitable for demonstration purposes. It performs the following tasks:
 
@@ -29,11 +29,11 @@ To use this script, run the following command:
 ```shell 
 bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/refs/heads/main/scripts/create-kubestellar-demo-env.sh)
 ```
-## Step-by-Step
+### Step-by-Step
 
 If for some reason the shell script will not work with your resources, or you simply prefer to set up your KubeStellar system by hand, here is the same process spelled out:
 
-### Install software prerequisites
+#### Install software prerequisites
 
 The following command will check for the prerequisites that you will need for the later steps. See [the prerequisites doc](pre-reqs.md) for more details.
 
@@ -44,7 +44,7 @@ bash <(curl https://raw.githubusercontent.com/kubestellar/kubestellar/v{{ config
 This setup recipe uses [kind](https://kind.sigs.k8s.io/) to create three Kubernetes clusters on your machine.
 Note that `kind` does not support three or more concurrent clusters unless you raise some limits as described in this `kind` "known issue": [Pod errors due to “too many open files”](https://kind.sigs.k8s.io/docs/user/known-issues/#pod-errors-due-to-too-many-open-files).
 
-### Cleanup from previous runs
+#### Cleanup from previous runs
 
 If you have run this recipe or any related recipe previously then
 you will first want to remove any related debris. The following
@@ -59,13 +59,13 @@ kubectl config delete-context cluster1
 kubectl config delete-context cluster2
 ```
 
-### Set the Version appropriately as an environment variable
+#### Set the Version appropriately as an environment variable
 
 ```shell
 export KUBESTELLAR_VERSION={{ config.ks_latest_release }}
 ```
 
-### Create a kind cluster to host KubeFlex
+#### Create a kind cluster to host KubeFlex
 
 For convenience, a new local **Kind** cluster that satisfies the requirements for playing the role of KubeFlex hosting cluster can be created with the following command:
 
@@ -73,7 +73,7 @@ For convenience, a new local **Kind** cluster that satisfies the requirements fo
 bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/v{{ config.ks_latest_release }}/scripts/create-kind-cluster-with-SSL-passthrough.sh) --name kubeflex --port 9443
 ```
 
-### Use Core Helm chart to initialize KubeFlex and create ITS and WDS
+#### Use Core Helm chart to initialize KubeFlex and create ITS and WDS
 
 ```shell
 helm upgrade --install ks-core oci://ghcr.io/kubestellar/kubestellar/core-chart \
@@ -84,14 +84,14 @@ helm upgrade --install ks-core oci://ghcr.io/kubestellar/kubestellar/core-chart 
 
 That command will print some notes about how to get kubeconfig "contexts" named "its1" and "wds1" defined. Do that, because those contexts are used in the following.
 
-### Create and register two workload execution cluster(s)
+#### Create and register two workload execution cluster(s)
 
  {%
     include-markdown "example-wecs.md"
     heading-offset=2
  %}
 
-# Exercise KubeStellar
+## Exercise KubeStellar
 
 Proceed to [Scenario 1 (multi-cluster workload deployment with kubectl) in the example scenarios](example-scenarios.md#scenario-1-multi-cluster-workload-deployment-with-kubectl) after defining the shell variables that characterize the setup done above. Following are setting for those variables, whose meanings are defined [at the start of the example scenarios document](example-scenarios.md#assumptions-and-variables).
 
