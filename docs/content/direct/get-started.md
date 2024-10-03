@@ -9,9 +9,29 @@ This page shows one concrete example of steps 2--7 from the [full Installation a
     1. Create and register two WECs.
   1. Exercise KubeStellar
 
-## Setup
+# Setup
 
-This is one way to produce a very simple system, suitable for study but not production usage. For general setup information, see [the full story](user-guide-intro.md#the-full-story).
+We document two ways here to produce a very simple system, suitable for study but not production usage. For general setup information, see [the full story](user-guide-intro.md#the-full-story).
+- The first is an automated Quick Start shell script.
+- The second goes through the same process step by step so you can more thoroughly understand the process
+_Both procedures result in identical KubeStellar configurations_
+
+## Quick Start
+
+For a quick and easy setup of a KubeStellar demo environment, you can use the provided script. This script automates the process of creating a KubeStellar environment suitable for demonstration purposes. It performs the following tasks:
+
+1. Checks for required software prerequisites
+2. Cleans up any existing environment from previous runs
+3. Creates a KubeFlex hosting cluster and installs KubeStellar core components
+4. Creates and registers two Work Execution Clusters (WECs)
+
+To use this script, run the following command:
+```shell 
+bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/refs/heads/main/scripts/create-kubestellar-demo-env.sh)
+```
+## Step-by-Step
+
+If for some reason the shell script will not work with your resources, or you simply prefer to set up your KubeStellar system by hand, here is the same process spelled out:
 
 ### Install software prerequisites
 
@@ -71,7 +91,7 @@ That command will print some notes about how to get kubeconfig "contexts" named 
     heading-offset=2
  %}
 
-## Exercise KubeStellar
+# Exercise KubeStellar
 
 Proceed to [Scenario 1 (multi-cluster workload deployment with kubectl) in the example scenarios](example-scenarios.md#scenario-1-multi-cluster-workload-deployment-with-kubectl) after defining the shell variables that characterize the setup done above. Following are setting for those variables, whose meanings are defined [at the start of the example scenarios document](example-scenarios.md#assumptions-and-variables).
 
