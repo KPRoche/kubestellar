@@ -116,7 +116,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#overview" class="md-skip">
+        <a href="#kubestellar-documentation-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -2063,13 +2063,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#kubestellar-documentation-overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
+      Kubestellar Documentation Overview
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Overview">
+    <nav class="md-nav" aria-label="Kubestellar Documentation Overview">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2089,6 +2089,21 @@
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rendering-and-previewing-modifications-to-the-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rendering and Previewing modifications to the website
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rendering and Previewing modifications to the website">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#serving-up-documents-locally" class="md-nav__link">
@@ -3242,13 +3257,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#kubestellar-documentation-overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
+      Kubestellar Documentation Overview
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Overview">
+    <nav class="md-nav" aria-label="Kubestellar Documentation Overview">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -3268,6 +3283,21 @@
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rendering-and-previewing-modifications-to-the-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rendering and Previewing modifications to the website
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rendering and Previewing modifications to the website">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#serving-up-documents-locally" class="md-nav__link">
@@ -3654,7 +3684,7 @@
 
 <!-- BEGIN INCLUDE ../../../README.md '&lt;!--readme-for-documentation-start--&gt;' '&lt;!--readme-for-documentation-end--&gt;' -->
 
-<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">#</a></h2>
+<h2 id="kubestellar-documentation-overview">Kubestellar Documentation Overview<a class="headerlink" href="#kubestellar-documentation-overview" title="Permanent link">#</a></h2>
 <h3 id="websites">Websites<a class="headerlink" href="#websites" title="Permanent link">#</a></h3>
 <p>We have two web sites, as follows.</p>
 <ul>
@@ -3674,6 +3704,9 @@
 <li><a href="https://pypi.org/project/Pygments/">Pygments</a> for even fancier code highlighting.</li>
 <li>MkDocs plugin <a href="https://github.com/ultrabug/mkdocs-static-i18n/tree/0.53#readme">mkdocs-static-i18n</a> to support multiple languages. We currently only have documentation in English. If you're interested in contributing translations, please let us know!</li>
 </ul>
+<hr />
+<h2 id="rendering-and-previewing-modifications-to-the-website">Rendering and Previewing modifications to the website<a class="headerlink" href="#rendering-and-previewing-modifications-to-the-website" title="Permanent link">#</a></h2>
+<p>You may preview possible changes to the website by either downloading and rendering the documents locally, or by rendering them globally from a fork on GitHub.</p>
 <h3 id="serving-up-documents-locally">Serving up documents locally<a class="headerlink" href="#serving-up-documents-locally" title="Permanent link">#</a></h3>
 <p>You can view and modify our documentation in your local development environment.  Simply checkout one of our branches.</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:kubestellar/kubestellar.git
@@ -3701,6 +3734,7 @@ Then open a browser to <a href="http://localhost:8000/"><code>http://localhost:8
 <a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>make<span class="w"> </span>serve-docs
 </code></pre></div>
 Then open a browser to <a href="http://localhost:8000/"><code>http://localhost:8000/</code></a></p>
+<hr />
 <h3 id="serving-up-documents-globally-from-a-fork-of-the-repository-via-github">Serving up documents globally from a fork of the repository via GitHub<a class="headerlink" href="#serving-up-documents-globally-from-a-fork-of-the-repository-via-github" title="Permanent link">#</a></h3>
 <p>You can also take advantage of the "Generate and Push Docs" Action via the github web interface to create an online, shareable rendering of the website.
 This is particularly useful for documentation PRs, as it allows you to share a preview of your proposed changes directly via a URL to a working website.
@@ -3729,13 +3763,15 @@ To take advantage of this action, you must ensure that you have forked the repos
 <li>Select the branch you wish to render and click on the second Run Workflow Button <figure><img src="https://github.com/user-attachments/assets/427b827d-555c-4d36-b9c8-485eda002428" /><figcaption>image</figcaption>
 </figure>
 </li>
-<li>After a minute or so, you should be able to preview your new version of the website at <em>youraccount</em>.github.io/<em>forkname</em>/<em>branchname</em></li>
+<li>If that workflow completes successfully, it will automatically call the <strong>Pages build and deployment</strong> workflow.</li>
+<li>After a minute or so, you should be able to preview your new version of the website at <code>https://${repo_owner}.github.io/${fork_name}/${branch_name}</code></li>
 </ol>
 <h4 id="automatically-generate-webpages">Automatically generate webpages<a class="headerlink" href="#automatically-generate-webpages" title="Permanent link">#</a></h4>
 <p>If you create a branch of your fork that begins with <strong>doc-</strong> (e.g. <em>doc-myversion</em>) the workflow will trigger automatically when you commit changes to the branch.</p>
 <h4 id="switching-between-versions">Switching between versions<a class="headerlink" href="#switching-between-versions" title="Permanent link">#</a></h4>
 <p>Each branch of your fork will render as its own version. You can use the release dropdown inside the rendered pages to quickly switch between versions.</p>
-<p>Note: the <strong>main</strong> branch will render as <em>youraccount.github.io/_forkname/main</em>, <strong>NOT</strong> as "unreleased-development" which is a special alias on the main kubestellar.io website.</p>
+<p>Note: the <strong>main</strong> branch will render as <code>https://${repo_owner}.github.io/${fork_name}/main</code>, <strong>NOT</strong> as "unreleased-development" which is a special alias on the main kubestellar.io website.</p>
+<hr />
 <h2 id="supported-aliases-for-our-documentation">Supported aliases for our documentation<a class="headerlink" href="#supported-aliases-for-our-documentation" title="Permanent link">#</a></h2>
 <p><code>mike</code> has a concept of aliases. We currently maintain only one alias.</p>
 <ul>
