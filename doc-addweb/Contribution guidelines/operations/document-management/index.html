@@ -2134,6 +2134,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#if-you-already-created-a-fork-but-only-included-the-main-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      If you already created a fork but only included the main branch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#generating-a-website-rendered-from-a-branch-of-your-fork" class="md-nav__link">
     <span class="md-ellipsis">
       Generating a website rendered from a branch of your fork
@@ -2155,6 +2164,15 @@
   <a href="#switching-between-versions" class="md-nav__link">
     <span class="md-ellipsis">
       Switching between versions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-outdated-draft-branch-versions-after-rendering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Removing outdated (draft branch) versions after rendering
     </span>
   </a>
   
@@ -3328,6 +3346,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#if-you-already-created-a-fork-but-only-included-the-main-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      If you already created a fork but only included the main branch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#generating-a-website-rendered-from-a-branch-of-your-fork" class="md-nav__link">
     <span class="md-ellipsis">
       Generating a website rendered from a branch of your fork
@@ -3349,6 +3376,15 @@
   <a href="#switching-between-versions" class="md-nav__link">
     <span class="md-ellipsis">
       Switching between versions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-outdated-draft-branch-versions-after-rendering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Removing outdated (draft branch) versions after rendering
     </span>
   </a>
   
@@ -3691,7 +3727,7 @@
 <li><code>https://kubestellar.io</code>. This is hosted by GoDaddy and administered by <a href="mailto://andy@clubanderson.com">Andy Anderson</a>. It contains a few redirects. The most important is that <code>https://kubestellar.io/</code> redirects to <code>https://docs.kubestellar.io/</code>.</li>
 <li><code>https://docs.kubestellar.io</code>. This is a GitHub pages website based on the <code>github.com/kubestellar/kubestellar/</code> repository.</li>
 </ul>
-<p><strong>A contributor may have their own copy of the website</strong>, at <code>https://${repo_owner}.github.io/${fork_name}</code>, if they have set up the fork properly to render the webpages. See the section on <a href="/Contribution%20guidelines/operations/document-management/#serving-up-documents-globally-from-a-fork-of-the-repository-via-github">Serving up documents globally from a fork of the repo via GitHub.</a></p>
+<p><strong>A contributor may have their own copy of the website</strong>, at <code>https://${repo_owner}.github.io/${fork_name}</code>, if they have set up the fork properly to render the webpages. See the section on Serving up documents globally from a fork of the repo via GitHub.</p>
 <h3 id="github-pages">GitHub pages<a class="headerlink" href="#github-pages" title="Permanent link">#</a></h3>
 <p>Our documentation is powered by <a href="https://github.com/jimporter/mike">mike</a> and <a href="https://www.mkdocs.org/">MkDocs</a>. MkDocs is powered by <a href="https://pypi.org/project/Markdown/">Python-Markdown</a>. These are immensely configurable and extensible. You can see our MkDocs configuration in <code>docs/mkdocs.yml</code>. Following are some of the choices we have made.</p>
 <ul>
@@ -3751,6 +3787,8 @@ To take advantage of this action, you must ensure that you have forked the repos
 </figure>
 </li>
 </ol>
+<h4 id="if-you-already-created-a-fork-but-only-included-the-main-branch">If you already created a fork but only included the main branch<a class="headerlink" href="#if-you-already-created-a-fork-but-only-included-the-main-branch" title="Permanent link">#</a></h4>
+<p>You can remedy the problem by propagating the <em>gh-pages</em> branch into your fork using <em>git</em> commands</p>
 <h4 id="generating-a-website-rendered-from-a-branch-of-your-fork">Generating a website rendered from a branch of your fork<a class="headerlink" href="#generating-a-website-rendered-from-a-branch-of-your-fork" title="Permanent link">#</a></h4>
 <ol>
 <li>Work on the documents in a branch of your fork of the repository, and commit the changes</li>
@@ -3771,6 +3809,9 @@ To take advantage of this action, you must ensure that you have forked the repos
 <h4 id="switching-between-versions">Switching between versions<a class="headerlink" href="#switching-between-versions" title="Permanent link">#</a></h4>
 <p>Each branch of your fork will render as its own version. You can use the release dropdown inside the rendered pages to quickly switch between versions.</p>
 <p>Note: the <strong>main</strong> branch will render as <code>https://${repo_owner}.github.io/${fork_name}/main</code>, <strong>NOT</strong> as "unreleased-development" which is a special alias on the main kubestellar.io website.</p>
+<h4 id="removing-outdated-draft-branch-versions-after-rendering">Removing outdated (draft branch) versions after rendering<a class="headerlink" href="#removing-outdated-draft-branch-versions-after-rendering" title="Permanent link">#</a></h4>
+<p>You can use <code>mike</code> to remove versions, or replace gh-pages with a copy of the shared version. 
+More details on these techniques will be added here soon.</p>
 <hr />
 <h2 id="supported-aliases-for-our-documentation">Supported aliases for our documentation<a class="headerlink" href="#supported-aliases-for-our-documentation" title="Permanent link">#</a></h2>
 <p><code>mike</code> has a concept of aliases. We currently maintain only one alias.</p>
