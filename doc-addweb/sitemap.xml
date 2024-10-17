@@ -64,76 +64,6 @@
          
     </url>
     <url>
-         <loc>https://docs.kubestellar.io/doc-addweb/Contribution%20guidelines/CONTRIBUTING/</loc>
-         <lastmod>2024-10-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/Contribution%20guidelines/CONTRIBUTING/"/>
-         
-    </url>
-    <url>
-         <loc>https://docs.kubestellar.io/doc-addweb/Contribution%20guidelines/LICENSE/</loc>
-         <lastmod>2024-10-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/Contribution%20guidelines/LICENSE/"/>
-         
-    </url>
-    <url>
-         <loc>https://docs.kubestellar.io/doc-addweb/Contribution%20guidelines/coc/</loc>
-         <lastmod>2024-10-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/Contribution%20guidelines/coc/"/>
-         
-    </url>
-    <url>
-         <loc>https://docs.kubestellar.io/doc-addweb/Contribution%20guidelines/governance/</loc>
-         <lastmod>2024-10-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/Contribution%20guidelines/governance/"/>
-         
-    </url>
-    <url>
-         <loc>https://docs.kubestellar.io/doc-addweb/Contribution%20guidelines/onboarding/</loc>
-         <lastmod>2024-10-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/Contribution%20guidelines/onboarding/"/>
-         
-    </url>
-    <url>
-         <loc>https://docs.kubestellar.io/doc-addweb/Contribution%20guidelines/operations/code-management/</loc>
-         <lastmod>2024-10-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/Contribution%20guidelines/operations/code-management/"/>
-         
-    </url>
-    <url>
-         <loc>https://docs.kubestellar.io/doc-addweb/Contribution%20guidelines/operations/document-management/</loc>
-         <lastmod>2024-10-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/Contribution%20guidelines/operations/document-management/"/>
-         
-    </url>
-    <url>
-         <loc>https://docs.kubestellar.io/doc-addweb/Contribution%20guidelines/operations/testing-doc-prs/</loc>
-         <lastmod>2024-10-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/Contribution%20guidelines/operations/testing-doc-prs/"/>
-         
-    </url>
-    <url>
-         <loc>https://docs.kubestellar.io/doc-addweb/Contribution%20guidelines/security/security/</loc>
-         <lastmod>2024-10-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/Contribution%20guidelines/security/security/"/>
-         
-    </url>
-    <url>
-         <loc>https://docs.kubestellar.io/doc-addweb/Contribution%20guidelines/security/security_contacts/</loc>
-         <lastmod>2024-10-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/Contribution%20guidelines/security/security_contacts/"/>
-         
-    </url>
-    <url>
          <loc>https://docs.kubestellar.io/doc-addweb/common-subs/coming-soon/</loc>
          <lastmod>2024-10-17</lastmod>
          <changefreq>daily</changefreq>
@@ -145,6 +75,76 @@
          <lastmod>2024-10-17</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/common-subs/placeholder/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-addweb/contribution-guidelines/CONTRIBUTING/</loc>
+         <lastmod>2024-10-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/contribution-guidelines/CONTRIBUTING/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-addweb/contribution-guidelines/LICENSE/</loc>
+         <lastmod>2024-10-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/contribution-guidelines/LICENSE/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-addweb/contribution-guidelines/coc/</loc>
+         <lastmod>2024-10-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/contribution-guidelines/coc/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-addweb/contribution-guidelines/governance/</loc>
+         <lastmod>2024-10-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/contribution-guidelines/governance/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-addweb/contribution-guidelines/onboarding/</loc>
+         <lastmod>2024-10-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/contribution-guidelines/onboarding/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-addweb/contribution-guidelines/operations/code-management/</loc>
+         <lastmod>2024-10-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/contribution-guidelines/operations/code-management/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-addweb/contribution-guidelines/operations/document-management/</loc>
+         <lastmod>2024-10-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/contribution-guidelines/operations/document-management/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-addweb/contribution-guidelines/operations/testing-doc-prs/</loc>
+         <lastmod>2024-10-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/contribution-guidelines/operations/testing-doc-prs/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-addweb/contribution-guidelines/security/security/</loc>
+         <lastmod>2024-10-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/contribution-guidelines/security/security/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-addweb/contribution-guidelines/security/security_contacts/</loc>
+         <lastmod>2024-10-17</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-addweb/en/contribution-guidelines/security/security_contacts/"/>
          
     </url>
     <url>
