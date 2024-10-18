@@ -3777,7 +3777,7 @@ This is particularly useful for documentation PRs, as it allows you to share a p
 To take advantage of this action, you must ensure that you have forked the repository properly, so your fork includes the gh-pages branch required for the Action to run properly:</p>
 <h4 id="creating-a-fork-that-can-use-the-generate-and-push-docs-action">Creating a fork that can use the Generate and Push Docs Action<a class="headerlink" href="#creating-a-fork-that-can-use-the-generate-and-push-docs-action" title="Permanent link">#</a></h4>
 <ol>
-<li>Log into your GitHub account via webbrowser</li>
+<li>Log into your GitHub account via web browser</li>
 <li>Navigate to github.com/kubestellar/kubestellar</li>
 <li>Select the <strong>Forks</strong> dropdown and click on the plus sign to create a new fork <figure><img src="https://github.com/user-attachments/assets/c0b56897-c2c4-479f-ba16-c1edd4690946" /><figcaption>image</figcaption>
 </figure>
@@ -3788,7 +3788,7 @@ To take advantage of this action, you must ensure that you have forked the repos
 </li>
 </ol>
 <h4 id="if-you-already-created-a-fork-but-only-included-the-main-branch">If you already created a fork but only included the main branch<a class="headerlink" href="#if-you-already-created-a-fork-but-only-included-the-main-branch" title="Permanent link">#</a></h4>
-<p>You can remedy the problem by propagating the <em>gh-pages</em> branch into your fork using <em>git</em> commands</p>
+<p>You can remedy the problem by propagating the <code>gh-pages</code> branch of KubeStellar into your fork using <code>git</code> commands</p>
 <h4 id="generating-a-website-rendered-from-a-branch-of-your-fork">Generating a website rendered from a branch of your fork<a class="headerlink" href="#generating-a-website-rendered-from-a-branch-of-your-fork" title="Permanent link">#</a></h4>
 <ol>
 <li>Work on the documents in a branch of your fork of the repository, and commit the changes</li>
@@ -3802,10 +3802,13 @@ To take advantage of this action, you must ensure that you have forked the repos
 </figure>
 </li>
 <li>If that workflow completes successfully, it will automatically call the <strong>Pages build and deployment</strong> workflow.</li>
+<li>You can observe the progress of the workflows on the Actions page; a green checkmark circle indicates successful completion.<br /><figure><img src="https://github.com/user-attachments/assets/b9ce40f8-b744-4b3c-bc20-a4814243e85e" /><figcaption>image</figcaption>
+</figure>
+</li>
 <li>After a minute or so, you should be able to preview your new version of the website at <code>https://${repo_owner}.github.io/${fork_name}/${branch_name}</code></li>
 </ol>
 <h4 id="automatically-generate-webpages">Automatically generate webpages<a class="headerlink" href="#automatically-generate-webpages" title="Permanent link">#</a></h4>
-<p>If you create a branch of your fork that begins with <strong>doc-</strong> (e.g. <em>doc-myversion</em>) the workflow will trigger automatically when you commit changes to the branch.</p>
+<p>If you create a branch of your fork with a branch name that that begins with <strong>doc-</strong> (e.g. <em>doc-myversion</em>) the workflow will trigger automatically when you commit changes to that branch.</p>
 <h4 id="switching-between-versions">Switching between versions<a class="headerlink" href="#switching-between-versions" title="Permanent link">#</a></h4>
 <p>Each branch of your fork will render as its own version. You can use the release dropdown inside the rendered pages to quickly switch between versions.</p>
 <p>Note: the <strong>main</strong> branch will render as <code>https://${repo_owner}.github.io/${fork_name}/main</code>, <strong>NOT</strong> as "unreleased-development" which is a special alias on the main kubestellar.io website.</p>
