@@ -2,392 +2,392 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/readme/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/readme/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/Community/_index/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/Community/_index/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/Community/partners/argocd/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/Community/partners/argocd/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/Community/partners/fluxcd/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/Community/partners/fluxcd/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/Community/partners/kyverno/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/Community/partners/kyverno/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/Community/partners/mvi/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/Community/partners/mvi/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/Community/partners/openziti/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/Community/partners/openziti/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/Community/partners/turbonomic/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/Community/partners/turbonomic/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/common-subs/coming-soon/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/common-subs/coming-soon/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/common-subs/placeholder/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/common-subs/placeholder/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/contribution-guidelines/CONTRIBUTING/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/contribution-guidelines/CONTRIBUTING/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/contribution-guidelines/LICENSE/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/contribution-guidelines/LICENSE/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/contribution-guidelines/coc/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/contribution-guidelines/coc/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/contribution-guidelines/governance/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/contribution-guidelines/governance/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/contribution-guidelines/onboarding/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/contribution-guidelines/onboarding/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/contribution-guidelines/operations/code-management/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/contribution-guidelines/operations/code-management/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/contribution-guidelines/operations/document-management/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/contribution-guidelines/operations/document-management/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/contribution-guidelines/operations/testing-doc-prs/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/contribution-guidelines/operations/testing-doc-prs/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/contribution-guidelines/security/security/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/contribution-guidelines/security/security/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/contribution-guidelines/security/security_contacts/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/contribution-guidelines/security/security_contacts/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/acquire-hosting-cluster/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/acquire-hosting-cluster/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/architecture/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/architecture/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/argo-to-wds1/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/argo-to-wds1/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/binding/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/binding/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/combined-status/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/combined-status/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/contribute/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/contribute/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/control/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/control/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/core-chart/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/core-chart/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/example-scenarios/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/example-scenarios/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/example-wecs/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/example-wecs/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/galaxy-intro/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/galaxy-intro/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/get-started/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/get-started/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/init-hosting-cluster/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/init-hosting-cluster/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/its/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/its/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/known-issues/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/known-issues/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/knownissue-kflex-extension/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/knownissue-kflex-extension/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/knownissue-kind-config/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/knownissue-kind-config/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/kubeflex-intro/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/kubeflex-intro/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/packaging/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/packaging/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/pr-signoff/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/pr-signoff/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/pre-reqs/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/pre-reqs/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/release-notes/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/release-notes/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/release-testing/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/release-testing/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/release/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/release/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/setup-limitations/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/setup-limitations/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/setup-overview/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/setup-overview/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/testing/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/testing/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/transforming/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/transforming/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/troubleshooting/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/troubleshooting/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/usage-limitations/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/usage-limitations/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/user-guide-intro/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/user-guide-intro/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/wds/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/wds/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/wec-registration/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/wec-registration/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/wec/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/wec/"/>
          
     </url>
     <url>
          <loc>https://docs.kubestellar.io/doc-fix-badlink/direct/images/image-files-readme/</loc>
-         <lastmod>2024-10-22</lastmod>
+         <lastmod>2024-10-23</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-fix-badlink/en/direct/images/image-files-readme/"/>
          
