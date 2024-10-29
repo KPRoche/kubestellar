@@ -197,8 +197,7 @@ extra:
           name: This page could be improved
           data: 0
           note: >- 
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="https://github.com/kubestellar/kubestellar/issues/new?assignees=&labels=kind%2Fbug&projects=&template=bug_report.yaml&title=bug%3A+" target="_blank" rel="noopener">feedback form</a>.
+            Thanks for your feedback! Help us improve this page by using our <a href="https://github.com/kubestellar/kubestellar/issues/new?assignees=&labels=kind%2Fbug&projects=&template=bug_report.yaml&title=bug%3A+" target="_blank" rel="noopener">feedback form</a>.
 
 plugins:
   # https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
