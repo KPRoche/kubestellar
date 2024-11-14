@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../favicons/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.44">
     
     
       
@@ -1813,6 +1813,10 @@
       
         
       
+        
+      
+        
+      
     
     
       
@@ -1898,6 +1902,48 @@
   
   <span class="md-ellipsis">
     Kind needs OS reconfig
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../knownissue-wsl-ghcr-helm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Authorization failure in WSL while fetching Helm chart from ghcr.io
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../knownissue-collector-miss/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Missing results in a CombinedStatus object
   </span>
   
 
@@ -3081,7 +3127,7 @@ as a KubeFlex hosting cluster. This is not an exhaustive list.</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>kflex<span class="w"> </span>init<span class="w"> </span>--create-kind
 </code></pre></div>
 <h3 id="create-and-init-a-kind-cluster-as-hosting-cluster-with-curl-to-bash-script">Create and init a kind cluster as hosting cluster with curl-to-bash script<a class="headerlink" href="#create-and-init-a-kind-cluster-as-hosting-cluster-with-curl-to-bash-script" title="Permanent link">#</a></h3>
-<p>There is a bash script at <a href="https://raw.githubusercontent.com/kubestellar/kubestellar/v0.24.0/scripts/create-kind-cluster-with-SSL-passthrough.sh"><code>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.24.0/scripts/create-kind-cluster-with-SSL-passthrough.sh</code></a> that can be fed directly into <code>bash</code> and will create a <code>kind</code> cluster <em>AND ALSO</em> initialize it as the KubeFlex hosting cluster. This script accepts the following command line flags.</p>
+<p>There is a bash script at <a href="https://raw.githubusercontent.com/kubestellar/kubestellar/v0.25.0/scripts/create-kind-cluster-with-SSL-passthrough.sh"><code>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.25.0/scripts/create-kind-cluster-with-SSL-passthrough.sh</code></a> that can be fed directly into <code>bash</code> and will create a <code>kind</code> cluster <em>AND ALSO</em> initialize it as the KubeFlex hosting cluster. This script accepts the following command line flags.</p>
 <ul>
 <li><code>--name name</code>: set a specific name of the kind cluster (default: kubestellar).</li>
 <li><code>--port port</code>: map the specified host port to the kind cluster port 443 (default: 9443).</li>
