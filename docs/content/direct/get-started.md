@@ -18,8 +18,15 @@ For some users on WSL, use of the setup procedure on this page and/or the demo e
 
 ## Quick Start Using the Automated Script
 
-If you want to quickly setup a basic environment, you can use our automated installation script _after_ [installing the software prerequisites](pre-reqs.md):
-(the script will check for the pre-reqs and exit if they are not satisfied).
+If you want to quickly setup a basic environment, you can use our automated installation script
+
+### Install software prerequisites
+
+Be sure to [install the software prerequisites](pre-reqs.md) _before_ running the script!
+
+The script will check for the pre-reqs and exit if they are not present.
+
+### Run the script!
 
 ```shell
 bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/refs/heads/main/scripts/create-kubestellar-demo-env.sh)
@@ -32,7 +39,7 @@ _Note: the script does the same things as described in [Setup](#setup) but with 
 
 ## Step by Step Setup
 
-This is one way to produce a very simple system, suitable for study but not production usage. For general setup information, see [the full story](user-guide-intro.md#the-full-story).
+This walks you through the steps to produce a the same simple system, suitable for study but not production usage. For general setup information, see [the full story](user-guide-intro.md#the-full-story).
 
 ### Install software prerequisites
 
