@@ -121,9 +121,9 @@ kubectl --context kind-kubeflex wait -n its1-system job.batch/its --for conditio
     heading-offset=2
  %}
 
-## Exercise KubeStellar
+### Variables for running the example scenarios.
 
-Proceed to [Scenario 1 (multi-cluster workload deployment with kubectl) in the example scenarios](example-scenarios.md#scenario-1-multi-cluster-workload-deployment-with-kubectl) after defining the shell variables that characterize the setup done above. Following are setting for those variables, whose meanings are defined [at the start of the example scenarios document](example-scenarios.md#assumptions-and-variables).
+Before moving on to try exercising KubeStellar, you will need to set some variables:
 
 ```shell
 host_context=kind-kubeflex
@@ -138,6 +138,12 @@ wec2_context=$wec2_name
 label_query_both=location-group=edge
 label_query_one=name=cluster1
 ```
+
+## Exercise KubeStellar
+
+Now that your system is running, you can try some example scenarios
+1. Define the shell variables (either using the values output as the script completes or just above from the step-by-step instructions). Their meanings are defined [at the start of the example scenarios document](example-scenarios.md#assumptions-and-variables).
+2. Proceed to [Scenario 1 (multi-cluster workload deployment with kubectl) in the example scenarios](example-scenarios.md#scenario-1-multi-cluster-workload-deployment-with-kubectl) after defining the shell variables that characterize the setup done above. 
 
 ## Next Steps
 
