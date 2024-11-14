@@ -35,7 +35,7 @@ bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/refs/he
 ```
 If successful, the script will output the variable definitions that you would use when proceeding to the example scenarios. After successfully running the script, proceed to the [Exercise KubeStellar](#exercise-kubestellar) section below.
 
-_Note: the script does the same things as described in [Setup](#setup) but with maximum concurrency, so it can complete faster. This makes the script actually more complicated than the step-by-step process below. While this is great for getting started quickly with a demo system, you may want to follow the manual setup below to better understand the components and prepare for [more advanced configuration](#next-steps)._
+_Note: the script does the same things as described in the [Step by Step Setup](#setup) but with maximum concurrency, so it can complete faster. This makes the script actually more complicated than the step-by-step process below. While this is great for getting started quickly with a demo system, you may want to follow the manual setup below to better understand the components and prepare for [more advanced configuration](#next-steps)._
 
 ---
 
