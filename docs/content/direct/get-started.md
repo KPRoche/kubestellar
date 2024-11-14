@@ -142,7 +142,9 @@ label_query_one=name=cluster1
 ## Exercise KubeStellar
 
 Now that your system is running, you can try some example scenarios
+
 1. Define the shell variables (either using the values output as the script completes or just above from the step-by-step instructions). Their meanings are defined [at the start of the example scenarios document](example-scenarios.md#assumptions-and-variables).
+
 2. Proceed to [Scenario 1 (multi-cluster workload deployment with kubectl) in the example scenarios](example-scenarios.md#scenario-1-multi-cluster-workload-deployment-with-kubectl) after defining the shell variables that characterize the setup done above. 
 
 ## Next Steps
