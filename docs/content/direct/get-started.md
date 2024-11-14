@@ -1,46 +1,38 @@
 # Getting Started with KubeStellar
 
-There are multiple ways to get started with Kubestellar, reflecting its flexible architecture that supports various deployment patterns. This page presents two approaches:
+There are multiple ways to get started with Kubestellar, reflecting its flexible architecture that supports various deployment patterns. This example produces a simple single-host system that is suitable for kicking the tires, using [kind](https://kind.sigs.k8s.io/) to create three new clusters to serve as your KubeFlex hosting cluster and two WECs.
+It includes two approaches for setting up that demo system; both approaches produce the same configuration:
 
-1. A **Step by step walkthrough** that demonstrates the core concepts and components, showing how to manually set up a simple single-host system.
+1. A [**quick automated setup**](#quick-start-using-the-automated-script) using our installation script, which creates a basic working environment for those who want to start experimenting right away. 
 
-2. A **quick automated setup** using our installation script, which creates a basic working environment for those who want to start experimenting right away. 
+2. A [**Step by step walkthrough**](#step-by-step-setup) that demonstrates the core concepts and components, showing how to manually set up a simple single-host system.
 
-Both approaches create a basic environment suitable for learning, but remember that KubeStellar supports more sophisticated configurations including:
-
-- Multiple Inventory and Transport Spaces (ITS)
-- Multiple Workload Definition Spaces (WDS)
-- Dynamic addition and removal of Workload Execution Clusters (WECs)
-- Various deployment patterns to suit different organizational needs
-
-## Quick Start Using the Automated Script
-
-If you want to quickly setup a basic environment, you can use our automated installation script:
-
-```shell
-bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/refs/heads/main/scripts/create-kubestellar-demo-env.sh)
-```
-
-This script sets up a basic environment with one ITS, one WDS, and two WECs. While this is great for getting started, you may want to follow the manual setup below to better understand the components and prepare for more advanced configurations.
-
-## Detailed Step walkthrough 
-The following steps show one concrete example of steps 2--7 from the [full Installation and Usage outline](user-guide-intro.md#the-full-story). This example produces a simple single-host system suitable for kicking the tires, using [kind](https://kind.sigs.k8s.io/) to create three new clusters to serve as your KubeFlex hosting cluster and two WECs. This page concludes with forwarding you to one example of the remaining steps. For general setup information, see [the full story](user-guide-intro.md#the-full-story).
-
-  1. [Setup](#setup)
-    1. Install software prerequisites
-    1. Cleanup from previous runs
-    1. Create the KubeFlex hosting cluster and Kubestellar core components
-    1. Create and register two WECs.
-  2. [Exercise KubeStellar](#exercise-kubestellar)
-  3. [Troubleshooting](#troubleshooting)
-
-## Setup
-
-This is one way to produce a very simple system, suitable for study but not production usage. For general setup information, see [the full story](user-guide-intro.md#the-full-story).
+After setting up the demo system, you can [exercise KubeStellar](#exercise-kubestellar) with one of our example scenarios
+To really **use** KubeStellar, you will want a (more sophisticated configuration)[#next-steps]
 
 ### Note for Windows users
 
 For some users on WSL, use of the setup procedure on this page and/or the demo environment creation script may require running as the user `root` in Linux. There is a [known issue about this](knownissue-wsl-ghcr-helm.md).
+
+---
+
+## Quick Start Using the Automated Script
+
+If you want to quickly setup a basic environment, you can use our automated installation script _after_ [installing the software prerequisites](pre-reqs.md):
+(the script will check for the pre-reqs and exit if they are not satisfied).
+
+```shell
+bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/refs/heads/main/scripts/create-kubestellar-demo-env.sh)
+```
+If successful, the script will output the variable definitions that you would use when proceeding to the example scenarios. After successfully running the script, proceed to the [Exercise KubeStellar](#exercise-kubestellar) section below.
+
+Note: the script does the same things as described in [Setup](#setup) but with maximum concurrency, so it can complete faster. This makes the script actually more complicated than the step-by-step process below. While this is great for getting started quickly with a demo system, you may want to follow the manual setup below to better understand the components and prepare for [more advanced configurations)[#next-steps].
+
+---
+
+## Step by Step Setup
+
+This is one way to produce a very simple system, suitable for study but not production usage. For general setup information, see [the full story](user-guide-intro.md#the-full-story).
 
 ### Install software prerequisites
 
@@ -137,6 +129,21 @@ wec2_context=$wec2_name
 label_query_both=location-group=edge
 label_query_one=name=cluster1
 ```
+
+## Next Steps
+
+Both approaches here create a system that is a concrete example of steps 2--7 from the [full Installation and Usage outline](user-guide-intro.md#the-full-story). 
+It is a basic environment suitable for learning, but remember that KubeStellar supports more sophisticated configurations including:
+
+- Multiple Inventory and Transport Spaces (ITS)
+- Multiple Workload Definition Spaces (WDS)
+- Dynamic addition and removal of Workload Execution Clusters (WECs)
+- Various deployment patterns to suit different organizational needs
+
+For general setup information, see [the full story](user-guide-intro.md#the-full-story).
+
+---
+
 ## Troubleshooting
 
 In the event something goes wrong, check out the [troubleshooting page](troubleshooting.md) to see if someone else has experienced the same thing
