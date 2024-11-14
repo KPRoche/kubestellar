@@ -963,6 +963,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#variables-for-running-the-example-scenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variables for running the example scenarios.
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1262,6 +1271,15 @@
   <a href="#create-and-register-two-workload-execution-clusters" class="md-nav__link">
     <span class="md-ellipsis">
       Create and register two workload execution cluster(s)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variables-for-running-the-example-scenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variables for running the example scenarios.
     </span>
   </a>
   
@@ -3450,6 +3468,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#variables-for-running-the-example-scenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variables for running the example scenarios.
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -3631,8 +3658,8 @@ there is nothing to clean up).</p>
 </ol>
 <!-- END INCLUDE -->
 
-<h2 id="exercise-kubestellar">Exercise KubeStellar<a class="headerlink" href="#exercise-kubestellar" title="Permanent link">#</a></h2>
-<p>Proceed to <a href="../example-scenarios/#scenario-1-multi-cluster-workload-deployment-with-kubectl">Scenario 1 (multi-cluster workload deployment with kubectl) in the example scenarios</a> after defining the shell variables that characterize the setup done above. Following are setting for those variables, whose meanings are defined <a href="../example-scenarios/#assumptions-and-variables">at the start of the example scenarios document</a>.</p>
+<h3 id="variables-for-running-the-example-scenarios">Variables for running the example scenarios.<a class="headerlink" href="#variables-for-running-the-example-scenarios" title="Permanent link">#</a></h3>
+<p>Before moving on to try exercising KubeStellar, you will need to set some variables:</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="nv">host_context</span><span class="o">=</span>kind-kubeflex
 <a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="nv">its_cp</span><span class="o">=</span>its1
 <a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="nv">its_context</span><span class="o">=</span>its1
@@ -3645,6 +3672,10 @@ there is nothing to clean up).</p>
 <a id="__codelineno-12-10" name="__codelineno-12-10" href="#__codelineno-12-10"></a><span class="nv">label_query_both</span><span class="o">=</span>location-group<span class="o">=</span>edge
 <a id="__codelineno-12-11" name="__codelineno-12-11" href="#__codelineno-12-11"></a><span class="nv">label_query_one</span><span class="o">=</span><span class="nv">name</span><span class="o">=</span>cluster1
 </code></pre></div>
+<h2 id="exercise-kubestellar">Exercise KubeStellar<a class="headerlink" href="#exercise-kubestellar" title="Permanent link">#</a></h2>
+<p>Now that your system is running, you can try some example scenarios
+1. Define the shell variables (either using the values output as the script completes or just above from the step-by-step instructions). Their meanings are defined <a href="../example-scenarios/#assumptions-and-variables">at the start of the example scenarios document</a>.
+2. Proceed to <a href="../example-scenarios/#scenario-1-multi-cluster-workload-deployment-with-kubectl">Scenario 1 (multi-cluster workload deployment with kubectl) in the example scenarios</a> after defining the shell variables that characterize the setup done above. </p>
 <h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">#</a></h2>
 <p>Both approaches here create a system that is a concrete example of steps 2--7 from the <a href="../user-guide-intro/#the-full-story">full Installation and Usage outline</a>. 
 It is a basic environment suitable for learning, but remember that KubeStellar supports more sophisticated configurations including:</p>
