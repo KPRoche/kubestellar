@@ -9,8 +9,8 @@ It includes two approaches for setting up that demo system; both approaches prod
 
 2. A [**Step by step walkthrough**](#step-by-step-setup) that demonstrates the core concepts and components, showing how to manually set up a simple single-host system.
 
-After setting up the demo system, you can [exercise KubeStellar](#exercise-kubestellar) with one of our example scenarios
-To really **use** KubeStellar, you will want a (more sophisticated configuration)[#next-steps]
+After setting up the demo system, you can [exercise KubeStellar](#exercise-kubestellar) with one of our example scenarios.
+To really **use** KubeStellar, you will want a [more sophisticated configuration](#next-steps)
 
 ### Note for Windows users
 
