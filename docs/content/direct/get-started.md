@@ -1,5 +1,7 @@
 # Getting Started with KubeStellar
 
+## Set Up Your a Demo System
+
 There are multiple ways to get started with Kubestellar, reflecting its flexible architecture that supports various deployment patterns. This example produces a simple single-host system that is suitable for kicking the tires, using [kind](https://kind.sigs.k8s.io/) to create three new clusters to serve as your KubeFlex hosting cluster and two WECs.
 It includes two approaches for setting up that demo system; both approaches produce the same configuration:
 
