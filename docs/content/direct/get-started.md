@@ -39,6 +39,19 @@ bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/refs/ta
 
 If successful, the script will output the variable definitions that you would use when proceeding to the example scenarios. After successfully running the script, proceed to the [Exercise KubeStellar](#exercise-kubestellar) section below.
 
+<details>
+  <summary>Congratulations!</summary>
+  
+  ### You have successfully ~~constructed an Interocitor~~ set up a simple working demo of KubeStellar
+  1. Scroll down the page to Next Steps to see what you can try
+  2. Warning
+     * ~~The Interocitor should not be used for posting to TikTok or other terrestrial social media~~
+     * This is just an example of accordion text for demo purposes
+
+
+</details>
+
+
 _Note: the script does the same things as described in the [Step by Step Setup](#step-by-step-setup) but with maximum concurrency, so it can complete faster. This makes the script actually more complicated than the step-by-step process below. While this is great for getting started quickly with a demo system, you may want to follow the manual setup below to better understand the components and how to create a [configuration that meets your needs](#next-steps)._
 
 ## Step by Step Setup
