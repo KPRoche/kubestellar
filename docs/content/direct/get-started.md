@@ -51,8 +51,8 @@ If successful, the script will output the variable definitions that you would us
          * This is just an example of accordion text for demo purposes
 
 
-<details markdown="block">
-    <summary>Using md_in_html to create A collapsible section</summary>
+<details markdown="1">
+    <summary markdown="1">Using md_in_html to create A collapsible section</summary>
     
     This block of text is made collapsible by using the details tag and the md_in_html plugin for mkdocs
 
