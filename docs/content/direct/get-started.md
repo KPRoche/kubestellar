@@ -40,7 +40,7 @@ bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/refs/ta
 If successful, the script will output the variable definitions that you would use when proceeding to the example scenarios. After successfully running the script, proceed to the [Exercise KubeStellar](#exercise-kubestellar) section below.
 
 
-??? info "Congratulations! (expand for more info)"
+??? info "Congratulations! (expand for more info -- this section formated with p)"
 
     ### You have successfully <strike>constructed an Interocitor</strike> set up a simple working demo of KubeStellar
   
@@ -49,6 +49,23 @@ If successful, the script will output the variable definitions that you would us
      
          * <strike>The Interocitor should not be used for posting to TikTok or other terrestrial social media</strike>
          * This is just an example of accordion text for demo purposes
+
+
+<details markdown>
+    <summary><h3>Using md_in_html to create A collapsible section</h3></summary>
+    This block of text is made collapsible by using the details tag and the md_in_html plugin for mkdocs
+
+    1. will markdown enumerated lists render?
+    2. I also wonder...
+
+        - if unordered lists will render 
+        - if ~~strikeout~~ text will render
+
+    Or, will they have to be implemented via html:
+<ol><li>First ordered list item</li><li>Another ordered list item</li></ol>
+<ul><li>first list item</li><li>Another list item with <strike>strikeout</strike> text</li></ul>
+
+</details>
 
     
 
