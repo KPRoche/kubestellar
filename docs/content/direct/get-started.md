@@ -51,8 +51,8 @@ If successful, the script will output the variable definitions that you would us
          * This is just an example of accordion text for demo purposes
 
 
-<details markdown="1">
-    <summary>Using md_in_html to create A collapsible section></summary>
+<details markdown="block">
+    <summary>Using md_in_html to create A collapsible section</summary>
     
     This block of text is made collapsible by using the details tag and the md_in_html plugin for mkdocs
 
@@ -64,9 +64,9 @@ If successful, the script will output the variable definitions that you would us
 
     Or, will they have to be implemented via html:
     
-<ol><li>First ordered list item</li><li>Another ordered list item</li></ol>
+    <ol><li>First ordered list item</li><li>Another ordered list item</li></ol>
 
-<ul><li>first list item</li><li>Another list item with <strike>strikeout</strike> text</li></ul>
+    <ul><li>first list item</li><li>Another list item with <strike>strikeout</strike> text</li></ul>
 
 </details>
 
