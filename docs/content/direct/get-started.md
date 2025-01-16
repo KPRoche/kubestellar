@@ -53,6 +53,7 @@ If successful, the script will output the variable definitions that you would us
 
 <details markdown>
     <summary><h3>Using md_in_html to create A collapsible section</h3></summary>
+    
     This block of text is made collapsible by using the details tag and the md_in_html plugin for mkdocs
 
     1. will markdown enumerated lists render?
@@ -62,7 +63,9 @@ If successful, the script will output the variable definitions that you would us
         - if ~~strikeout~~ text will render
 
     Or, will they have to be implemented via html:
+    
 <ol><li>First ordered list item</li><li>Another ordered list item</li></ol>
+
 <ul><li>first list item</li><li>Another list item with <strike>strikeout</strike> text</li></ul>
 
 </details>
