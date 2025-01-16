@@ -254,6 +254,8 @@ markdown_extensions:
   # Arbitrary nesting of code/content blocks inside each other
   - pymdownx.tabbed:
       alternate_style: true 
+  # Enable rendering of collapsible "details" sections
+  - pymdownx.details
   # Enable note/warning/etc. callouts
   - admonition
 
