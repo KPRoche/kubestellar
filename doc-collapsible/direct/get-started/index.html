@@ -3633,7 +3633,7 @@
 </ol>
 </details>
 <details>
-<div class="language-text highlight"><pre><span></span><code>&lt;summary&gt;Using md_in_html to create A collapsible section&gt;&lt;/summary&gt;
+<div class="language-text highlight"><pre><span></span><code>&lt;summary&gt;Using md_in_html to create A collapsible section&lt;/summary&gt;
 
 This block of text is made collapsible by using the details tag and the md_in_html plugin for mkdocs
 
@@ -3644,9 +3644,11 @@ This block of text is made collapsible by using the details tag and the md_in_ht
     - if ~~strikeout~~ text will render
 
 Or, will they have to be implemented via html:
+
+&lt;ol&gt;&lt;li&gt;First ordered list item&lt;/li&gt;&lt;li&gt;Another ordered list item&lt;/li&gt;&lt;/ol&gt;
+
+&lt;ul&gt;&lt;li&gt;first list item&lt;/li&gt;&lt;li&gt;Another list item with &lt;strike&gt;strikeout&lt;/strike&gt; text&lt;/li&gt;&lt;/ul&gt;
 </code></pre></div>
-<ol><li>First ordered list item</li><li>Another ordered list item</li></ol>
-<ul><li>first list item</li><li>Another list item with <strike>strikeout</strike> text</li></ul>
 </details>
 <p><em>Note: the script does the same things as described in the <a href="#step-by-step-setup">Step by Step Setup</a> but with maximum concurrency, so it can complete faster. This makes the script actually more complicated than the step-by-step process below. While this is great for getting started quickly with a demo system, you may want to follow the manual setup below to better understand the components and how to create a <a href="#next-steps">configuration that meets your needs</a>.</em></p>
 <h2 id="step-by-step-setup">Step by Step Setup<a class="headerlink" href="#step-by-step-setup" title="Permanent link">#</a></h2>
