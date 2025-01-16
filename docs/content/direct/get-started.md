@@ -39,21 +39,8 @@ bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/refs/ta
 
 If successful, the script will output the variable definitions that you would use when proceeding to the example scenarios. After successfully running the script, proceed to the [Exercise KubeStellar](#exercise-kubestellar) section below.
 
-<details markdown>
-  <summary>Congratulations! (md_to_html)</summary>
-  
-  ### You have successfully <strike>constructed an Interocitor</strike> set up a simple working demo of KubeStellar
-  
-  1. Scroll down the page to Next Steps to see what you can try
-  2. Warning
-     
-     * <strike>The Interocitor should not be used for posting to TikTok or other terrestrial social media</strike>
-     * This is just an example of accordion text for demo purposes
 
-
-</details>
-
-??? note "Collapsible Congratulations (pmkdown.details)"
+??? info "Congratulations! (expand for more info)"
 
     ### You have successfully <strike>constructed an Interocitor</strike> set up a simple working demo of KubeStellar
   
