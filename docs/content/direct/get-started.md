@@ -55,12 +55,12 @@ If successful, the script will output the variable definitions that you would us
 
 ??? note "Collapsible Congratulations (pmkdown.details)"
 
-    ### You have successfully ~~constructed an Interocitor~~ set up a simple working demo of KubeStellar
+    ### You have successfully <strike>constructed an Interocitor</strike> set up a simple working demo of KubeStellar
   
       1. Scroll down the page to Next Steps to see what you can try
       2. Warning
      
-         * ~~The Interocitor should not be used for posting to TikTok or other terrestrial social media~~
+         * <strike>The Interocitor should not be used for posting to TikTok or other terrestrial social media</strike>
          * This is just an example of accordion text for demo purposes
 
     
