@@ -3328,7 +3328,7 @@ Please remember to add <code>--set "kubeflex-operator.isOpenShift=true"</code>, 
 <p>Install a new chart with a different name. This choice does not requires to relist the existing control planes, but requires to disable the reinstallation of KubeFlex and PCHes:</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>helm<span class="w"> </span>upgrade<span class="w"> </span>--install<span class="w"> </span>add-wds2<span class="w"> </span>oci://ghcr.io/kubestellar/kubestellar/core-chart<span class="w"> </span>--version<span class="w"> </span><span class="nv">$KUBESTELLAR_VERSION</span><span class="w"> </span><span class="se">\</span>
 <a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="w">  </span>--set<span class="o">=</span><span class="s1">&#39;kubeflex-operator.install=false,InstallPCHs=false&#39;</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="w">  </span>--set-json<span class="o">=</span><span class="s1">&#39;WDSes=[{name&quot;:&quot;wds2&quot;}]&#39;</span>
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="w">  </span>--set-json<span class="o">=</span><span class="s1">&#39;WDSes=[{&quot;name&quot;:&quot;wds2&quot;}]&#39;</span>
 </code></pre></div>
 </li>
 </ol>
