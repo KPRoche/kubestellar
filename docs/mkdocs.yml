@@ -35,7 +35,7 @@ nav:
       - Release-notes: direct/release-notes.md
       - Roadmap: direct/roadmap.md
   - Getting Started: direct/get-started.md
-  - Workload Execution Clusters: direct/wec.md
+  - WECs: direct/wec.md
   - User Guide:
       - Guide Overview: direct/user-guide-intro.md
       - Getting Started: direct/get-started.md
