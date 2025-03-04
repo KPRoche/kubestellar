@@ -34,11 +34,10 @@ nav:
         - KubeStellar Galaxy: direct/galaxy-intro.md
       - Release-notes: direct/release-notes.md
       - Roadmap: direct/roadmap.md
-  - Getting Started: direct/get-started.md
-  - WECs: direct/wec.md
+  - Getting Started: direct/getstarted.md
   - User Guide:
       - Guide Overview: direct/user-guide-intro.md
-      - Getting Started: direct/getstarted.md
+      - Getting Started: direct/get-started.md
       - Getting Started from OCM: direct/start-from-ocm.md
       - General Setup:
           - Overview: direct/setup-overview.md
