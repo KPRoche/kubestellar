@@ -34,7 +34,7 @@ nav:
         - KubeStellar Galaxy: direct/galaxy-intro.md
       - Release-notes: direct/release-notes.md
       - Roadmap: direct/roadmap.md
-  - Getting Started: direct/get-started.md
+  - Getting Started: direct/getstarted.md
   - User Guide:
       - Guide Overview: direct/user-guide-intro.md
       - Getting Started: direct/get-started.md
