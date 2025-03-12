@@ -73,7 +73,7 @@ nav:
               - Missing results in a CombinedStatus object: direct/knownissue-collector-miss.md
       - Teardown: direct/teardown.md
   - Contributing: 
-      - How to join in: direct/contribute.md
+      - Overview (How to join in): direct/contribute.md
       - Code of Conduct: contribution-guidelines/coc.md
       - License: contribution-guidelines/LICENSE.md
       - Governance: contribution-guidelines/governance.md
