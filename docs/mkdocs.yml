@@ -74,6 +74,7 @@ nav:
       - Teardown: direct/teardown.md
   - Contributing: 
       - Overview (How to join in): direct/contribute.md
+      - Guidelines: contribution-guidelines/CONTRIBUTING.md
       - Code of Conduct: contribution-guidelines/coc.md
       - License: contribution-guidelines/LICENSE.md
       - Governance: contribution-guidelines/governance.md
@@ -88,7 +89,6 @@ nav:
       - Packaging: direct/packaging.md
       - Release Process: direct/release.md
       - Release Testing: direct/release-testing.md
-      - Guidelines: contribution-guidelines/CONTRIBUTING.md
       - Sign-off and Signing Contributions: direct/pr-signoff.md
   - Community: 
     - Get Involved: Community/_index.md
