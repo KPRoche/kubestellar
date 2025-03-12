@@ -9,7 +9,7 @@ If you have any inquiries, please feel free to reach out to us on the KubeStella
 
 ## Work with us on GitHub!
 
-Full documentation on how to contribute to the development of KubeStellar is available as part of our GitHub repository. See it [there](https://github.com/kubestellar/kubestellar/blob/main/docs/content/direct/contributor.md).
+More documentation and the actual management of contributions to the development of KubeStellar done via our GitHub repository. See it [there](https://github.com/kubestellar/kubestellar/).
 
 *We can't wait to collaborate with you!*
 
