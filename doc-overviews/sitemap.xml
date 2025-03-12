@@ -105,22 +105,6 @@
          
     </url>
     <url>
-         <loc>https://docs.kubestellar.io/doc-overviews/contribution-guidelines/CONTRIBUTING/</loc>
-         <lastmod>2025-03-12</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-overviews/en/contribution-guidelines/CONTRIBUTING/"/>
-         <xhtml:link rel="alternate" hreflang="fr" href="https://docs.kubestellar.io/doc-overviews/fr/contribution-guidelines/CONTRIBUTING/"/>
-         
-    </url>
-    <url>
-         <loc>https://docs.kubestellar.io/doc-overviews/contribution-guidelines/LICENSE/</loc>
-         <lastmod>2025-03-12</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-overviews/en/contribution-guidelines/LICENSE/"/>
-         <xhtml:link rel="alternate" hreflang="fr" href="https://docs.kubestellar.io/doc-overviews/fr/contribution-guidelines/LICENSE/"/>
-         
-    </url>
-    <url>
          <loc>https://docs.kubestellar.io/doc-overviews/contribution-guidelines/coc/</loc>
          <lastmod>2025-03-12</lastmod>
          <changefreq>daily</changefreq>
@@ -129,11 +113,27 @@
          
     </url>
     <url>
+         <loc>https://docs.kubestellar.io/doc-overviews/contribution-guidelines/contribute-github/</loc>
+         <lastmod>2025-03-12</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-overviews/en/contribution-guidelines/contribute-github/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://docs.kubestellar.io/doc-overviews/fr/contribution-guidelines/contribute-github/"/>
+         
+    </url>
+    <url>
          <loc>https://docs.kubestellar.io/doc-overviews/contribution-guidelines/governance/</loc>
          <lastmod>2025-03-12</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-overviews/en/contribution-guidelines/governance/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://docs.kubestellar.io/doc-overviews/fr/contribution-guidelines/governance/"/>
+         
+    </url>
+    <url>
+         <loc>https://docs.kubestellar.io/doc-overviews/contribution-guidelines/license/</loc>
+         <lastmod>2025-03-12</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-overviews/en/contribution-guidelines/license/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://docs.kubestellar.io/doc-overviews/fr/contribution-guidelines/license/"/>
          
     </url>
     <url>
