@@ -1,22 +1,20 @@
 # Contributing to KubeStellar
 Greetings! We are grateful for your interest in joining the KubeStellar community and making a positive impact. Whether you're raising issues, enhancing documentation, fixing bugs, or developing new features, your contributions are essential to our success.
 
-To get started, kindly read through this document and familiarize yourself with our code of conduct. If you have any inquiries, please feel free to reach out to us on the KubeStellar-dev [Slack channel](https://kubernetes.slack.com/archives/C058SUSL5AA/).
+This document describes our policies, procedures and best practices for working on KubeStellar via the project and repository on GitHub. Much of this interaction (issues, pull requests, discussions) is meant to be viewed directly at the [KubeStellar repository webpage on GitHub](https://github.com/kubestellar/kubestellar/). Other community discussions and questions are available via our slack channel. If you have any inquiries, please feel free to reach out to us on the [KubeStellar-dev Slack channel](https://kubernetes.slack.com/archives/C058SUSL5AA/).
 
-We can't wait to collaborate with you!
+Please read the following guidelines if you're interested in contributing to KubeStellar.
 
-## See Also
-
-Part of our documentation of how to contribute is meant to be viewed directly at GitHub. See it [there](https://github.com/kubestellar/kubestellar/blob/main/docs/content/direct/contributor.md).
-
-## See Here
+## General practices in the KubeStellar GitHub Project
 
 ### Issues
+[View active issues on GitHub](https://github.com/kubestellar/kubestellar/issues)
+
 Prioritization for pull requests is given to those that address and resolve existing GitHub issues. Utilize the available issue labels to identify meaningful and relevant issues to work on.
 
 If you believe that there is a need for a fix and no existing issue covers it, feel free to create a new one.
 
-As a new contributor, we encourage you to start with issues labeled as good first issues.
+As a new contributor, we encourage you to start with issues labeled as **good first issues**.
 
 Your assistance in improving documentation is highly valued, regardless of your level of experience with the project.
 
@@ -31,6 +29,8 @@ A recommended format for final commit messages is as follows:
 {Short Title}: {Problem this commit is solving and any important contextual information} {issue number if applicable}
 ```
 ### Pull Requests
+[View active Pull Requests on GitHub](https://github.com/kubestellar/kubestellar/pulls)
+
 When submitting a pull request, clear communication is appreciated. This can be achieved by providing the following information:
 
 - Detailed description of the problem you are trying to solve, along with links to related GitHub issues
@@ -49,10 +49,8 @@ Congratulations! Your pull request has been successfully merged! 👏
 If you have any questions about contributing, don't hesitate to reach out to us on the KubeStellar-dev [Slack channel](https://kubernetes.slack.com/archives/C058SUSL5AA/).
 
 ## Licensing
-KubeStellar is [Apache 2.0 licensed](LICENSE.md) and we accept contributions via
-GitHub pull requests.
+KubeStellar is [Apache 2.0 licensed](license.md) and we accept contributions via GitHub pull requests.
 
-Please read the following guide if you're interested in contributing to KubeStellar.
 
 ## Certificate of Origin
 
