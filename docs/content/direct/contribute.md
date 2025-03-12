@@ -9,7 +9,7 @@ If you have any inquiries, please feel free to reach out to us on the KubeStella
 
 ## Work with us on GitHub!
 
-More documentation and the actual management of contributions to the development of KubeStellar done via our GitHub repository. See it [there](https://github.com/kubestellar/kubestellar/blob/main/docs/content/direct/contributor.md).
+More documentation and the actual management of contributions to the development of KubeStellar are done [via our GitHub repository.](https://github.com/kubestellar/kubestellar).
 
 *We can't wait to collaborate with you!*
 
@@ -19,7 +19,7 @@ In addition to the Code of Conduct, there are a number of terms, conditions and 
 
 - **[Code of Conduct](../contribution-guidelines/coc.md)** The CNCF code of conduct for the KubeStellar community
 - **[Guidelines](../contribution-guidelines/contribute-github.md)** General Guidelines for our Github processes
-- **[License](../contribution-guidelines/LICENlicense.md)** The Apache 2.0 license under which KubeStellar is published
+- **[License](../contribution-guidelines/license.md)** The Apache 2.0 license under which KubeStellar is published
 - **[Governance](../contribution-guidelines/governance.md)** The protocols under which the KubeStellar project is run
 - **[Onboarding](../contribution-guidelines/onboarding.md)** The procedures for adding/removing members of our Github organization
 - **Website**

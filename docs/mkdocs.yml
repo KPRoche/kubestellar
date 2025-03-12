@@ -74,9 +74,9 @@ nav:
       - Teardown: direct/teardown.md
   - Contributing: 
       - Overview (How to join in): direct/contribute.md
-      - Guidelines: contribution-guidelines/CONTRIBUTING.md
       - Code of Conduct: contribution-guidelines/coc.md
-      - License: contribution-guidelines/LICENSE.md
+      - Guidelines: contribution-guidelines/contribute-github.md
+      - License: contribution-guidelines/license.md
       - Governance: contribution-guidelines/governance.md
       - Onboarding: contribution-guidelines/onboarding.md
       - Website:
