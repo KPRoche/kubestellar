@@ -18,8 +18,8 @@ Full documentation on how to contribute to the development of KubeStellar is ava
 In addition to the Code of Conduct, there are a number of terms, conditions and processes that define our open-source process. They are explained in full detail on the pages in this section of the website:
 
 - **[Code of Conduct](../contribution-guidelines/coc.md)** The CNCF code of conduct for the KubeStellar community
-- **[Guidelines](../contribution-guidelines/CONTRIBUTING.md)** General Guidelines for our Github processes
-- **[License](../contribution-guidelines/LICENSE.md)** The Apache 2.0 license under which KubeStellar is published
+- **[Guidelines](../contribution-guidelines/contribute-github.md)** General Guidelines for our Github processes
+- **[License](../contribution-guidelines/license.md)** The Apache 2.0 license under which KubeStellar is published
 - **[Governance](../contribution-guidelines/governance.md)** The protocols under which the KubeStellar project is run
 - **[Onboarding](../contribution-guidelines/onboarding.md)** The procedures for adding/removing members of our Github organization
 - **Website**
