@@ -1,3 +1,3 @@
 {%
-  include-markdown  "../../../GOVERNANCE.md"
+  include  "../../../GOVERNANCE.md"
 %}
