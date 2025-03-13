@@ -30,7 +30,7 @@ In addition to the Code of Conduct, there are a number of terms, conditions and 
     - **[Contacts](../contribution-guidelines/security/security_contacts.md)** Who to contact with security concerns
 - **[Testing](testing.md)** How to use the preconfigured tests in the repository
 - **[Packaging](packaging.md)** How the components of KubeStellar are organized
-- **[Release Process](release-notes.md)** All the steps involved in creating and publishing a new release of KubeStellar
+- **[Release Process](release.md)** All the steps involved in creating and publishing a new release of KubeStellar
 - **[Release Testing](release-testing.md)** Steps involved in testing a release or release candidate before merging it into the main branch.
 - **[Sign-off and Signing Contributions](pr-signoff.md)** How to properly configure your commits so they are both signed and "signed off" (and how those terms differ)
 
