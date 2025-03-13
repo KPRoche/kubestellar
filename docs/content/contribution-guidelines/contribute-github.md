@@ -6,7 +6,7 @@ This file includes the CONTRIBUTE.md file found in the root of the KubeStellar r
 ---------------  start include --------------------
 
 {%
-    include-markdown "../../CONTRIBUTE.md"
+    include-markdown "../../../CONTRIBUTING.md"
 %}
 
 ----------------- end include ----------------------
