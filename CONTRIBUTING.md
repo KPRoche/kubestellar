@@ -1,4 +1,5 @@
 # Contributing to KubeStellar
+<!--guidelines-start-->
 Greetings! We are grateful for your interest in joining the KubeStellar community and making a positive impact. Whether you're raising issues, enhancing documentation, fixing bugs, or developing new features, your contributions are essential to our success.
 
 To get started, kindly read through this document and familiarize yourself with our code of conduct. If you have any inquiries, please feel free to reach out to us on [Slack](https://kubernetes.slack.com/archives/C058SUSL5AA).
@@ -10,12 +11,11 @@ This document describes our policies, procedures and best practices for working 
 
 Please read the following guidelines if you're interested in contributing to KubeStellar.
 
-<!--guidelines-start-->
 ## General practices in the KubeStellar GitHub Project
 
 ### Contributing Code -- Prerequisites
 
-Please make sure that your environment has all the necessary versions as spelled out in the prerequisites section of our [user guide](../../pre-reqs.md)
+Please make sure that your environment has all the necessary versions as spelled out in the prerequisites section of our [user guide](../direct/pre-reqs.md)
 
 
 ### Issues
