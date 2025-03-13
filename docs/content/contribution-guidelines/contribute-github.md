@@ -5,7 +5,9 @@ This file includes the CONTRIBUTE.md file found in the root of the KubeStellar r
 
 ---------------  start include --------------------
 
-See also the [CONTRIBUTING]({{ config.repo_url }}/blob/{{ config.ks_branch }}/CONTRIBUTING) file for details.
+{%
+    include "{{ config.repo_url }}/blob/{{ config.ks_branch }}/CONTRIBUTING.md"
+%}
 
 ----------------- end include ----------------------
 
