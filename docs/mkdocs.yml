@@ -77,7 +77,7 @@ nav:
       - Code of Conduct: contribution-guidelines/coc-inc.md
       - Guidelines: contribution-guidelines/contribute-github.md
       - License: contribution-guidelines/license-include.md
-      - Governance: contribution-guidelines/GOVERNANCE.md
+      - Governance: contribution-guidelines/governance-inc.md
       - Onboarding: contribution-guidelines/onboarding-inc.md
       - Website:
           - Docs Management Overview: contribution-guidelines/operations/document-management.md
