@@ -121,6 +121,14 @@
          
     </url>
     <url>
+         <loc>https://docs.kubestellar.io/doc-inc_rootsource/contribution-guidelines/governance-inc/</loc>
+         <lastmod>2025-03-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-inc_rootsource/en/contribution-guidelines/governance-inc/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://docs.kubestellar.io/doc-inc_rootsource/fr/contribution-guidelines/governance-inc/"/>
+         
+    </url>
+    <url>
          <loc>https://docs.kubestellar.io/doc-inc_rootsource/contribution-guidelines/license-include/</loc>
          <lastmod>2025-03-13</lastmod>
          <changefreq>daily</changefreq>
