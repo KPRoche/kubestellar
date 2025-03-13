@@ -13,7 +13,7 @@ More documentation and the actual management of contributions to the development
 
 *We can't wait to collaborate with you!*
 
-# More details about Contributing
+## What else is here: more details about contributing
 
 In addition to the Code of Conduct, there are a number of terms, conditions and processes that define our open-source process. They are explained in full detail on the pages in this section of the website:
 
