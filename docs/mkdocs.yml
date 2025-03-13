@@ -74,17 +74,17 @@ nav:
       - Teardown: direct/teardown.md
   - Contributing: 
       - Overview (How to join in): direct/contribute.md
-      - Code of Conduct: contribution-guidelines/coc.md
+      - Code of Conduct: contribution-guidelines/coc-inc.md
       - Guidelines: contribution-guidelines/contribute-github.md
-      - License: contribution-guidelines/license.md
-      - Governance: contribution-guidelines/governance.md
-      - Onboarding: contribution-guidelines/onboarding.md
+      - License: contribution-guidelines/license-include.md
+      - Governance: contribution-guidelines/GOVERNANCE.md
+      - Onboarding: contribution-guidelines/onboarding-inc.md
       - Website:
           - Docs Management Overview: contribution-guidelines/operations/document-management.md
           - Testing website PRs: contribution-guidelines/operations/testing-doc-prs.md
       - Security:
-          - Policy: contribution-guidelines/security/security.md
-          - Contacts: contribution-guidelines/security/security_contacts.md
+          - Policy: contribution-guidelines/security/security-inc.md
+          - Contacts: contribution-guidelines/security/security_contacts-inc.md
       - Testing: direct/testing.md
       - Packaging: direct/packaging.md
       - Release Process: direct/release.md

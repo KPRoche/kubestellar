@@ -17,17 +17,17 @@ More documentation and the actual management of contributions to the development
 
 In addition to the Code of Conduct, there are a number of terms, conditions and processes that define our open-source process. They are explained in full detail on the pages in this section of the website:
 
-- **[Code of Conduct](../contribution-guidelines/coc.md)** The CNCF code of conduct for the KubeStellar community
+- **[Code of Conduct](../contribution-guidelines/coc-inc.md)** The CNCF code of conduct for the KubeStellar community
 - **[Guidelines](../contribution-guidelines/contribute-github.md)** General Guidelines for our Github processes
 - **[License](../contribution-guidelines/license-include.md)** The Apache 2.0 license under which KubeStellar is published
-- **[Governance](../contribution-guidelines/governance.md)** The protocols under which the KubeStellar project is run
-- **[Onboarding](../contribution-guidelines/onboarding.md)** The procedures for adding/removing members of our Github organization
+- **[Governance](../contribution-guidelines/GOVERNANCE.md)** The protocols under which the KubeStellar project is run
+- **[Onboarding](../contribution-guidelines/onboarding-inc.md)** The procedures for adding/removing members of our Github organization
 - **Website**
     - **[Build Overview](../contribution-guidelines/operations/document-management.md)** How our website is built and how to collaboratively work on changes to it using Github staging
     - **[Testing website PRs](../contribution-guidelines/operations/testing-doc-prs.md)** how to test website changes using only your local workstation
 - **Security**
-    - **[Policy](../contribution-guidelines/security/security.md)** Security Policies
-    - **[Contacts](../contribution-guidelines/security/security_contacts.md)** Who to contact with security concerns
+    - **[Policy](../contribution-guidelines/security/security-inc.md)** Security Policies
+    - **[Contacts](../contribution-guidelines/security/security_contacts-inc.md)** Who to contact with security concerns
 - **[Testing](testing.md)** How to use the preconfigured tests in the repository
 - **[Packaging](packaging.md)** How the components of KubeStellar are organized
 - **[Release Process](release.md)** All the steps involved in creating and publishing a new release of KubeStellar
