@@ -11,7 +11,7 @@ Please read the following guidelines if you're interested in contributing to Kub
 
 {%
     include "../../../CONTRIBUTING.md"
-    start="## General practices in the Kubestellar GitHub Project"
+    start="<!--guidelines-start-->"
 %}
 
 ----------------- end include ----------------------
