@@ -14,7 +14,9 @@ Prioritization for pull requests is given to those that address and resolve exis
 
 If you believe that there is a need for a fix and no existing issue covers it, feel free to create a new one.
 
-As a new contributor, we encourage you to start with issues labeled as **good first issues**.
+As a new contributor, we encourage you to start with issues labeled as **[good first issue.](https://github.com/kubestellar/kubestellar/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)**
+
+We also have a subset of issues we've labeled **[help wanted!](https://github.com/kubestellar/kubestellar/labels/help%20wanted)**
 
 Your assistance in improving documentation is highly valued, regardless of your level of experience with the project.
 
