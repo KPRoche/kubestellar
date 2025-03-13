@@ -18,7 +18,7 @@ Please read the following guidelines if you're interested in contributing to Kub
 Please make sure that your environment has all the necessary versions as spelled out in the prerequisites section of our [user guide](../direct/pre-reqs.md)
 <!--end-first-include-->
 (If you are viewing this file in the repository, the [pre-req listing is in the docs subfolder](./docs/content/direct/pre-reqs.md))
-<!--start-second-include>
+<!--start-second-include-->
 
 ### Issues
 [View active issues on GitHub](https://github.com/kubestellar/kubestellar/issues)
