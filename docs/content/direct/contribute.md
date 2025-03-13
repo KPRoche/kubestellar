@@ -20,7 +20,7 @@ In addition to the Code of Conduct, there are a number of terms, conditions and 
 - **[Code of Conduct](../contribution-guidelines/coc-inc.md)** The CNCF code of conduct for the KubeStellar community
 - **[Guidelines](../contribution-guidelines/contribute-github.md)** General Guidelines for our Github processes
 - **[License](../contribution-guidelines/license-include.md)** The Apache 2.0 license under which KubeStellar is published
-- **[Governance](../contribution-guidelines/gov-include.md)** The protocols under which the KubeStellar project is run
+- **[Governance](../contribution-guidelines/governance-inc.md)** The protocols under which the KubeStellar project is run
 - **[Onboarding](../contribution-guidelines/onboarding-inc.md)** The procedures for adding/removing members of our Github organization
 - **Website**
     - **[Build Overview](../contribution-guidelines/operations/document-management.md)** How our website is built and how to collaboratively work on changes to it using Github staging
