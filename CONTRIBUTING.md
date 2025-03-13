@@ -15,7 +15,7 @@ Please read the following guidelines if you're interested in contributing to Kub
 
 ### Contributing Code -- Prerequisites
 
-Please make sure that your environment has all the necessary versions as spelled out in the [prerequisites](direct/pre-reqs.md)
+Please make sure that your environment has all the necessary versions as spelled out in the prerequisites section of our [user guide](../pre-reqs.md)
 
 
 ### Issues
