@@ -7,6 +7,7 @@ This file includes the CONTRIBUTE.md file found in the root of the KubeStellar r
 
 {%
     include "../../../CONTRIBUTING.md"
+    start = "essential to our success"
 %}
 
 ----------------- end include ----------------------
