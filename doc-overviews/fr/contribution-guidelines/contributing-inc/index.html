@@ -2131,6 +2131,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Pull Requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titling-pull-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Titling Pull Requests
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pull-request-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pull Request Process
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -3176,6 +3200,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Pull Requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titling-pull-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Titling Pull Requests
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pull-request-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pull Request Process
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -3301,8 +3349,9 @@ In conformance with CNCF expectations, we will only merge commits that indicate 
 <li>Updates to relevant documentation and examples, if applicable</li>
 </ul>
 <p>The pull request template has been designed to assist you in communicating this information effectively.</p>
-<p>We require that the title of each pull request start with a special character (emoji) that classifies the request into one of the following categories. The GitHub web interface will assist you.
-To add the character, while editing the title of your pull request, type a colon (':') and begin typing the character nickname (<em>e.g.</em> sparkles) and the web interface should offer you a pick-list of corresponding characters. Just click on the correct one to insert it in the title, and then at least one space afterwards.</p>
+<h4 id="titling-pull-requests">Titling Pull Requests<a class="headerlink" href="#titling-pull-requests" title="Permanent link">#</a></h4>
+<p>We require that the title of each pull request start with a special character (emoji) that classifies the request into one of the following categories. </p>
+<p>The characters to use for different PRs are as follows</p>
 <ul>
 <li>✨ (write <code>:sparkles:</code>) feature</li>
 <li>🐛 (write <code>:bug:</code>) bug fix</li>
@@ -3312,9 +3361,17 @@ To add the character, while editing the title of your pull request, type a colon
 <li>🌱 (write <code>:seedling:</code>) other/misc</li>
 <li>❓ (write <code>:question:</code>) requires manual review/categorization</li>
 </ul>
+<hr />
+<p><em>Note: The GitHub web interface will assist you with adding the character; while editing the title of your pull request:</em>
+- <em>type a colon (':')</em>
+- <em>begin typing the character nickname (_e.g.</em> sparkles)<em>
+- _the web interface should offer you a pick-list of corresponding characters.</em>
+- <em>Just click on the correct one to insert it in the title</em>
+- <em>Add at least one space after the special character.</em></p>
+<h4 id="pull-request-process">Pull Request Process<a class="headerlink" href="#pull-request-process" title="Permanent link">#</a></h4>
 <p>Smaller pull requests are typically easier to review and merge than larger ones. If your pull request is big, it is always recommended to collaborate with the maintainers to find the best way to divide it.</p>
-<p>Approvers will review your PR within a business day. A PR requires both an /lgtm and then an /approve in order to get merged. You may /approve your own PR but you may not /lgtm it. Automation will add the PR it to the OpenShift PR merge queue. The OpenShift Tide bot will automatically merge your work when it is available.</p>
-<p>Congratulations! Your pull request has been successfully merged! 👏</p>
+<p>Approvers will review your PR within a business day. A PR requires both an /lgtm and then an /approve in order to get merged. You may /approve your own PR but you may not /lgtm it. Automation will add the PR it to the OpenShift PR merge queue. The OpenShift Tide bot will automatically merge your work when it is available, and you will be notified:</p>
+<p><em>Congratulations! Your pull request has been successfully merged!</em> 👏</p>
 <p>If you have any questions about contributing, don't hesitate to reach out to us on the KubeStellar-dev <a href="https://kubernetes.slack.com/archives/C058SUSL5AA/">Slack channel</a>.</p>
 <h2 id="testing-locally">Testing Locally<a class="headerlink" href="#testing-locally" title="Permanent link">#</a></h2>
 <p>Our <a href="../../direct/get-started/">Getting Started</a> guide shows a user how to install a simple "kick the tires" instance of KubeStellar using a helm chart and kind.</p>
