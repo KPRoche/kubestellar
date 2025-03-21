@@ -2197,9 +2197,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#testing-changes-to-the-helm-script" class="md-nav__link">
+  <a href="#testing-changes-to-the-helm-chart" class="md-nav__link">
     <span class="md-ellipsis">
-      Testing changes to the helm script
+      Testing changes to the helm chart
     </span>
   </a>
   
@@ -3266,9 +3266,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#testing-changes-to-the-helm-script" class="md-nav__link">
+  <a href="#testing-changes-to-the-helm-chart" class="md-nav__link">
     <span class="md-ellipsis">
-      Testing changes to the helm script
+      Testing changes to the helm chart
     </span>
   </a>
   
@@ -3374,16 +3374,16 @@ In conformance with CNCF expectations, we will only merge commits that indicate 
 </ul>
 <p>The pull request template has been designed to assist you in communicating this information effectively.</p>
 <h4 id="titling-pull-requests">Titling Pull Requests<a class="headerlink" href="#titling-pull-requests" title="Permanent link">#</a></h4>
-<p>We require that the title of each pull request start with a special character (emoji) that classifies the request into one of the following categories. </p>
-<p>The characters to use for different PRs are as follows</p>
+<p>We require that the title of each pull request start with a special nickname character (emoji) that classifies the request into one of the following categories. </p>
+<p>The nickname characters to use for different PRs are as follows</p>
 <ul>
-<li>✨ (write <code>:sparkles:</code>) feature</li>
-<li>🐛 (write <code>:bug:</code>) bug fix</li>
-<li>📖 (write <code>:book:</code>) docs</li>
-<li>📝 (write <code>:memo:</code>)  proposal</li>
-<li>⚠️ (write <code>:warning:</code>) breaking change</li>
-<li>🌱 (write <code>:seedling:</code>) other/misc</li>
-<li>❓ (write <code>:question:</code>) requires manual review/categorization</li>
+<li>✨ (nickname <code>:sparkles:</code>) feature</li>
+<li>🐛 (nickname <code>:bug:</code>) bug fix</li>
+<li>📖 (nickname <code>:book:</code>) docs</li>
+<li>📝 (nickname <code>:memo:</code>)  proposal</li>
+<li>⚠️ (nickname <code>:warning:</code>) breaking change</li>
+<li>🌱 (nickname <code>:seedling:</code>) other/misc</li>
+<li>❓ (nickname <code>:question:</code>) requires manual review/categorization</li>
 </ul>
 <hr />
 <p><em>Note: The GitHub web interface will assist you with adding the character; while editing the title of your pull request:</em></p>
@@ -3401,14 +3401,13 @@ In conformance with CNCF expectations, we will only merge commits that indicate 
 <p>If you have any questions about contributing, don't hesitate to reach out to us on the KubeStellar-dev <a href="https://kubernetes.slack.com/archives/C058SUSL5AA/">Slack channel</a>.</p>
 <h2 id="testing-locally">Testing Locally<a class="headerlink" href="#testing-locally" title="Permanent link">#</a></h2>
 <p>Our <a href="../../direct/get-started/">Getting Started</a> guide shows a user how to install a simple "kick the tires" instance of KubeStellar using a helm chart and kind.</p>
-<p>The helm chart offers many options, but as a contributor you may  want a different setup flow, including <code>git clone</code> of this repo instead of fetching and unpacking a release archive.<br />
-Follow the links in <a href="../../direct/user-guide-intro/#the-full-story">"The Full Story"</a> section of the User Guide introduction to better inform your installation.</p>
-<p>Several <a href="../../direct/example-scenarios/">example scenarios</a> are available to test your system once it is setup.</p>
-<h3 id="testing-changes-to-the-helm-script">Testing changes to the helm script<a class="headerlink" href="#testing-changes-to-the-helm-script" title="Permanent link">#</a></h3>
-<p>If you are interested in modifying the helm script itself, look at the User Guide page on the <a href="../../direct/core-chart/">Core Helm Script</a> for more information on its many options before you begin, notably on how to specify using a local version of the script.</p>
+<p>To set up and test a development system, please refer to the <em>test/e2e/README.md</em> file in the GitHub repository.
+After running any of those e2e (end to end) tests you will be left with a running system that can be exercised further.</p>
+<h3 id="testing-changes-to-the-helm-chart">Testing changes to the helm chart<a class="headerlink" href="#testing-changes-to-the-helm-chart" title="Permanent link">#</a></h3>
+<p>If you are interested in modifying the Helm chart itself, look at the User Guide page on the <a href="../../direct/core-chart/">Core Helm chart</a> for more information on its many options before you begin, notably on how to specify using a local version of the script.</p>
 <h3 id="testing-the-script-against-an-upcoming-release">Testing the script against an upcoming release<a class="headerlink" href="#testing-the-script-against-an-upcoming-release" title="Permanent link">#</a></h3>
 <p>Prior to making a new release, there needs to be testing that the
-current helm script works with the executable behavior that will
+current Helm chart works with the executable behavior that will
 appear in the new release.  </p>
 <h2 id="licensing">Licensing<a class="headerlink" href="#licensing" title="Permanent link">#</a></h2>
 <p>KubeStellar is <a href="../license-inc/">Apache 2.0 licensed</a> and we accept contributions via GitHub pull requests.</p>
