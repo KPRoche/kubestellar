@@ -521,6 +521,14 @@
          
     </url>
     <url>
+         <loc>https://docs.kubestellar.io/doc-add_ui/ui-docs/</loc>
+         <lastmod>2025-03-27</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://docs.kubestellar.io/doc-add_ui/en/ui-docs/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://docs.kubestellar.io/doc-add_ui/fr/ui-docs/"/>
+         
+    </url>
+    <url>
          <loc>https://docs.kubestellar.io/doc-add_ui/ui-docs/ui-overview/</loc>
          <lastmod>2025-03-27</lastmod>
          <changefreq>daily</changefreq>
