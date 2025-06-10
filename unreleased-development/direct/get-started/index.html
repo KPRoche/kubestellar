@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../favicons/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -2296,6 +2296,8 @@
       
         
       
+        
+      
     
     
     
@@ -2457,7 +2459,30 @@
   
   
   <span class="md-ellipsis">
-    Increase Inotify Watches
+    Kind host not configured for more than two clusters
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../knownissue-cpu-insufficient-for-its1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Insufficient CPU for your clusters
     
   </span>
   
@@ -3878,10 +3903,10 @@
 <h3 id="run-the-script">Run the script!<a class="headerlink" href="#run-the-script" title="Permanent link">#</a></h3>
 <p>The script can install KubeStellar's demonstration environment on top of kind or k3d</p>
 <p>For use with kind
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/refs/tags/v0.27.2/scripts/create-kubestellar-demo-env.sh<span class="o">)</span><span class="w"> </span>--platform<span class="w"> </span>kind
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/refs/tags/v0.28.0-alpha.2/scripts/create-kubestellar-demo-env.sh<span class="o">)</span><span class="w"> </span>--platform<span class="w"> </span>kind
 </code></pre></div></p>
 <p>For use with k3d
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/refs/tags/v0.27.2/scripts/create-kubestellar-demo-env.sh<span class="o">)</span><span class="w"> </span>--platform<span class="w"> </span>k3d
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/refs/tags/v0.28.0-alpha.2/scripts/create-kubestellar-demo-env.sh<span class="o">)</span><span class="w"> </span>--platform<span class="w"> </span>k3d
 </code></pre></div></p>
 <p>If successful, the script will output the variable definitions that you would use when proceeding to the example scenarios. After successfully running the script, proceed to the <a href="#exercise-kubestellar">Exercise KubeStellar</a> section below.</p>
 <p><em>Note: the script does the same things as described in the <a href="#step-by-step-setup">Step by Step Setup</a> but with maximum concurrency, so it can complete faster. This makes the script actually more complicated than the step-by-step process below. While this is great for getting started quickly with a demo system, you may want to follow the manual setup below to better understand the components and how to create a <a href="#next-steps">configuration that meets your needs</a>.</em></p>
@@ -3889,7 +3914,7 @@
 <p>This walks you through the steps to produce the same configuration as does the script above, suitable for study but not production usage. For general setup information, see <a href="../user-guide-intro/#the-full-story">the full story</a>.</p>
 <h3 id="install-software-prerequisites_1">Install software prerequisites<a class="headerlink" href="#install-software-prerequisites_1" title="Permanent link">#</a></h3>
 <p>The following command will check for the prerequisites that you will need for the later steps. See <a href="../pre-reqs/">the prerequisites doc</a> for more details.</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.27.2/scripts/check_pre_req.sh<span class="o">)</span><span class="w"> </span>kflex<span class="w"> </span>ocm<span class="w"> </span>helm<span class="w"> </span>kubectl<span class="w"> </span>docker<span class="w"> </span>kind
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.28.0-alpha.2/scripts/check_pre_req.sh<span class="o">)</span><span class="w"> </span>kflex<span class="w"> </span>ocm<span class="w"> </span>helm<span class="w"> </span>kubectl<span class="w"> </span>docker<span class="w"> </span>kind
 </code></pre></div>
 <p>If that script complains then take it seriously! For example, the following indicates that you have a version of clusteradm that KubeStellar cannot use.</p>
 <div class="language-console highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="gp">$ </span>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.27.1/scripts/check_pre_req.sh<span class="o">)</span><span class="w"> </span>kflex<span class="w"> </span>ocm<span class="w"> </span>helm<span class="w"> </span>kubectl<span class="w"> </span>docker<span class="w"> </span>kind
@@ -3916,18 +3941,18 @@ commands tear down the state established by this recipe.</p>
 go unnoticed (the various cleanup commands may legitimately "fail" if
 there is nothing to clean up).</p>
 <h3 id="set-the-version-appropriately-as-an-environment-variable">Set the Version appropriately as an environment variable<a class="headerlink" href="#set-the-version-appropriately-as-an-environment-variable" title="Permanent link">#</a></h3>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nv">kubestellar_version</span><span class="o">=</span><span class="m">0</span>.27.2
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nv">kubestellar_version</span><span class="o">=</span><span class="m">0</span>.28.0-alpha.2
 </code></pre></div>
 <h3 id="create-a-kind-cluster-to-host-kubeflex">Create a kind cluster to host KubeFlex<a class="headerlink" href="#create-a-kind-cluster-to-host-kubeflex" title="Permanent link">#</a></h3>
 <p>For convenience, a new local <strong>Kind</strong> cluster that satisfies the requirements for playing the role of KubeFlex hosting cluster can be created with the following command:</p>
-<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.27.2/scripts/create-kind-cluster-with-SSL-passthrough.sh<span class="o">)</span><span class="w"> </span>--name<span class="w"> </span>kubeflex<span class="w"> </span>--port<span class="w"> </span><span class="m">9443</span>
+<div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>bash<span class="w"> </span>&lt;<span class="o">(</span>curl<span class="w"> </span>-s<span class="w"> </span>https://raw.githubusercontent.com/kubestellar/kubestellar/v0.28.0-alpha.2/scripts/create-kind-cluster-with-SSL-passthrough.sh<span class="o">)</span><span class="w"> </span>--name<span class="w"> </span>kubeflex<span class="w"> </span>--port<span class="w"> </span><span class="m">9443</span>
 </code></pre></div>
 <h3 id="use-core-helm-chart-to-initialize-kubeflex-and-create-its-and-wds">Use Core Helm chart to initialize KubeFlex and create ITS and WDS<a class="headerlink" href="#use-core-helm-chart-to-initialize-kubeflex-and-create-its-and-wds" title="Permanent link">#</a></h3>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>helm<span class="w"> </span>upgrade<span class="w"> </span>--install<span class="w"> </span>ks-core<span class="w"> </span>oci://ghcr.io/kubestellar/kubestellar/core-chart<span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">    </span>--version<span class="w"> </span><span class="nv">$kubestellar_version</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">    </span>--set-json<span class="o">=</span><span class="s1">&#39;ITSes=[{&quot;name&quot;:&quot;its1&quot;}]&#39;</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">    </span>--set-json<span class="o">=</span><span class="s1">&#39;WDSes=[{&quot;name&quot;:&quot;wds1&quot;},{&quot;name&quot;:&quot;wds2&quot;, &quot;type&quot;:&quot;host&quot;}]&#39;</span><span class="w"> </span><span class="se">\</span>
-<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">    </span>--set-json<span class="o">=</span><span class="s1">&#39;verbosity.default=5&#39;</span><span class="w"> </span><span class="c1"># so we can debug your problem reports</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">    </span>--version<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$kubestellar_version</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">    </span>--set-json<span class="w"> </span><span class="nv">ITSes</span><span class="o">=</span><span class="s1">&#39;[{&quot;name&quot;:&quot;its1&quot;}]&#39;</span><span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">    </span>--set-json<span class="w"> </span><span class="nv">WDSes</span><span class="o">=</span><span class="s1">&#39;[{&quot;name&quot;:&quot;wds1&quot;},{&quot;name&quot;:&quot;wds2&quot;,&quot;type&quot;:&quot;host&quot;}]&#39;</span><span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">    </span>--set<span class="w"> </span>verbosity.default<span class="o">=</span><span class="m">5</span><span class="w">  </span><span class="c1"># so we can debug your problem reports</span>
 </code></pre></div>
 <p>That command will print some notes about how to get kubeconfig "contexts" named "its1", "wds1", and "wds2" defined. Do that, because those contexts are used in the steps that follow.</p>
 <div class="language-shell highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>kubectl<span class="w"> </span>config<span class="w"> </span>use-context<span class="w"> </span>kind-kubeflex<span class="w"> </span><span class="c1"># this is here only to remind you, it will already be the current context if you are following this recipe exactly</span>
@@ -4162,10 +4187,10 @@ Note that the CSRs condition is supposed to be <code>Pending</code> until you ap
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "navigation.indexes", "navigation.tabs", "navigation.path", "navigation.footer", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "navigation.indexes", "navigation.tabs", "navigation.path", "navigation.footer", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
         <script src="../../js/open_in_new_tab.js"></script>
       
