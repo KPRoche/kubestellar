@@ -13,9 +13,11 @@
         }
 
         if (currentScroll > lastScroll) {
-          banner.style.transform = "translateY(-120%)";
+          //banner.style.transform = "translateY(-120%)";
+          banner.style.display = "none";
         } else {
-          banner.style.transform = "translateY(0)";
+          banner.style.display = "block";
+          //banner.style.transform = "translateY(0)";
         }
         lastScroll = currentScroll;
       }
