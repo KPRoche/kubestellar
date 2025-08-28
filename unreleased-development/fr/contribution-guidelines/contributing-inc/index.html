@@ -6,6 +6,8 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="KubeStellar is a Kubernetes-native multi-cluster delivery system: create once, deploy many. Safely route and synchronize resources across clouds, datacenters, and edge.">
+      
       
       
         <link rel="canonical" href="https://docs.kubestellar.io/unreleased-development/fr/contribution-guidelines/contributing-inc/">
@@ -18,7 +20,7 @@
       
       
       <link rel="icon" href="../../../favicons/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
@@ -75,13 +77,19 @@
     
   
 
+  
+  
+  
+
+  
+
   <!-- The image needs to have an absolute URL -->
   
 
   <!-- Open graph meta tags -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="KubeStellar - Guidelines" />
-  <meta property="og:description" content="None" />
+  <meta property="og:description" content="KubeStellar is a Kubernetes-native multi-cluster delivery system: create once, deploy many. Safely route and synchronize resources across clouds, datacenters, and edge." />
   <meta property="og:url" content="https://docs.kubestellar.io/unreleased-development/fr/contribution-guidelines/contributing-inc/" />
   <meta property="og:image" content="https://docs.kubestellar.io/unreleased-developmentassets/images/illustrations/banner.png" />
   <meta property="og:image:type" content="image/png" />
@@ -341,7 +349,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../direct/get-started/" class="md-tabs__link">
+      <a href="../../../direct/get-started/" class="md-tabs__link">
         
   
   
@@ -828,7 +836,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../direct/get-started/" class="md-nav__link">
+      <a href="../../../direct/get-started/" class="md-nav__link">
         
   
   
@@ -1500,6 +1508,8 @@
       
         
       
+        
+      
     
     
     
@@ -1740,6 +1750,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../../direct/authorization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Authorization in WECs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../direct/example-scenarios/" class="md-nav__link">
         
   
@@ -1778,10 +1811,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6_5" >
         
           
-          <label class="md-nav__link" for="__nav_4_6_4" id="__nav_4_6_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_6_5" id="__nav_4_6_5_label" tabindex="0">
             
   
   
@@ -1794,8 +1827,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_6_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_6_4">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6_5">
             <span class="md-nav__icon md-icon"></span>
             Third-party integrations
           </label>
@@ -1889,10 +1922,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6_7" >
         
           
-          <label class="md-nav__link" for="__nav_4_6_6" id="__nav_4_6_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_6_7" id="__nav_4_6_7_label" tabindex="0">
             
   
   
@@ -1905,8 +1938,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_6_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_6_6">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_6_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6_7">
             <span class="md-nav__icon md-icon"></span>
             Known Issues
           </label>
@@ -3721,28 +3754,31 @@
 <h3 id="contributing-code-prerequisites">Contributing Code -- Prerequisites<a class="headerlink" href="#contributing-code-prerequisites" title="Permanent link">#</a></h3>
 <p>Please make sure that your environment has all the necessary versions as spelled out in the prerequisites section of our <a href="../../direct/pre-reqs/">user guide</a></p>
 <h3 id="issues">Issues<a class="headerlink" href="#issues" title="Permanent link">#</a></h3>
+<p><strong>Before reporting a new issue, please search our <a href="https://github.com/kubestellar/kubestellar/issues?q=is%3Aissue">issue archive</a> (including closed issues) to see if it has already been reported or resolved.</strong></p>
+<p><a href="https://github.com/kubestellar/kubestellar/issues">View active issues on GitHub</a></p>
+<p>Our complete issue history is publicly available and searchable at our <a href="https://github.com/kubestellar/kubestellar/issues">GitHub Issues page</a>, where you can find both current and resolved issues with full discussion threads. </p>
 <p><a href="https://github.com/kubestellar/kubestellar/issues">View active issues on GitHub</a></p>
 <p>Prioritization for pull requests is given to those that address and resolve existing GitHub issues. Utilize the available issue labels to identify meaningful and relevant issues to work on.</p>
 <p>If you believe that there is a need for a fix and no existing issue covers it, feel free to create a new one.</p>
 <p>As a new contributor, we encourage you to start with issues labeled as <strong><a href="https://github.com/kubestellar/kubestellar/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22">good first issue.</a></strong></p>
 <p>We also have a subset of issues we've labeled <strong><a href="https://github.com/kubestellar/kubestellar/labels/help%20wanted">help wanted!</a></strong></p>
 <p>Your assistance in improving documentation is highly valued, regardless of your level of experience with the project.</p>
-<p>To claim an issue that you are interested in, kindly leave a comment on the issue and request the maintainers to assign it to you.</p>
+<p>To claim an issue that you are interested in, assign it to yourself by leaving a comment "/assign". You may also remove yourself from an issue with "/unassign" in a comment.</p>
 <h4 id="github-slash-commands">GitHub Slash Commands<a class="headerlink" href="#github-slash-commands" title="Permanent link">#</a></h4>
 <p>KubeStellar uses Prow and GitHub bots to help manage issues and pull requests through slash commands. These commands should be written as comments on their own line:</p>
-<p><strong>Issue Management Commands:</strong>
-- <code>/assign @username</code> - Assign an issue to a specific user
+<p><strong>Issue Management Commands:</strong><br />
+- <code>/assign @username</code> - Assign an issue to a specific user<br />
 - <code>/unassign @username</code> - Remove assignment from a user<br />
-- <code>/assign</code> - Assign the issue to yourself
-- <code>/unassign</code> - Remove your assignment
-- <code>/good-first-issue</code> - Add the "good first issue" label
-- <code>/help-wanted</code> - Add the "help wanted" label</p>
-<p><strong>Pull Request Review Commands:</strong>
-- <code>/lgtm</code> - Indicate "looks good to me" (cannot be used on your own PR)
-- <code>/approve</code> - Approve the PR for merging (can be used on your own PR)
-- <code>/hold</code> - Prevent the PR from being merged
-- <code>/unhold</code> - Remove the hold
-- <code>/retest</code> - Re-run failed tests</p>
+- <code>/assign</code> - Assign the issue to yourself<br />
+- <code>/unassign</code> - Remove your assignment<br />
+- <code>/good-first-issue</code> - Add the "good first issue" label<br />
+- <code>/help-wanted</code> - Add the "help wanted" label  </p>
+<p><strong>Pull Request Review Commands:</strong><br />
+- <code>/lgtm</code> - Indicate "looks good to me" (cannot be used on your own PR)<br />
+- <code>/approve</code> - Approve the PR for merging (can be used on your own PR)<br />
+- <code>/hold</code> - Prevent the PR from being merged<br />
+- <code>/unhold</code> - Remove the hold<br />
+- <code>/retest</code> - Re-run failed tests  </p>
 <p>These commands make it easier for contributors and maintainers to manage the workflow without needing special repository permissions.</p>
 <h3 id="committing">Committing<a class="headerlink" href="#committing" title="Permanent link">#</a></h3>
 <p>We encourage all contributors to adopt <a href="https://hackmd.io/q22nrXjERBeIGb-fqwrUSg">best practices in git commit management</a> to facilitate efficient reviews and retrospective analysis. Note: that document was written for projects where some of the contributors are doing merges into the main branch, but in KubeStellar we have GitHub doing that for us. For the kubestellar repository, this is controlled by <a href="https://docs.prow.k8s.io/">Prow</a>; for the other repositories in the kubestellar organization we use the GitHub mechanisms directly.</p>
@@ -3813,6 +3849,32 @@ version. There is <a href="https://github.com/kubestellar/kubestellar/blob/main/
 script</a>
 for updating and checking this stuff. There is a workflow that checks
 that every workflow follows the discipline here.</p>
+<p>The following abbreviated typescript shows an example of using that
+script to bump the GitHub Action <code>actions/checkout</code> in the reversemap
+file to the Action's latest version and then applying that file to all
+the workflows --- thus bumping that Action in all the workflows while
+maintaining discipline.</p>
+<div class="language-console highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="gp">$ </span>hack/gha-reversemap.sh<span class="w"> </span>update-action-version<span class="w"> </span>actions/checkout
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="go">2025-08-22T02:13:38-04:00;INFO;running update-action-version on actions/checkout</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="go">2025-08-22T02:13:38-04:00;INFO;updating dependency &#39;actions/checkout&#39; tag to latest version available inside reverse map &#39;.gha-reversemap.yml&#39;</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="gp">$ </span>hack/gha-reversemap.sh<span class="w"> </span>apply-reversemap<span class="w">      </span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="go">2025-08-22T02:13:50-04:00;INFO;running apply-reversemap on ./.github/workflows/*.y*ml</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="go">2025-08-22T02:13:50-04:00;INFO;applying &#39;.gha-reversemap.yml&#39; commit sha to be used in &#39;./.github/workflows/add-help-wanted.yml&#39; ...</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="go">2025-08-22T02:13:50-04:00;INFO;found &#39;actions/github-script&#39; in reversemap with sha=60a0d83039c74a4aee543508d2ffcb1c3799cdea</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="go">2025-08-22T02:13:50-04:00;INFO;applying &#39;.gha-reversemap.yml&#39; commit sha to be used in &#39;./.github/workflows/add-to-project.yml&#39; ...</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="go">2025-08-22T02:13:50-04:00;INFO;found &#39;actions/checkout&#39; in reversemap with sha=08c6903cd8c0fde910a37f88322edcfb5dd907a8</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="go">...</span>
+</code></pre></div>
+<p>The <code>update-action-version</code> and <code>update-reversemap</code> operations in that
+script make calls on the GitHub API --- which are <a href="https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api">rate
+limited</a>. Unauthenticated
+calls have a relatively low rate limit. Modest usage of this script is
+unlikely to hit this rate limit. If you run into the rate limit when
+not using authentication then you can add authentication by setting
+the environment variable <code>GITHUB_TOKEN</code> to a GitHub Personal Access
+Token. All "classic" tokens suffice. For "fine-grained" tokens, the
+only privilege needed is Read access to <code>metadata</code>.</p>
 <h4 id="review-and-approval-process">Review and Approval Process<a class="headerlink" href="#review-and-approval-process" title="Permanent link">#</a></h4>
 <p>Reviewers will review your PR within a business day. A PR requires both an <code>/lgtm</code> and then an <code>/approve</code> in order to get merged. These are commands to Prow, each appearing alone on a line in a comment of the PR. You may <code>/approve</code> your own PR but you may not <code>/lgtm</code> it. Once both forms of assent have been given and the other gating checks have passed, the PR will go into the Prow merge queue and eventually be merged. Once that happens, you will be notified:</p>
 <p><em>Congratulations! Your pull request has been successfully merged!</em> 👏</p>
@@ -3974,10 +4036,10 @@ contribution. See the <a href="https://github.com/kubestellar/kubestellar/blob/m
     
     
       
-      <script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "navigation.indexes", "navigation.tabs", "navigation.path", "navigation.footer", "content.code.copy", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "navigation.indexes", "navigation.tabs", "navigation.path", "navigation.footer", "content.code.copy", "content.code.annotate"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
     
   </body>
