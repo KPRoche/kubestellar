@@ -13,6 +13,10 @@
         <link rel="canonical" href="https://docs.kubestellar.io/doc-duplicate-contr-files/en/contribution-guidelines/contributing/">
       
       
+        <link rel="prev" href="../../direct/teardown/">
+      
+      
+        <link rel="next" href="../coc-inc/">
       
       
         
@@ -23,7 +27,7 @@
     
     
       
-        <title>Contributing - KubeStellar</title>
+        <title>Overview (How to join in) - KubeStellar</title>
       
     
     
@@ -86,7 +90,7 @@
 
   <!-- Open graph meta tags -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="KubeStellar - Contributing" />
+  <meta property="og:title" content="KubeStellar - Overview (How to join in)" />
   <meta property="og:description" content="KubeStellar is a Kubernetes-native multi-cluster delivery system: create once, deploy many. Safely route and synchronize resources across clouds, datacenters, and edge." />
   <meta property="og:url" content="https://docs.kubestellar.io/doc-duplicate-contr-files/en/contribution-guidelines/contributing/" />
   <meta property="og:image" content="https://docs.kubestellar.io/doc-duplicate-contr-filesassets/images/illustrations/banner.png" />
@@ -172,7 +176,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Contributing
+              Overview (How to join in)
             
           </span>
         </div>
@@ -386,11 +390,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../../contribution-guidelines/contribute.md" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -2493,8 +2499,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -2530,17 +2538,20 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
   
@@ -2558,7 +2569,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2573,10 +2584,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../contribution-guidelines/contribute.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview (How to join in)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2592,6 +2630,221 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-practices-in-the-kubestellar-github-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General practices in the KubeStellar GitHub Project
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General practices in the KubeStellar GitHub Project">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contributing-code-prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contributing Code -- Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#github-slash-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitHub Slash Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#committing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Committing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pull-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pull Requests
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pull Requests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titling-pull-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Titling Pull Requests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Continuous Integration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Continuous Integration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#github-action-reference-discipline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitHub Action reference discipline
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#review-and-approval-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Review and Approval Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#testing-locally" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing Locally
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Testing Locally">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#testing-changes-to-the-helm-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing changes to the helm chart
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testing-the-script-against-an-upcoming-release" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing the script against an upcoming release
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#licensing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Licensing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#certificate-of-origin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Certificate of Origin
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -4081,6 +4334,46 @@
   
 
 
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../" class="md-path__link">
+        
+  <span class="md-ellipsis">
+    
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Contributing
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
               
               <article class="md-content__inner md-typeset">
                 
@@ -4337,6 +4630,44 @@ contribution. See the <a href="DCO">DCO</a> file for details.</p>
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../direct/teardown/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Teardown">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Teardown
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../coc-inc/" class="md-footer__link md-footer__link--next" aria-label="Next: Code of Conduct">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Code of Conduct
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
